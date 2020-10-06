@@ -9,17 +9,18 @@ import {
   MDBNavLink,
   MDBView,
 } from "mdbreact";
-import {Card, Button} from 'react-bootstrap'
+import { Card, Button, CardDeck } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "../styleCSS/NavBar.css";
 import logo from "../img/logo.png";
-import puntos from "../img/puntos.png";
 import contacto from "../img/contacto.png";
 import retrato from "../img/retrato.png";
-
+import japan from "../img/proyectouno.png";
+import gav from "../img/gav.png";
+import unimarc from "../img/unimarc.png";
 
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
@@ -90,32 +91,57 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
+
           <MDBView className="fondo_especie ">
-            <div className="container flex-center ">
+            <div className="flex-center ctn">
               <div className="row">
                 <div className="col-sm-12 col-md-5 mt-0">
                   <img className=" retrato" src={retrato} alt="imgretrato" />
                 </div>
 
-                <div className="textoPresentacion  col-sm-12 col-md-7 ">
+                <div className="textoPresentacion  col-sm-12 col-md-6 ">
                   <h5 className="hola ">
                     Hola, soy{" "}
-                    <mark style={{ background: "rgb(254 212 116 / 57%)", borderRadius: "10px 17px 17px 10px", paddingRight:"0.8rem", paddingTop:"0rem", paddingBottom:"0rem"}}>
-                    <mark style={{ background: "#FED474", borderRadius: "10px 17px 17px 10px", paddingRight:"0.8rem", paddingTop:"0rem", paddingBottom:"0rem"}}>
-                    <mark style={{ background: "rgb(255 88 51 / 37%)", borderRadius: "10px 17px 17px 10px",paddingRight:"0.8rem", paddingTop:"0rem", paddingBottom:"0rem" }}>
                     <mark
                       style={{
-                        background: "rgba(220, 21, 21, 0.21)",
+                        background: "rgb(254 212 116 / 57%)",
                         borderRadius: "10px 17px 17px 10px",
-                        color: "rgba(89, 89, 89, 1)",
-                        paddingTop:"0rem",
-                        paddingBottom:"0rem"
+                        paddingRight: "0.8rem",
+                        paddingTop: "0rem",
+                        paddingBottom: "0rem",
                       }}
                     >
-                      <span className="carla">Carla</span>
-                    </mark>
-                    </mark>
-                    </mark>
+                      <mark
+                        style={{
+                          background: "#FED474",
+                          borderRadius: "10px 17px 17px 10px",
+                          paddingRight: "0.8rem",
+                          paddingTop: "0rem",
+                          paddingBottom: "0rem",
+                        }}
+                      >
+                        <mark
+                          style={{
+                            background: "rgb(255 88 51 / 37%)",
+                            borderRadius: "10px 17px 17px 10px",
+                            paddingRight: "0.8rem",
+                            paddingTop: "0rem",
+                            paddingBottom: "0rem",
+                          }}
+                        >
+                          <mark
+                            style={{
+                              background: "rgba(220, 21, 21, 0.21)",
+                              borderRadius: "10px 17px 17px 10px",
+                              color: "rgba(89, 89, 89, 1)",
+                              paddingTop: "0rem",
+                              paddingBottom: "0rem",
+                            }}
+                          >
+                            <span className="carla">Carla</span>
+                          </mark>
+                        </mark>
+                      </mark>
                     </mark>
                   </h5>
                   <p className="vivoen">
@@ -130,20 +156,206 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </div>
           </MDBView>
         </header>
-        <div className="container flex-center">
-        <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <h5>Proyectos</h5>
+        <div className="container col-sm-12 flex-center">
+        <CardDeck>
+  <Card style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}>
+    <Card.Img variant="top" src={japan} />
+    <Card.Body>
+      <Card.Title className="cardTittle">Japan Queen</Card.Title>
+      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText">
+      App para restaurantes que se origina como solución a la gestión
+                de pedidos, eliminando el uso de comandas y toma de ordenes a
+                mano.
+      </Card.Text>
+      <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+    </Card.Body>
+   
+  </Card>
+  <Card style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}>
+    <Card.Img variant="top" src={gav} />
+    <Card.Body>
+      <Card.Title className="cardTittle">GAV</Card.Title>
+      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText">
+       Sitio gamificado en donde se entrega información sobre el
+                covid-19. Desarrollado para padres y tutores de niños entre 4 a
+                7 años. 
+      </Card.Text>
+      <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+    </Card.Body>
+  </Card>
+  <Card style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}>
+    <Card.Img variant="top" src={unimarc} />
+    <Card.Body>
+      <Card.Title  className="cardTittle">Recetas Unimarc</Card.Title>
+      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText">
+        Rediseño de la sección de recetas correspondiente a la plataforma web Unimarc.
+      </Card.Text>
+      <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+    </Card.Body>
+   
 
-</div>
+
+  </Card>
+</CardDeck>
+          {/*<Card
+            style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}
+          >
+            <Card.Img variant="top" src={japan} />
+            <Card.Body>
+              <Card.Title className="cardTittle">Japan Queen</Card.Title>
+              <Card.Text
+                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText"
+              >
+                App para restaurantes que se origina como solución a la gestión
+                de pedidos, eliminando el uso de comandas y toma de ordenes a
+                mano.
+              </Card.Text>
+              <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}>
+            <Card.Img variant="top" src={gav} />
+            <Card.Body>
+              <Card.Title className="cardTittle">GAV</Card.Title>
+              <Card.Text
+                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText"
+              >
+                Sitio gamificado en donde se entrega información sobre el
+                covid-19. Desarrollado para padres y tutores de niños entre 4 a
+                7 años.
+              </Card.Text>
+              <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card style={{
+              width: "25vw",
+              borderRadius: "20px 20px 0px 0px",
+              border: "none",
+            }}>
+            <Card.Img variant="top" src={unimarc} />
+            <Card.Body>
+              <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
+              <Card.Text
+                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                className="cardText"
+              >
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="#FF3C38"
+                style={{
+                  marginTop: "1rem",
+                  marginLeft: "0rem",
+                  display: "flex",
+                  borderRadius: "8px",
+                  fontFamily: "Montserrat",
+                  color: "rgba(255, 255, 255, 1)",
+                  fontWeight: "700",
+                  background: "#FF3C38",
+                }}
+              >
+                Ver Proyecto
+              </Button>
+            </Card.Body>
+              </Card>*/}
+        </div>
       </div>
     );
   }

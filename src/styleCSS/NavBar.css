@@ -1,22 +1,22 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
+
 .navbar-toggler-icon {
     cursor: pointer;
     width: 8vw !important; 
     height: 3.7vh !important;
     background-image: url(/src/img/burger.png)!important;
 }
-
+/*div{
+    border:1px solid red;
+}*/
 .view{
     background-image: url(../img/puntos.png);
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
+    background-size: 84vw;
     margin-top: 6rem;
 }
+
 .hola{
     font-family: Merriweather;
     color: #595959;
@@ -31,9 +31,21 @@
     margin-left: 9rem;
 }
 
-.card {
-    background-image: none;
+
+.cardTittle{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: left;
 }
+
+.cardText{
+    font-family: Montserrat;
+    font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+
 .vivoen, .soyUna{
     font-family: Montserrat;
     font-size:1.5em;
@@ -53,7 +65,7 @@
 
 .retrato{
     margin-top: 0rem;
-    margin-left: 8rem;
+    margin-left: 17rem;
 }
 
 
@@ -62,12 +74,16 @@
     .view{
         background-image: url(../img/puntosresponsive.png);
             margin-top: 6rem;
+            margin-left: 3rem;
+          
+            background-size: 86vw;
     }
 
     .retrato{
-        margin-left: 4.2rem;
+     
     margin-top: 1rem;
     width: 57vw;
+    margin-left: 3.7rem;
     }
 
     .textoPresentacion {
@@ -84,8 +100,8 @@
     }
 }
 
-@media (min-width:1800px){
+/*@media (min-width:1800px){
     .view{
         width: 1800px;
     }
-}
+}*/
