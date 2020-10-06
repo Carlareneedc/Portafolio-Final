@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar-toggler-icon {
+    cursor: pointer;
+    width: 8vw !important; 
+    height: 3.7vh !important;
+    background-image: url(/src/img/burger.png)!important;
+}
+
+.view{
+    background-image: url(../img/puntos.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 6rem;
+}
+.hola{
+    font-family: Merriweather;
+    color: #595959;
+    font-weight: 400;
+    font-size: 2.1em;
+    line-height: 75px;
+}
+.carla{
+    font-weight: 900;
+}
+.logo{
+    margin-left: 9rem;
+}
+
+.card {
+    background-image: none;
+}
+.vivoen, .soyUna{
+    font-family: Montserrat;
+    font-size:1.5em;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    line-height: 43px;
+}
+.textoPresentacion {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.soyUna{
+    margin-top: 10%;
+}
+
+
+.retrato{
+    margin-top: 0rem;
+    margin-left: 8rem;
+}
+
+
+
+@media (min-width: 375px) and (max-width:768px) {
+    .view{
+        background-image: url(../img/puntosresponsive.png);
+            margin-top: 6rem;
+    }
+
+    .retrato{
+        margin-left: 4.2rem;
+    margin-top: 1rem;
+    width: 57vw;
+    }
+
+    .textoPresentacion {
+        text-align: center;
+        margin-top: 0rem;
+    }
+
+    .hola{
+        font-size: 1.5em;
+    }
+
+    .vivoen, .soyUna{
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width:1800px){
+    .view{
+        width: 1800px;
+    }
+}
