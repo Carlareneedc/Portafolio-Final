@@ -156,105 +156,123 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </div>
           </MDBView>
         </header>
-        <h5>Proyectos</h5>
-        <div className="container col-sm-12 flex-center">
-        <CardDeck>
-  <Card style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}>
-    <Card.Img variant="top" src={japan} />
-    <Card.Body>
-      <Card.Title className="cardTittle">Japan Queen</Card.Title>
-      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText">
-      App para restaurantes que se origina como solución a la gestión
-                de pedidos, eliminando el uso de comandas y toma de ordenes a
-                mano.
-      </Card.Text>
-      <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-    </Card.Body>
-   
-  </Card>
-  <Card style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}>
-    <Card.Img variant="top" src={gav} />
-    <Card.Body>
-      <Card.Title className="cardTittle">GAV</Card.Title>
-      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText">
-       Sitio gamificado en donde se entrega información sobre el
-                covid-19. Desarrollado para padres y tutores de niños entre 4 a
-                7 años. 
-      </Card.Text>
-      <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-    </Card.Body>
-  </Card>
-  <Card style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}>
-    <Card.Img variant="top" src={unimarc} />
-    <Card.Body>
-      <Card.Title  className="cardTittle">Recetas Unimarc</Card.Title>
-      <Card.Text style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText">
-        Rediseño de la sección de recetas correspondiente a la plataforma web Unimarc.
-      </Card.Text>
-      <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-    </Card.Body>
-   
-
-
-  </Card>
-</CardDeck>
+        <h5 className="proyectos">
+          <mark
+            style={{
+              background: "rgba(220, 21, 21, 0.23)",
+              color: "rgba(89, 89, 89, 1)",
+            }}
+          >
+            Proyectos
+          </mark>
+        </h5>
+        <div className=" container col-md-10 flex-center">
+          <CardDeck>
+            <Card
+              style={{
+               
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={japan} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Japan Queen</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App para restaurantes que se origina como solución a la
+                  gestión de pedidos, eliminando el uso de comandas y toma de
+                  ordenes a mano.
+                </Card.Text>
+                <Button
+                  variant="#FF3C38"
+                  style={{
+                    marginTop: "1rem",
+                    marginLeft: "0rem",
+                    display: "flex",
+                    borderRadius: "8px",
+                    fontFamily: "Montserrat",
+                    color: "rgba(255, 255, 255, 1)",
+                    fontWeight: "700",
+                    background: "#FF3C38",
+                  }}
+                >
+                  Ver Proyecto
+                </Button>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{
+                /*width: "25vw",*/
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={gav} />
+              <Card.Body>
+                <Card.Title className="cardTittle">GAV</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Sitio gamificado en donde se entrega información sobre el
+                  covid-19. Proyecto ganador empresa "Hootie Hoo".
+                </Card.Text>
+                <Button
+                  variant="#FF3C38"
+                  style={{
+                    marginTop: "2rem",
+                    marginLeft: "0rem",
+                    display: "flex",
+                    borderRadius: "8px",
+                    fontFamily: "Montserrat",
+                    color: "rgba(255, 255, 255, 1)",
+                    fontWeight: "700",
+                    background: "#FF3C38",
+                  }}
+                >
+                  Ver Proyecto
+                </Button>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{
+               /* width: "25vw",*/
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img className="imgUni" variant="top" src={unimarc} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Rediseño de la sección de recetas correspondiente a la
+                  plataforma web Unimarc. Proyecto ganador "Hackaton"
+                  Laboratoria
+                </Card.Text>
+                <Button
+                  variant="#FF3C38"
+                  style={{
+                    marginTop: "1rem",
+                    marginLeft: "0rem",
+                    display: "flex",
+                    borderRadius: "8px",
+                    fontFamily: "Montserrat",
+                    color: "rgba(255, 255, 255, 1)",
+                    fontWeight: "700",
+                    background: "#FF3C38",
+                  }}
+                >
+                  Ver Proyecto
+                </Button>
+              </Card.Body>
+            </Card>
+          </CardDeck>
           {/*<Card
             style={{
               width: "25vw",
