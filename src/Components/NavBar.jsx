@@ -24,6 +24,7 @@ import japan from "../img/proyectouno.png";
 import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 
+
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -48,7 +49,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 <img className="logo" src={logo} alt="imglogo" />
               </MDBNavbarBrand>
               {!this.state.isWideEnough && (
-                <MDBNavbarToggler className="burger" onClick={this.onClick} />
+                <MDBNavbarToggler className="burger"  onClick={this.onClick} />
               )}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav
