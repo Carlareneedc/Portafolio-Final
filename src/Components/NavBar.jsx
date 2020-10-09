@@ -11,7 +11,7 @@ import {
  
 } from "mdbreact";
 import { Card, Button, CardDeck } from "react-bootstrap";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Link} from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
@@ -88,7 +88,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavbarBrand href="/">
-                    <img className="" src={contacto} alt="imgcontacto" />
+                    <a href="mailto:carla.renee.diazc@gmail.com"><img className="" src={contacto} alt="imgcontacto" /></a>
                   </MDBNavbarBrand>
                 </MDBNavbarNav>
               </MDBCollapse>
@@ -99,7 +99,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             <div className="flex-center ctn">
               <div className="row">
                 <div className="col-sm-12 col-md-5 mt-0">
-                  <img className=" retrato" src={retrato} alt="imgretrato" />
+                  <img className="retrato" src={retrato} alt="imgretrato" />
                 </div>
 
                 <div className="textoPresentacion  col-sm-12 col-md-6 ">
@@ -189,7 +189,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   gestión de pedidos, eliminando el uso de comandas y toma de
                   ordenes a mano.
                 </Card.Text>
-                <Button
+               <Link to="/JapanQueen"><Button
                   variant="#FF3C38"
                   style={{
                     marginTop: "1rem",
@@ -203,7 +203,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   }}
                 >
                   Ver Proyecto
-                </Button>
+                </Button></Link> 
               </Card.Body>
             </Card>
             <Card
@@ -258,7 +258,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   plataforma web Unimarc. Proyecto ganador "Hackaton"
                   Laboratoria
                 </Card.Text>
-                <Button
+               <Link to=""> <Button
                   variant="#FF3C38"
                   style={{
                     marginTop: "1rem",
@@ -272,7 +272,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   }}
                 >
                   Ver Proyecto
-                </Button>
+                </Button></Link>
               </Card.Body>
             </Card>
           </CardDeck>

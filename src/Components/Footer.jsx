@@ -13,9 +13,10 @@ const FooterPage = () => {
       
      <MDBCol fluid className="">
             <div className="">  
-            <img className="git ml-2" src={git} alt="git" />
-            <img className="in ml-2" src={linkedin} alt="in" />
-            <img className="contact ml-2" src={contact} alt="contact" />
+            
+            <a target="_blank" href="https://github.com/Carlareneedc"><img className="git ml-2" src={git} alt="git" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/carladiazc/"><img className="in ml-2" src={linkedin} alt="in" /></a>
+            <a href="mailto:carla.renee.diazc@gmail.com"><img className="contact ml-2" src={contact} alt="contact" /></a>
             </div>
             <div style={{background:"#2C948D", fontFamily:"Merriweather", fontSize:"1.1em", fontWeight:"300"}} className="  py-3">
        
