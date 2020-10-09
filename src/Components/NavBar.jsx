@@ -8,6 +8,8 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBView,
+  MDBBadge, 
+  MDBContainer
 } from "mdbreact";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -373,7 +375,37 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               </Button>
             </Card.Body>
               </Card>*/}
+              
         </div>
+        
+     <div className=" container contTags ">
+          <h5 className="tePuedo"><mark style={{
+              background: "rgba(220, 21, 21, 0.23)",
+              color: "rgba(89, 89, 89, 1)",
+            }}>Te puedo ayudar con esto</mark></h5>
+          
+          <div className="tags row col-md-12">
+          
+            <p className="tagUno">Reseacrh</p>
+            <p className="tagDos">Benchmark</p>
+            <p  className="tagTres">sketching</p>
+            
+            <p  className="tagCuatro">Wireframing</p>
+            <p  className="tagCinco">Prototyping</p>
+            <p className="tagSeis">Testing</p>
+          
+        </div>
+        </div>
+              {/*<div className="tags">
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Research</p>
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Benchmark</p>
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Sketching</p>
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}> Wireframing</p>
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Prototyping</p>
+              <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}> Testing</p>
+           
+            </div>*/}
+                  
       </div>
     );
   }
