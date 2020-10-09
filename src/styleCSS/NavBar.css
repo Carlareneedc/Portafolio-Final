@@ -98,6 +98,7 @@ justify-content: space-evenly;
 }
 .contTags{
     margin-top: 6rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -138,6 +139,17 @@ justify-content: space-evenly;
     
     padding-top: 0.3rem;
     }
+
+    .proyectos, .tePuedo{
+        font-size: 1.5em;
+        
+    }
+    .contTags {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+   
+    
 }
 
 /*@media (min-width:1800px){

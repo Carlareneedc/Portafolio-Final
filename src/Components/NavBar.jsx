@@ -8,8 +8,7 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBView,
-  MDBBadge, 
-  MDBContainer
+ 
 } from "mdbreact";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -17,6 +16,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "../styleCSS/NavBar.css";
+import FooterPage from "../Components/Footer"
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
 import retrato from "../img/retrato.png";
@@ -275,106 +275,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               </Card.Body>
             </Card>
           </CardDeck>
-          {/*<Card
-            style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}
-          >
-            <Card.Img variant="top" src={japan} />
-            <Card.Body>
-              <Card.Title className="cardTittle">Japan Queen</Card.Title>
-              <Card.Text
-                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText"
-              >
-                App para restaurantes que se origina como solución a la gestión
-                de pedidos, eliminando el uso de comandas y toma de ordenes a
-                mano.
-              </Card.Text>
-              <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}>
-            <Card.Img variant="top" src={gav} />
-            <Card.Body>
-              <Card.Title className="cardTittle">GAV</Card.Title>
-              <Card.Text
-                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText"
-              >
-                Sitio gamificado en donde se entrega información sobre el
-                covid-19. Desarrollado para padres y tutores de niños entre 4 a
-                7 años.
-              </Card.Text>
-              <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card style={{
-              width: "25vw",
-              borderRadius: "20px 20px 0px 0px",
-              border: "none",
-            }}>
-            <Card.Img variant="top" src={unimarc} />
-            <Card.Body>
-              <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
-              <Card.Text
-                style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                className="cardText"
-              >
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button
-                variant="#FF3C38"
-                style={{
-                  marginTop: "1rem",
-                  marginLeft: "0rem",
-                  display: "flex",
-                  borderRadius: "8px",
-                  fontFamily: "Montserrat",
-                  color: "rgba(255, 255, 255, 1)",
-                  fontWeight: "700",
-                  background: "#FF3C38",
-                }}
-              >
-                Ver Proyecto
-              </Button>
-            </Card.Body>
-              </Card>*/}
+         
               
         </div>
         
@@ -396,6 +297,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           
         </div>
         </div>
+        <FooterPage/>
               {/*<div className="tags">
               <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Research</p>
               <p style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", paddingTop:"0.8rem", height:"6vh",width:"10vw"}}>Benchmark</p>
