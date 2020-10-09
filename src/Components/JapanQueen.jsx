@@ -101,7 +101,7 @@ class JapanQueen extends React.Component {
                   <img className="img-fluid japanQueen" src={japanQueen} alt="imgjapan" />
                 </div>
 
-                <div className="textContJapan col-sm-12 col-md-6 ">
+                <div className="textContJapan col-sm-12 col-md-7 ">
                   <h5 className="textJapan col-sm-12">
                     <mark style={{
               background: "rgba(220, 21, 21, 0.23)",
@@ -115,9 +115,11 @@ class JapanQueen extends React.Component {
                   Japan Queen es una app web diseñada para restaurantes, que se origina como solución a la gestión de pedidos por medio de una interfaz simple y amigable, evitando el antiguo uso de comandas y toma de ordenes a mano.
                   </p>
                 <div className="">
-                  <div className="col-sm-12 col-md-6  float-left" > <h5 className="rolText " >Rol</h5></div>
-                <div className=" col-sm-12 col-md-6 float-right" ><h5 className="rolText ">Fecha del Proyecto</h5></div>
+                  <div className="col-sm-12 col-md-6  float-left" > <h5 className="rolText " >Rol</h5><p className="ux">UX/UI Designer</p></div>
+                <div className=" col-sm-12 col-md-6 float-right" ><h5 className="rolText ">Fecha del Proyecto</h5><p className="julio">Julio 2020</p></div>
+                
                 </div>
+                
                 </div>
                 
               </div>

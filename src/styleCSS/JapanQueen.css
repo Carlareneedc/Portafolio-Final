@@ -16,7 +16,7 @@
     line-height: 90px;
 }
 
-.japanEs{
+.japanEs, .ux, .julio{
     font-family: Montserrat;
     font-weight: 400;
     font-size: 1.3em;
@@ -30,4 +30,33 @@
     font-size: 1.5em;
     color: #000;
     margin-top: 1rem;
+}
+
+
+@media (min-width: 375px) and (max-width:768px) {
+   .japanQueen{
+    width: 70vw;
+   }
+   .ctnJapan{
+    margin-top: 9rem;
+   }
+
+   .textJapan{
+    text-align: center;
+    font-size: 1.5em;
+}
+.textContJapan{
+    
+    margin-top: 1rem;
+}
+.japanEs{
+font-size: 1.1em;
+}
+.rolText{
+    font-size: 1.2em;
+}
+
+.ux, .julio{
+    font-size: 1.1em; 
+}
 }
