@@ -98,8 +98,8 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           <MDBView className="fondo_especie ">
             <div className="flex-center ctn">
               <div className="row">
-                <div className="col-sm-12 col-md-5 mt-0">
-                  <img className="img-fluid retrato" src={retrato} alt="imgretrato" />
+                <div className="flex-center col-sm-12 col-md-5 ml-5 mt-0">
+                  <img className="retrato" src={retrato} alt="imgretrato" />
                 </div>
 
                 <div className="textoPresentacion  col-sm-12 col-md-6 ">
