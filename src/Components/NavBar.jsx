@@ -170,7 +170,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           </mark>
         </h5>
         <div className=" container col-md-10 flex-center">
-          <CardDeck>
+          <CardDeck className="col-sm-12 ">
             <Card
               style={{
                

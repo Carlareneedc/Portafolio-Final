@@ -7,7 +7,8 @@ import {
   MDBCollapse,
   MDBNavItem,
   MDBNavLink,
-  MDBView,
+  
+
 } from "mdbreact";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -94,8 +95,9 @@ class JapanQueen extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
-       
+          
           <div className="ctnJapan container row col-sm-12 ">
+            
             <div className="container col-sm-12 col-md-12">
             <div className="row">
               <div className=" col-sm-12 col-md-5">
@@ -150,8 +152,24 @@ class JapanQueen extends React.Component {
             </div>
           </div>
           </div>
+         
+        
         </header>
+        <div className="container   col-md-10">
+          <div className="row col-sm-12">
+        <div className=" col-sm-12 col-md-8 mt-5">
+          
+               <h5 className="experienciaJapan"><mark   style={{
+                      background: "rgba(220, 21, 21, 0.23)",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}>Experiencia Japan Queen</mark></h5>
+               <p className="comoToda 
+                ">Como toda innovación, la app web Japan Queen se gesta en la búsqueda de mejorar la experiencia de usuario y como solución a un problema que debe ser acorde a las necesidades de nuestra época, esto es haciendo uso de las múltiples opciones que nos ofrece la tecnología.</p>
+              </div>
+              </div>
+              </div>
       </div>
+     
       
     );
   }

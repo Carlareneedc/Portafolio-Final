@@ -1,27 +1,27 @@
 .ctnJapan{
-    margin-top: 13rem;
+    margin-top: 9rem;
     overflow: hidden;
 }
 
 .textContJapan{
     text-align: left;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
-.textJapan{
+.textJapan, .experienciaJapan{
     font-size: 2em;
     font-family: Merriweather;
     font-weight: 400;
     color:rgba(89, 89, 89, 1);
-   
+    text-align: left;
 }
 
-.japanEs, .ux, .julio, .uxR, .proto, .ui{
+.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda{
     font-family: Montserrat;
     font-weight: 400;
   font-size: 1.3em;
     line-height: 34px;
-   
+   text-align: left;
 }
 
 .japanEs{
@@ -65,7 +65,7 @@
 }
 .japanQueen{
     margin-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 @media (min-width: 375px) and (max-width:768px) {
@@ -78,17 +78,21 @@
     margin-top: 9rem;
    }
 
-   .textJapan{
+   .textJapan, .experienciaJapan{
     text-align: center;
     font-size: 1.5em;
     margin-left: 1rem;
     margin-top: 1rem;
 }
+.experienciaJapan{
+    text-align: center;
+    font-size: 1.5em;
+}
 .textContJapan{
     
     margin-top: 1rem;
 }
-.japanEs{
+.japanEs, .comoToda{
 font-size: 1.1em;
 }
 
