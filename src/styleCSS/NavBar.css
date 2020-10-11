@@ -59,13 +59,7 @@ justify-content: space-evenly;
     color: #595959;
     
 }
-.tagUno, .tagDos, .tagTres, .tagCuatro, .tagCinco, .tagSeis{
-    background: rgba(37,222,178,.3);
-    width: 10vw;
-    border-radius: 25px;
-    height: 5vh;
-    padding-top: 0.5rem;
-}
+
 
 .imgUni{
     border-radius: 20px 20px 0px 0px;
@@ -129,11 +123,7 @@ justify-content: space-evenly;
     .tags{
         margin-left: 0rem;
     }
-    .tagUno, .tagDos, .tagTres, .tagCuatro, .tagCinco, .tagSeis{
-        width: 39vw;
-        padding-top: 0.2rem;
-    
-    }
+   
 
     .proyectos, .tePuedo{
         font-size: 1.5em;

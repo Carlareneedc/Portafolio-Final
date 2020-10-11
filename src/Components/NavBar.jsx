@@ -99,7 +99,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             <div className="flex-center ctn">
               <div className="row">
                 <div className="col-sm-12 col-md-5 mt-0">
-                  <img className="retrato" src={retrato} alt="imgretrato" />
+                  <img className="img-fluid retrato" src={retrato} alt="imgretrato" />
                 </div>
 
                 <div className="textoPresentacion  col-sm-12 col-md-6 ">
@@ -288,13 +288,13 @@ class FullPageIntroWithFixedNavbar extends React.Component {
           
           <div className="tags row col-md-12">
           
-            <p className="tagUno">Reseacrh</p>
-            <p className="tagDos">Benchmark</p>
-            <p  className="tagTres">sketching</p>
+            <p className="tagUno"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 2rem"}}>Reseacrh</mark></p>
+            <p className="tagDos"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 1.3rem"}}>Benchmark</mark></p>
+            <p  className="tagTres"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 1.8rem"}}>sketching</mark></p>
             
-            <p  className="tagCuatro">Wireframing</p>
-            <p  className="tagCinco">Prototyping</p>
-            <p className="tagSeis">Testing</p>
+            <p  className="tagCuatro"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 1rem"}}>Wireframing</mark></p>
+            <p  className="tagCinco"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 1.3rem"}}>Prototyping</mark></p>
+            <p className="tagSeis"><mark style={{background:"rgba(37, 222, 178, 0.3)", borderRadius:"25px", padding:"0.5rem 2.5rem"}}>Testing</mark></p>
           
         </div>
         </div>

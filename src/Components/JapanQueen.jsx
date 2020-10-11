@@ -130,9 +130,9 @@ class JapanQueen extends React.Component {
                     <p className="ux">UX/UI Designer</p>{" "}
                     <h5 className=" rolText">Actividades</h5>
                     <div className="row col-md-12">
-                    <p className="uxR">UX Research</p>
-                    <p className="ml-3 proto">Prototipo</p>
-                    <p className="ui">Diseño UI</p>
+                    <p className="uxR"><mark style={{background:"rgba(255, 150, 126, 1)", borderRadius:"25px", padding:"0.5rem"}}>UX Research</mark></p>
+                    <p className="ml-3 proto"><mark style={{background:"rgba(254, 214, 123, 0.9)", borderRadius:"25px", padding:"0.5rem 1.5rem"}}>Prototipo</mark></p>
+                    <p className="ui"><mark style={{background:"rgba(235, 135, 147, 1)", borderRadius:"25px", padding:"0.5rem 1rem"}}>Diseño UI</mark></p>
                     </div>
                   </div >
                   <div className=" col-sm-12 col-md-6 float-right">
