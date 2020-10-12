@@ -256,7 +256,7 @@ class JapanQueen extends React.Component {
               <div className="ctnElP row">
                 <div className=" col-sm-10 col-md-3">
                 
-                  <h5 className="elProblema"><mark  style={{
+                  <h5 className="elProblema "><mark  style={{
                     background: "rgba(220, 21, 21, 0.23)",
                     color: "rgba(89, 89, 89, 1)",
                   }}>El Problema</mark></h5>
@@ -264,10 +264,10 @@ class JapanQueen extends React.Component {
                 className="aAlgunos col-md-12 mt-4
                 "
               >
-               A algunos clientes les resulta difícil decidir  al momento de elegir un plato
+               <strong>A algunos clientes les resulta difícil decidir  al momento de elegir un plato</strong>
 
               </p>
-              <p className="cambian col-md-12">Cambian su pedido varias veces antes de finalizarlo</p>
+              <p className="cambian col-md-12"><strong>Cambian su pedido varias veces antes de finalizarlo</strong></p>
                 </div>
 
                 <div className=" ctnQuien col-sm-12 col-md-9">

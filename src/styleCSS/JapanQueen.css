@@ -8,9 +8,11 @@
     width: 92vw;
     margin-left: 6rem;
     overflow: hidden;*/
+    margin-top: 3rem;
+
 }
 .textContJapan{
-    text-align: left;
+    text-align: justify;
     margin-top: 5rem;
     overflow: hidden;
 }
@@ -20,7 +22,7 @@
     font-family: Merriweather;
     font-weight: 400;
     color:rgba(89, 89, 89, 1);
-    text-align: left;
+    text-align: justify;
     overflow: hidden;
 }
 
@@ -29,8 +31,11 @@
     font-weight: 400;
   font-size: 1.2em;
     line-height: 34px;
-   text-align: left;
-   overflow: hidden;
+   text-align: justify;
+  
+}
+.aAlgunos{
+    text-align: left;
 }
 .quien{
     margin-top: 3.8rem;
@@ -42,6 +47,7 @@
     box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
 border-radius: 10px;
 overflow: hidden;
+padding-top: 2rem;
 }
 
 .desdeAqui{
@@ -128,6 +134,7 @@ overflow: hidden;
     
     margin-top: 1rem;
 }
+
 .japanEs, .comoToda, .desdeAqui{
 font-size: 1.1em;
 }
