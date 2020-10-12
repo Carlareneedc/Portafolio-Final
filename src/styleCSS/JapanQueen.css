@@ -1,35 +1,61 @@
-.ctnJapan{
+.ctnJapan {
     margin-top: 9rem;
     overflow: hidden;
 }
-
+.ctnExpJapan, .ctnElProblema{
+    /*margin-top: 4rem;
+    margin-top: 4rem;
+    width: 92vw;
+    margin-left: 6rem;
+    overflow: hidden;*/
+}
 .textContJapan{
     text-align: left;
     margin-top: 5rem;
+    overflow: hidden;
 }
 
-.textJapan, .experienciaJapan{
+.textJapan, .experienciaJapan, .elProblema{
     font-size: 2em;
     font-family: Merriweather;
     font-weight: 400;
     color:rgba(89, 89, 89, 1);
     text-align: left;
+    overflow: hidden;
 }
 
-.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda{
+.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente{
     font-family: Montserrat;
     font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.2em;
     line-height: 34px;
    text-align: left;
+   overflow: hidden;
+}
+.quien{
+    margin-top: 3.8rem;
+    overflow: hidden;
+
+}
+.ctnElP{
+    background: #FFFFFF;
+    box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
+border-radius: 10px;
+overflow: hidden;
 }
 
+.desdeAqui{
+    margin-top: 3.8rem;
+    overflow: hidden;
+}
 .japanEs{
     margin-top: 1.5rem;
+    overflow: hidden;
 }
 
 .tagsJapan{
     margin-top: 1.2rem;
+    overflow: hidden;
 }
 
 /*.uxR {
@@ -61,14 +87,19 @@
     line-height: 17px;
     font-size: 1.5em;
     color: #000;
- 
+    overflow: hidden;
 }
 .japanQueen{
     margin-left: 3rem;
     margin-top: 4rem;
+    overflow: hidden;
 }
 
+
 @media (min-width: 375px) and (max-width:768px) {
+    .desdeAqui{
+        margin-top: 0rem;
+    }
    
     .japanQueen{
         margin-left: 1rem;
@@ -78,21 +109,26 @@
     margin-top: 9rem;
    }
 
+   .ctnExpJapan, .ctnElProblema{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
    .textJapan, .experienciaJapan{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 1rem;
     margin-top: 1rem;
 }
 .experienciaJapan{
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2rem;
+    margin-left: 2rem;
 }
 .textContJapan{
     
     margin-top: 1rem;
 }
-.japanEs, .comoToda{
+.japanEs, .comoToda, .desdeAqui{
 font-size: 1.1em;
 }
 
