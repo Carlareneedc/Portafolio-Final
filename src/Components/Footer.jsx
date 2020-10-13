@@ -11,7 +11,7 @@ const FooterPage = () => {
       
      
       
-     <MDBCol fluid className="">
+     <MDBCol >
             <div className="">  
             
             <a target="_blank" href="https://github.com/Carlareneedc"><img className="git ml-2" src={git} alt="git" /></a>

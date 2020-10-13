@@ -87,8 +87,8 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                       Sobre Mi
                     </MDBNavLink>
                   </MDBNavItem>
-                  <MDBNavbarBrand href="/">
-                    <a href="mailto:carla.renee.diazc@gmail.com"><img className="" src={contacto} alt="imgcontacto" /></a>
+                  <MDBNavbarBrand >
+                    <a href="mailto:carla.renee.diazc@gmail.com"><img className="cont" src={contacto} alt="imgcontacto" /></a>
                   </MDBNavbarBrand>
                 </MDBNavbarNav>
               </MDBCollapse>

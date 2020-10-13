@@ -19,9 +19,6 @@ import FooterPage from "../Components/Footer";
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
 import japanQueen from "../img/japanqueennores.png";
-import japan from "../img/proyectouno.png";
-import gav from "../img/gav.png";
-import unimarc from "../img/unimarc.png";
 import "../styleCSS/JapanQueen.css";
 
 class JapanQueen extends React.Component {
@@ -86,7 +83,7 @@ class JapanQueen extends React.Component {
                       Sobre Mi
                     </MDBNavLink>
                   </MDBNavItem>
-                  <MDBNavbarBrand href="/">
+                  <MDBNavbarBrand>
                     <a href="mailto:carla.renee.diazc@gmail.com">
                       <img className="" src={contacto} alt="imgcontacto" />
                     </a>
@@ -281,12 +278,45 @@ class JapanQueen extends React.Component {
                 </div>
                
               </div>
-             
+              <div className="ctnExpJapan container row col-sm-12 ">
+            <div className="container col-sm-12 col-md-10">
+              <div className="row">
+                <div className=" col-sm-10 col-md-6">
+                  <h5 className="experienciaJapan"><mark  style={{
+                    background: "rgba(255, 150, 126, 1)",
+                    color: "rgba(89, 89, 89, 1)",
+                  }}>Experiencia Japan Queen</mark></h5>
+                  <p
+                className="comoToda mt-4
+                "
+              >
+                Como toda innovación, la app web Japan Queen se gesta en la
+                búsqueda de{" "}
+                <strong>
+                  mejorar la experiencia de usuario y como solución a un
+                  problema
+                </strong>{" "}
+                que debe ser acorde a las necesidades de nuestra época, esto es
+                haciendo uso de las múltiples opciones que nos ofrece la
+                tecnología.
+              </p>
+                </div>
+
+                <div className="col-sm-12 col-md-6">
+                
+
+                  <p className=" desdeAqui ">
+                  Desde aquí inicié una investigación enfocada en el cliente y el usuario para saber de qué manera podría modernizar la atención en restaurantes.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
             </div>
            
           </div>
-        
-  
+        <FooterPage/>
       </div>
     );
   }

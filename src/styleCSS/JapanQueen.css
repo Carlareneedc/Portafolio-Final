@@ -48,6 +48,7 @@
 border-radius: 10px;
 overflow: hidden;
 padding-top: 2rem;
+padding-bottom: 1rem;
 }
 
 .desdeAqui{
@@ -61,7 +62,7 @@ padding-top: 2rem;
 
 .tagsJapan{
     margin-top: 1.2rem;
-    overflow: hidden;
+   
 }
 
 /*.uxR {
@@ -120,22 +121,22 @@ padding-top: 2rem;
     margin-top: 0rem;
 }
 
-   .textJapan, .experienciaJapan{
+   .textJapan, .experienciaJapan, .elProblema{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: 1rem;
     margin-top: 1rem;
 }
 .experienciaJapan{
-    font-size: 1.2rem;
-    margin-left: 2rem;
+  
+    margin-left: 0rem;
 }
 .textContJapan{
     
     margin-top: 1rem;
 }
 
-.japanEs, .comoToda, .desdeAqui{
+.japanEs, .comoToda, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente{
 font-size: 1.1em;
 }
 
