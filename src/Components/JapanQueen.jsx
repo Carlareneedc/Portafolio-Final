@@ -47,7 +47,7 @@ class JapanQueen extends React.Component {
     return (
       <div>
         <header>
-          <Router>
+         
             <MDBNavbar color="white" dark expand="md" fixed="top">
               <MDBNavbarBrand  >
                 <img className="logo" src={logo} alt="imglogo" />
@@ -66,15 +66,16 @@ class JapanQueen extends React.Component {
                 >
                   <MDBNavItem active>
                     
-                    <MDBNavLink
+                  <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                   to="./ " 
+                   to="./" 
                     >
                       Inicio
                   
                  
                     </MDBNavLink>
+                    
                   </MDBNavItem>
                   <MDBNavItem>
                    <Link to="/JapanQueen" exact> <MDBNavLink
@@ -96,13 +97,13 @@ class JapanQueen extends React.Component {
                   </MDBNavItem>
                   <MDBNavbarBrand>
                     <a href="mailto:carla.renee.diazc@gmail.com">
-                      <img className="" src={contacto} alt="imgcontacto" />
+                      <img className="cont" src={contacto} alt="imgcontacto" />
                     </a>
                   </MDBNavbarBrand>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
+          
 
           <div className="ctnJapan container row col-sm-12 ">
             <div className="container col-sm-12 col-md-12">

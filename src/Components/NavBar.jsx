@@ -43,7 +43,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
     return (
       <div>
         <header>
-          <Router>
+          
             <MDBNavbar color="white" dark expand="md" fixed="top">
               <MDBNavbarBrand >
                 <img className="logo" src={logo} alt="imglogo" />
@@ -64,7 +64,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="/JapanQueen" exact
+                      to="/" 
                     >
                       Inicio
                     </MDBNavLink>
@@ -73,7 +73,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="JapanQueen"
+                      to="./JapanQueen"
                     >
                       Proyectos
                     </MDBNavLink>
@@ -93,7 +93,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
+          
 
           <MDBView className="fondo_especie ">
             <div className="flex-center ctn">

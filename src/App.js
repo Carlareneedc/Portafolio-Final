@@ -22,10 +22,10 @@ function App() {
         <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/JapanQueen" >
+        <Route path="/JapanQueen" exact>
           <JapanQueen/>
         </Route>
-        <Route path="/Gav" >
+        <Route path="/Gav" exact>
           <Gav/>
         </Route>
        

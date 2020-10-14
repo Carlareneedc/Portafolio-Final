@@ -77,9 +77,9 @@
 }
 .ctnElP, .ctnresult{
     background: #FFFFFF;
-    box-shadow: 1px 4px 20px -1px rgba(43, 43, 43, 0.3);
+    box-shadow: 3px -7px 26px -1px rgba(43, 43, 43, 0.3);
 border-radius: 10px;
-overflow: hidden;
+
 padding-top: 2rem;
 padding-bottom: 1rem;
 }
