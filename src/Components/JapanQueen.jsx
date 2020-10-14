@@ -47,7 +47,7 @@ class JapanQueen extends React.Component {
         <header>
           <Router>
             <MDBNavbar color="white" dark expand="md" fixed="top">
-              <MDBNavbarBrand href="/">
+              <MDBNavbarBrand  >
                 <img className="logo" src={logo} alt="imglogo" />
               </MDBNavbarBrand>
               {!this.state.isWideEnough && (
@@ -63,19 +63,21 @@ class JapanQueen extends React.Component {
                   }}
                 >
                   <MDBNavItem active>
-                    <MDBNavLink
+                    <MDBNavLink 
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="#"
+                      to="./"
                     >
-                      Inicio
+             
+                   Inicio
+                 
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="#"
+                      to="./"
                     >
                       Proyectos
                     </MDBNavLink>
@@ -373,22 +375,24 @@ class JapanQueen extends React.Component {
           <Carousel>
             <Carousel.Item>
               <img
-                className="img-fluid  "
+                className="img-fluid jp "
                 src={japanCarousel}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid " src={mesero} alt="Third slide" />
+              <img className="img-fluid jp" src={mesero} alt="Third slide" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid  " src={pedidos} alt="Third slide" />
+              <img className="img-fluid jp " src={pedidos} alt="Third slide" />
             </Carousel.Item>
           </Carousel>
         </div>
+        <div className="col-sm-12">
         <div className="ctnresult container col-sm-12 col-md-10">
           <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
           <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue poder darle una identidad visual al producto.  Fue un desafío poder encontrar una imagen representativa y a la vez legible y eficaz. Finalmente creo que el resultado superó mis propias espectativas.</p>
+        </div>
         </div>
         <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
                     style={{
@@ -399,7 +403,7 @@ class JapanQueen extends React.Component {
                    Puedes ver otro proyectos
                   </mark></h5>     
                   <div className="container  col-md-10 flex-center mt-5">  
-                  <CardDeck >
+                  <CardDeck className="cardeck">
            
            <Card 
              style={{
