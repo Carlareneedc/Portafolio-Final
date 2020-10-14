@@ -8,7 +8,7 @@ Route,
 } from 'react-router-dom'
 import Home from './Components/Home.jsx'
 import JapanQueen from "./Components/JapanQueen"
-import BlogPage from "./Components/Prueba.jsx"
+import Gav from "./Components/Gav.jsx"
 
 
 
@@ -22,12 +22,13 @@ function App() {
         <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/JapanQueen" exact>
+        <Route path="/JapanQueen" >
           <JapanQueen/>
         </Route>
-        <Route path="/JapanQueen" exact>
-          <BlogPage/>
+        <Route path="/Gav" >
+          <Gav/>
         </Route>
+       
       </Switch>
     </div>
    

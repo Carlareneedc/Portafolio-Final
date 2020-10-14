@@ -64,7 +64,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="./"
+                      to="/JapanQueen" exact
                     >
                       Inicio
                     </MDBNavLink>
@@ -73,19 +73,19 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="#"
+                      to="JapanQueen"
                     >
                       Proyectos
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link
+                    <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
                       to="./JapanQueen"
                     >
                       Sobre Mi
-                    </Link>
+                    </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavbarBrand >
                     <a href="mailto:carla.renee.diazc@gmail.com"><img className="cont" src={contacto} alt="imgcontacto" /></a>
@@ -223,7 +223,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   Sitio gamificado en donde se entrega información sobre el
                   covid-19. Proyecto ganador empresa "Hootie Hoo".
                 </Card.Text>
-                <Button
+                <Link to="/Gav"><Button
                   variant="#FF3C38"
                   style={{
                     marginTop: "2rem",
@@ -237,7 +237,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   }}
                 >
                   Ver Proyecto
-                </Button>
+                </Button></Link>
               </Card.Body>
             </Card>
             <Card

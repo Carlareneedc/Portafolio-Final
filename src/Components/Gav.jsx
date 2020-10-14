@@ -10,7 +10,7 @@ import {
 
 } from "mdbreact";
 import { Carousel } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Link, BrowserRouter, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, BrowserRouter } from "react-router-dom";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -27,7 +27,7 @@ import mesero from "../img/vistamesero.png";
 import pedidos from "../img/pedidos.png";
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
-import Home from "../Components/Home"
+import gavvista from "../img/gavvista.png"
 
 class JapanQueen extends React.Component {
   constructor(props) {
@@ -65,25 +65,24 @@ class JapanQueen extends React.Component {
                   }}
                 >
                   <MDBNavItem active>
-                    
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                   to="./ " 
+                      to="./"
                     >
-                      Inicio
-                  
+             
+                   Inicio
                  
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                   <Link to="/JapanQueen" exact> <MDBNavLink
+                    <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to=""
+                      to="./"
                     >
                       Proyectos
-                    </MDBNavLink></Link>
+                    </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink
@@ -110,7 +109,7 @@ class JapanQueen extends React.Component {
                 <div className=" col-sm-12 col-md-5">
                   <img
                     className="img-fluid japanQueen"
-                    src={japanQueen}
+                    src={gavvista}
                     alt="imgjapan"
                   />
                 </div>
@@ -123,15 +122,12 @@ class JapanQueen extends React.Component {
                         color: "rgba(89, 89, 89, 1)",
                       }}
                     >
-                      Japan Queen
+                      Ganémosle al Virus
                     </mark>
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    Japan Queen es una app web diseñada para restaurantes, que
-                    se origina como solución a la gestión de pedidos por medio
-                    de una interfaz simple y amigable, evitando el antiguo uso
-                    de comandas y toma de ordenes a mano.
+                   GAV es una app web diseñado por encargo de la empresa Hootie Hoo, con el fin de entregar contenido didáctico con respecto al covid-19. Ganador del proyecto empresa en Laboratoria.
                   </p>
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
