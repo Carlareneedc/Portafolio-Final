@@ -78,7 +78,7 @@ class JapanQueen extends React.Component {
                     
                   </MDBNavItem>
                   <MDBNavItem>
-                   <Link to="/JapanQueen" exact> <MDBNavLink
+                   <Link to=""> <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
                       to=""
@@ -378,17 +378,17 @@ class JapanQueen extends React.Component {
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <img
+            <a target="_blank" href="https://burger-queen2020.web.app/"> <img
                 className="img-fluid jp "
                 src={japanCarousel}
                 alt="First slide"
-              />
+              /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid jp" src={mesero} alt="Third slide" />
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" src={mesero} alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid jp " src={pedidos} alt="Third slide" />
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={pedidos} alt="Third slide" /></a>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -426,7 +426,7 @@ class JapanQueen extends React.Component {
                  Sitio gamificado en donde se entrega información sobre el
                  covid-19. Proyecto ganador empresa "Hootie Hoo".
                </Card.Text>
-               <Button
+               <Link to="/Gav"><Button
                  variant="#FF3C38"
                  style={{
                    marginTop: "2rem",
@@ -440,7 +440,7 @@ class JapanQueen extends React.Component {
                  }}
                >
                  Ver Proyecto
-               </Button>
+               </Button></Link>
              </Card.Body>
            </Card>
            <Card
@@ -450,7 +450,7 @@ class JapanQueen extends React.Component {
                border: "none",
              }}
            >
-             <Card.Img className="imgUni" variant="top" src={unimarc} />
+            <Card.Img className="imgUni" variant="top" src={unimarc} />
              <Card.Body>
                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
                <Card.Text
@@ -461,7 +461,7 @@ class JapanQueen extends React.Component {
                  plataforma web Unimarc. Proyecto ganador "Hackaton"
                  Laboratoria
                </Card.Text>
-              <Link to=""> <Button
+              <Link to="/Unimarc"> <Button
                  variant="#FF3C38"
                  style={{
                    marginTop: "2.5rem",

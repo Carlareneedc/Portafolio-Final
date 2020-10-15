@@ -7,10 +7,14 @@ import {
   MDBCollapse,
   MDBNavItem,
   MDBNavLink,
-
 } from "mdbreact";
 import { Carousel } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Link, BrowserRouter } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -25,9 +29,9 @@ import humans from "../img/humas.png";
 import japanCarousel from "../img/pantallainicio.png";
 import mesero from "../img/vistamesero.png";
 import pedidos from "../img/pedidos.png";
-import gav from "../img/gav.png"
+import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
-import gavvista from "../img/gavvista.png"
+import gavvista from "../img/gavvista.png";
 
 class JapanQueen extends React.Component {
   constructor(props) {
@@ -47,61 +51,57 @@ class JapanQueen extends React.Component {
     return (
       <div>
         <header>
-          <Router>
-            <MDBNavbar color="white" dark expand="md" fixed="top">
-              <MDBNavbarBrand  >
-                <img className="logo" src={logo} alt="imglogo" />
-              </MDBNavbarBrand>
-              {!this.state.isWideEnough && (
-                <MDBNavbarToggler className="burger" onClick={this.onClick} />
-              )}
-              <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav
-                  className="mt-4 "
-                  style={{
-                    fontFamily: "Merriweather",
-                    fontSize: "1.3em",
-                    fontWeight: "400",
-                  }}
-                >
-                  <MDBNavItem active>
-                    <MDBNavLink
-                      className=""
-                      style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="./"
-                    >
-             
-                   Inicio
-                 
-                    </MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink
-                      className=""
-                      style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="./"
-                    >
-                      Proyectos
-                    </MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink
-                      className=""
-                      style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="#"
-                    >
-                      Sobre Mi
-                    </MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavbarBrand>
-                    <a href="mailto:carla.renee.diazc@gmail.com">
-                      <img className="" src={contacto} alt="imgcontacto" />
-                    </a>
-                  </MDBNavbarBrand>
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBNavbar>
-          </Router>
+          <MDBNavbar color="white" dark expand="md" fixed="top">
+            <MDBNavbarBrand>
+              <img className="logo" src={logo} alt="imglogo" />
+            </MDBNavbarBrand>
+            {!this.state.isWideEnough && (
+              <MDBNavbarToggler className="burger" onClick={this.onClick} />
+            )}
+            <MDBCollapse isOpen={this.state.collapse} navbar>
+              <MDBNavbarNav
+                className="mt-4 "
+                style={{
+                  fontFamily: "Merriweather",
+                  fontSize: "1.3em",
+                  fontWeight: "400",
+                }}
+              >
+                <MDBNavItem active>
+                  <MDBNavLink
+                    className=""
+                    style={{ color: "rgba(89, 89, 89, 1)" }}
+                    to="./"
+                  >
+                    Inicio
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    className=""
+                    style={{ color: "rgba(89, 89, 89, 1)" }}
+                    to="/"
+                  >
+                    Proyectos
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    className=""
+                    style={{ color: "rgba(89, 89, 89, 1)" }}
+                    to="#"
+                  >
+                    Sobre Mi
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavbarBrand>
+                  <a href="mailto:carla.renee.diazc@gmail.com">
+                    <img className="" src={contacto} alt="imgcontacto" />
+                  </a>
+                </MDBNavbarBrand>
+              </MDBNavbarNav>
+            </MDBCollapse>
+          </MDBNavbar>
 
           <div className="ctnJapan container row col-sm-12 ">
             <div className="container col-sm-12 col-md-12">
@@ -127,7 +127,12 @@ class JapanQueen extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                   GAV es una app web diseñado por encargo de la empresa Hootie Hoo, con el fin de entregar contenido didáctico con respecto al covid-19. Ganador del proyecto empresa en Laboratoria.
+                    GAV es una app web diseñada por encargo de la empresa Hootie
+                    Hoo, con el fin de entregar contenido didáctico con respecto
+                    al covid-19.{" "}
+                    <strong>
+                      Ganador del proyecto empresa en Laboratoria.
+                    </strong>
                   </p>
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
@@ -176,7 +181,7 @@ class JapanQueen extends React.Component {
                     </div>
                     <div className=" col-sm-12 col-md-6 float-right">
                       <h5 className="rolText ">Fecha del Proyecto</h5>
-                      <p className="julio">Julio 2020</p>
+                      <p className="julio">Agosto 2020</p>
                     </div>
                   </div>
                 </div>
@@ -231,15 +236,14 @@ class JapanQueen extends React.Component {
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia Japan Queen
+                    Experiencia GAV
                   </mark>
                 </h5>
                 <p
                   className="comoToda mt-4
                 "
                 >
-                  Como toda innovación, la app web Japan Queen se gesta en la
-                  búsqueda de{" "}
+                  El Proyecto GAV, tien como objetivo brindar una solución a los usuarios por medio de la inlusión y gamificación. 
                   <strong>
                     mejorar la experiencia de usuario y como solución a un
                     problema
@@ -309,7 +313,7 @@ class JapanQueen extends React.Component {
           </div>
           <div className="contprocesos container col-sm-12 col-md-10">
             <div className="container row col-sm-12 col-md-12">
-              <div style={{textAlign:"left"}}className="row col-md-6">
+              <div style={{ textAlign: "left" }} className="row col-md-6">
                 <h5 className="procesos">
                   <mark
                     style={{
@@ -388,94 +392,107 @@ class JapanQueen extends React.Component {
           </Carousel>
         </div>
         <div className="col-sm-12">
-        <div className="ctnresult container col-sm-12 col-md-10">
-          <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
-          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue poder darle una identidad visual al producto.  Fue un desafío poder encontrar una imagen representativa y a la vez legible y eficaz. Finalmente creo que el resultado superó mis propias espectativas.</p>
+          <div className="ctnresult container col-sm-12 col-md-10">
+            <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
+            <p className="col-sm-12 textQue">
+              Lo que más me gustó de este proyecto, fue poder darle una
+              identidad visual al producto. Fue un desafío poder encontrar una
+              imagen representativa y a la vez legible y eficaz. Finalmente creo
+              que el resultado superó mis propias espectativas.
+            </p>
+          </div>
         </div>
-        </div>
-        <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
+        <div>
+          <h5 className="container col-sm-12  col-md-10 puedes">
+            {" "}
+            <mark
+              style={{
+                background: "rgba(254, 214, 123, 0.9)",
+                color: "rgba(89, 89, 89, 1)",
+              }}
+            >
+              Puedes ver otro proyectos
+            </mark>
+          </h5>
+          <div className="container  col-md-10 flex-center mt-5">
+            <CardDeck className="cardeck">
+              <Card
+                style={{
+                  /*width: "25vw",*/
+                  borderRadius: "20px 20px 0px 0px",
+                  border: "none",
+                }}
+              >
+                <Card.Img variant="top" src={gav} />
+                <Card.Body>
+                  <Card.Title className="cardTittle">GAV</Card.Title>
+                  <Card.Text
+                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                    className="cardText"
+                  >
+                    Sitio gamificado en donde se entrega información sobre el
+                    covid-19. Proyecto ganador empresa "Hootie Hoo".
+                  </Card.Text>
+                  <Button
+                    variant="#FF3C38"
                     style={{
-                      background: "rgba(254, 214, 123, 0.9)",
-                      color: "rgba(89, 89, 89, 1)",
+                      marginTop: "2rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
                     }}
                   >
-                   Puedes ver otro proyectos
-                  </mark></h5>     
-                  <div className="container  col-md-10 flex-center mt-5">  
-                  <CardDeck className="cardeck">
-           
-           <Card 
-             style={{
-               /*width: "25vw",*/
-               borderRadius: "20px 20px 0px 0px",
-               border: "none",
-             }}
-           >
-             <Card.Img variant="top" src={gav} />
-             <Card.Body>
-               <Card.Title className="cardTittle">GAV</Card.Title>
-               <Card.Text
-                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                 className="cardText"
-               >
-                 Sitio gamificado en donde se entrega información sobre el
-                 covid-19. Proyecto ganador empresa "Hootie Hoo".
-               </Card.Text>
-               <Button
-                 variant="#FF3C38"
-                 style={{
-                   marginTop: "2rem",
-                   marginLeft: "0rem",
-                   display: "flex",
-                   borderRadius: "8px",
-                   fontFamily: "Montserrat",
-                   color: "rgba(255, 255, 255, 1)",
-                   fontWeight: "700",
-                   background: "#FF3C38",
-                 }}
-               >
-                 Ver Proyecto
-               </Button>
-             </Card.Body>
-           </Card>
-           <Card
-             style={{
-              /* width: "25vw",*/
-               borderRadius: "20px 20px 0px 0px",
-               border: "none",
-             }}
-           >
-             <Card.Img className="imgUni" variant="top" src={unimarc} />
-             <Card.Body>
-               <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
-               <Card.Text
-                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                 className="cardText"
-               >
-                 Rediseño de la sección de recetas correspondiente a la
-                 plataforma web Unimarc. Proyecto ganador "Hackaton"
-                 Laboratoria
-               </Card.Text>
-              <Link to=""> <Button
-                 variant="#FF3C38"
-                 style={{
-                   marginTop: "2.5rem",
-                   marginLeft: "0rem",
-                   display: "flex",
-                   borderRadius: "8px",
-                   fontFamily: "Montserrat",
-                   color: "rgba(255, 255, 255, 1)",
-                   fontWeight: "700",
-                   background: "#FF3C38",
-                 }}
-               >
-                 Ver Proyecto
-               </Button></Link>
-             </Card.Body>
-           </Card>
-         </CardDeck>
-         </div>   
-         </div>
+                    Ver Proyecto
+                  </Button>
+                </Card.Body>
+              </Card>
+              <Card
+                style={{
+                  /* width: "25vw",*/
+                  borderRadius: "20px 20px 0px 0px",
+                  border: "none",
+                }}
+              >
+                <Card.Img className="imgUni" variant="top" src={unimarc} />
+                <Card.Body>
+                  <Card.Title className="cardTittle">
+                    Recetas Unimarc
+                  </Card.Title>
+                  <Card.Text
+                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                    className="cardText"
+                  >
+                    Rediseño de la sección de recetas correspondiente a la
+                    plataforma web Unimarc. Proyecto ganador "Hackaton"
+                    Laboratoria
+                  </Card.Text>
+                  <Link to="">
+                    {" "}
+                    <Button
+                      variant="#FF3C38"
+                      style={{
+                        marginTop: "2.5rem",
+                        marginLeft: "0rem",
+                        display: "flex",
+                        borderRadius: "8px",
+                        fontFamily: "Montserrat",
+                        color: "rgba(255, 255, 255, 1)",
+                        fontWeight: "700",
+                        background: "#FF3C38",
+                      }}
+                    >
+                      Ver Proyecto
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </CardDeck>
+          </div>
+        </div>
         <FooterPage />
       </div>
     );

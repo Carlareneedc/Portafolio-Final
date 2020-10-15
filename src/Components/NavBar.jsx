@@ -70,12 +70,13 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink
+                  <MDBNavLink 
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="./JapanQueen"
+                      to="/JapanQueen"
+                     
                     >
-                      Proyectos
+                     Proyectos
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
