@@ -118,7 +118,7 @@ class JapanQueen extends React.Component {
                   <h5 className="textJapan col-sm-12">
                     <mark
                       style={{
-                        background: "rgba(220, 21, 21, 0.23)",
+                        background: "rgb(102 16 242 / 42%)",
                         color: "rgba(89, 89, 89, 1)",
                       }}
                     >
@@ -145,7 +145,7 @@ class JapanQueen extends React.Component {
                           <p className="uxR">
                             <mark
                               style={{
-                                background: "rgba(255, 150, 126, 1)",
+                                background: "rgb(111 66 193 / 71%)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
                               }}
@@ -156,7 +156,7 @@ class JapanQueen extends React.Component {
                           <p className="proto">
                             <mark
                               style={{
-                                background: "rgba(254, 214, 123, 0.9)",
+                                background: "rgb(165 73 187 / 51%)",
                                 borderRadius: "25px",
                                 padding: "0.5rem 1.5rem",
                                 marginLeft: "1rem",
@@ -168,7 +168,7 @@ class JapanQueen extends React.Component {
                           <p className="ui">
                             <mark
                               style={{
-                                background: "rgba(235, 135, 147, 1)",
+                                background: "rgb(111 66 193 / 35%)",
                                 borderRadius: "25px",
                                 padding: "0.5rem 1rem",
                               }}
@@ -232,7 +232,7 @@ class JapanQueen extends React.Component {
                 <h5 className="experienciaJapan">
                   <mark
                     style={{
-                      background: "rgba(255, 150, 126, 1)",
+                      background: "rgb(111 66 193 / 71%)",
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
@@ -243,22 +243,45 @@ class JapanQueen extends React.Component {
                   className="comoToda mt-4
                 "
                 >
-                  El Proyecto GAV, tien como objetivo brindar una solución a los usuarios por medio de la inlusión y gamificación. 
-                  <strong>
-                    mejorar la experiencia de usuario y como solución a un
-                    problema
-                  </strong>{" "}
-                  que debe ser acorde a las necesidades de nuestra época, esto
-                  es haciendo uso de las múltiples opciones que nos ofrece la
-                  tecnología.
+                  El Proyecto GAV, tien como objetivo <strong>brindar una solución a los usuarios por medio de la inclusión y gamificación.</strong> Esto quiere decir que debe ser accesible y legible para todo tipo de usuarios y explicar claramente las implicancias del virus Covid-19 de manera que su entendimiento sea didáctico.
+                  
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Desde aquí inicié una investigación enfocada en el cliente y
-                  el usuario para saber de qué manera podría modernizar la
-                  atención en restaurantes.
+                 Para esto, realicé una investigación enfocada en usuarios reales con el fin de descubrir hallazgos que permitieran crear el contenido de la página.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ctnExpJapan container row col-sm-12 ">
+          <div className="container col-sm-12 col-md-10">
+            <div className="row">
+              <div className=" col-sm-10 col-md-6">
+                <h5 className="experienciaJapan">
+                  <mark
+                    style={{
+                      background: "rgb(165 73 187 / 51%)",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}
+                  >
+                    Investigación con Usuarios
+                  </mark>
+                </h5>
+                <p
+                  className="comoToda mt-4
+                "
+                >
+                  En base al contexto de pandemia, realicé una encuesta <strong>enfocada a padres o tutores de niños entre 4 a 9 años</strong>, rango etario que se tomó como hallazgo dentro de la investigación. Si bien, nuestros usuario directos son los padres o tutores, el objetivo principal es que ellos puedan guiar a los niños en el uso de la página. 
+                  
+                </p>
+              </div>
+
+              <div className="col-sm-12 col-md-6">
+                <p className=" desdeAqui ">
+                 Aquí se presentó un gran desafío que tenía que ver con 
                 </p>
               </div>
             </div>
