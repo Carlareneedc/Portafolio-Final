@@ -306,30 +306,22 @@ class JapanQueen extends React.Component {
                 "
                 >
                   <strong>
-                    A algunos clientes les resulta difícil decidir al momento de
-                    elegir un plato
+                    ¿Cómo gamificar información del covid-19 a niños entre 4 a 9 años?
                   </strong>
                 </p>
-                <p className="cambian col-md-12">
+                <p className="gav col-md-12">
                   <strong>
-                    Cambian su pedido varias veces antes de finalizarlo
+                    ¿De qué manera generar contenido inclusivo?
                   </strong>
                 </p>
               </div>
 
               <div className=" ctnQuien col-sm-12 col-md-9">
                 <p className=" col-md-12 quien">
-                  Quien se enfrenta a situación directamente es el mesero,
-                  tomando en cuenta que hasta ese momento utilizaría lápiz y
-                  papel para anotar la información del pedido. Esto supone una
-                  gran dificultad.
+                 El contexto de la pandemia generó cambios en los hábitos de todas las personas en el mundo, pero aún más en la vida de los niños. Es difícil para ellos llegar a entender las implicancias de la pandemia considerando que son graves y no se deben tomar a la ligera. El desafío en este caso es explicar por ejemplo, por qué no pueden abrazar a sus amigos, ir al colegio o ver a sus familiares.
                 </p>
                 <p className="col-md-12 cliente">
-                  Si el cliente tiende a cambiar de decisión, no es posible que
-                  el mesero anote y tache reiteradamente, produciendo confusión
-                  en el resumen del pedido y generando otro problema, el tiempo
-                  en que este llegaría a cocina y si sería legible para el chef,
-                  al momento de preparar la comida.
+                 Por otro lado considerar que en base al rango etario de estos niños, hay muchos de ellos que no saben leer ni escribir, por ende no podrán comprender información escrita. Así mismo poder considerar a personas con capacidades diferentes y también dificultades para acceder a WiFi.
                 </p>
               </div>
             </div>
