@@ -20,7 +20,7 @@
     margin-top: 1rem;
 }
 
-.textJapan, .experienciaJapan, .elProblema, .procesos, .textSolucion, .resultado{
+.textJapan, .experienciaJapan, .elProblema, .procesos, .textSolucion, .resultado, .textSoluciongav{
     font-size: 2em;
     font-family: Merriweather;
     font-weight: 400;
@@ -29,7 +29,13 @@
     overflow: hidden;
     margin-top: 1rem;
 }
+.gav{
+    margin-top: 5.1rem;
+}
+.textSoluciongav{
+    margin-top: 2rem;
 
+}
 .que, .puedes{
     font-size: 2em;
     font-family: Merriweather;
@@ -47,13 +53,16 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos, .textopro, .mesero, .chef, .segun, .textQue{
+.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda,.cadaseccion, .entreestos, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos,.pormedio, .textopro, .mesero, .chef, .segun, .textQue, .porotro, .textoProcesosgav, .eldesafio{
     font-family: Montserrat;
     font-weight: 400;
   font-size: 1.2em;
     line-height: 34px;
    text-align: justify;
   
+}
+.entreestos{
+    margin-top: 1.5rem;
 }
 
 .textQue{
@@ -98,10 +107,18 @@ padding-bottom: 1rem;
    
 }
 .gam{
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 9rem;
     width: 37vw;
 }
+
+.porotro{
+    margin-top: 1rem;
+}
+.textoProcesosgav{
+    margin-top: 1rem;
+}
+
 /*.uxR {
     background: rgba(255, 150, 126, 1);
     width: 10vw;
@@ -141,9 +158,7 @@ padding-bottom: 1rem;
     margin-top: 4rem;
     overflow: hidden;
 }
-.gam{
-    margin-left: 5rem;
-}
+
 
 @media (min-width: 375px) and (max-width:768px) {
     .humans{
