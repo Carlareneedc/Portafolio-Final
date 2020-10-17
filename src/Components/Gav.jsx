@@ -32,6 +32,7 @@ import pedidos from "../img/pedidos.png";
 import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import gavvista from "../img/gavvista.png";
+import gamificacion from "../img/gamificacion.png"
 
 class JapanQueen extends React.Component {
   constructor(props) {
@@ -243,50 +244,28 @@ class JapanQueen extends React.Component {
                   className="comoToda mt-4
                 "
                 >
-                  El Proyecto GAV, tien como objetivo <strong>brindar una solución a los usuarios por medio de la inclusión y gamificación.</strong> Esto quiere decir que debe ser accesible y legible para todo tipo de usuarios y explicar claramente las implicancias del virus Covid-19 de manera que su entendimiento sea didáctico.
-                  
+                  El Proyecto GAV, tiene como objetivo{" "}
+                  <strong>
+                    brindar una solución a los usuarios por medio de la
+                    inclusión y gamificación.
+                  </strong>{" "}
+                  Esto quiere decir que debe ser accesible y legible para todo
+                  tipo de usuarios y explicar claramente las implicancias del
+                  virus Covid-19 de manera que su entendimiento sea didáctico.
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                 Para esto, realicé una investigación enfocada en usuarios reales con el fin de descubrir hallazgos que permitieran crear el contenido de la página.
+                  Para esto, realicé una investigación enfocada en usuarios
+                  reales con el fin de descubrir hallazgos que permitieran crear
+                  el contenido de la página.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="ctnExpJapan container row col-sm-12 ">
-          <div className="container col-sm-12 col-md-10">
-            <div className="row">
-              <div className=" col-sm-10 col-md-6">
-                <h5 className="experienciaJapan">
-                  <mark
-                    style={{
-                      background: "rgb(165 73 187 / 51%)",
-                      color: "rgba(89, 89, 89, 1)",
-                    }}
-                  >
-                    Investigación con Usuarios
-                  </mark>
-                </h5>
-                <p
-                  className="comoToda mt-4
-                "
-                >
-                  En base al contexto de pandemia, realicé una encuesta <strong>enfocada a padres o tutores de niños entre 4 a 9 años</strong>, rango etario que se tomó como hallazgo dentro de la investigación. Si bien, nuestros usuario directos son los padres o tutores, el objetivo principal es que ellos puedan guiar a los niños en el uso de la página. 
-                  
-                </p>
-              </div>
-
-              <div className="col-sm-12 col-md-6">
-                <p className=" desdeAqui ">
-                 Aquí se presentó un gran desafío que tenía que ver con 
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div className="ctnElProblema  col-sm-12">
           <div className=" container col-sm-12 col-md-10">
             <div className="ctnElP row">
@@ -306,22 +285,31 @@ class JapanQueen extends React.Component {
                 "
                 >
                   <strong>
-                    ¿Cómo gamificar información del covid-19 a niños entre 4 a 9 años?
+                    ¿Cómo gamificar información del covid-19 a niños entre 4 a 9
+                    años?
                   </strong>
                 </p>
                 <p className="gav col-md-12">
-                  <strong>
-                    ¿De qué manera generar contenido inclusivo?
-                  </strong>
+                  <strong>¿De qué manera generar contenido inclusivo?</strong>
                 </p>
               </div>
 
               <div className=" ctnQuien col-sm-12 col-md-9">
                 <p className=" col-md-12 quien">
-                 El contexto de la pandemia generó cambios en los hábitos de todas las personas en el mundo, pero aún más en la vida de los niños. Es difícil para ellos llegar a entender las implicancias de la pandemia considerando que son graves y no se deben tomar a la ligera. El desafío en este caso es explicar por ejemplo, por qué no pueden abrazar a sus amigos, ir al colegio o ver a sus familiares.
+                  El contexto de la pandemia generó cambios en los hábitos de
+                  todas las personas en el mundo, pero aún más en la vida de los
+                  niños. Es difícil para ellos llegar a entender las
+                  implicancias de la pandemia considerando que son graves y no
+                  se deben tomar a la ligera. El desafío en este caso es
+                  explicar por ejemplo, por qué no pueden abrazar a sus amigos,
+                  ir al colegio o ver a sus familiares.
                 </p>
                 <p className="col-md-12 cliente">
-                 Por otro lado considerar que en base al rango etario de estos niños, hay muchos de ellos que no saben leer ni escribir, por ende no podrán comprender información escrita. Así mismo poder considerar a personas con capacidades diferentes y también dificultades para acceder a WiFi.
+                  Por otro lado considerar que en base al rango etario de estos
+                  niños, hay muchos de ellos que no saben leer ni escribir, por
+                  ende no podrán comprender información escrita. Así mismo poder
+                  considerar a personas con capacidades diferentes y también
+                  dificultades para acceder a WiFi.
                 </p>
               </div>
             </div>
@@ -340,16 +328,20 @@ class JapanQueen extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesos">
-                  Por medio de diversas entrevistas e indagaciones, definimos
-                  tres tipos de usuarios, los que precisamos de la siguiente
-                  forma:
+                  En base al contexto de pandemia, realicé una encuesta{" "}
+                  <strong>
+                    enfocada a padres o tutores de niños entre 4 a 9 años
+                  </strong>
+                  , rango etario que se tomó como hallazgo dentro de la
+                  investigación. Si bien, nuestros usuario directos son los
+                  padres o tutores, el objetivo principal es que ellos puedan
+                  guiar a los niños en el uso de la página. El desafío en base a a los usuarios, también se relaciona con la posibilidad de darle solución al problema planteado anteriormente y poder incorporar la inclusión. Para esto se definieron usuarios indirectos, los que no acceden por si mismos a la página, sin embargo pueden conocer su contenido.
                 </p>
                 <p className="textopro">
-                  <strong>Cliente (Usuario indirecto)</strong> Accederá a esta
-                  plataforma por medio de otro usuario que es el mesero.
+                  <strong>Personas con capacidades diferentes</strong> En este caso, se toma en cuenta a personas que tengan algún tipo de discapacidad visual como daltonismo.
                 </p>
                 <p className="mesero">
-                  <strong>Mesero</strong> Accederá a la plataforma para generar
+                  <strong>Niños que no saben leer ni escribir</strong> Accederá a la plataforma para generar
                   el pedido del cliente
                 </p>
                 <p className="chef">
@@ -357,7 +349,7 @@ class JapanQueen extends React.Component {
                 </p>
               </div>
               <div className=" col-md-6 ">
-                <img src={humans} className="humans" alt="humans" />
+                <img src={gamificacion} className="gam" alt="gam" />
               </div>
               <h5 className="textSolucion">
                 <mark

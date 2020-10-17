@@ -97,7 +97,11 @@ padding-bottom: 1rem;
     margin-top: 1.2rem;
    
 }
-
+.gam{
+    margin-left: 5rem;
+    margin-top: 9rem;
+    width: 37vw;
+}
 /*.uxR {
     background: rgba(255, 150, 126, 1);
     width: 10vw;
@@ -137,7 +141,7 @@ padding-bottom: 1rem;
     margin-top: 4rem;
     overflow: hidden;
 }
-.humans{
+.gam{
     margin-left: 5rem;
 }
 
