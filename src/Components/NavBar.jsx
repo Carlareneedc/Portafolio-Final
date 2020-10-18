@@ -259,7 +259,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   plataforma web Unimarc. Proyecto ganador "Hackaton"
                   Laboratoria
                 </Card.Text>
-               <Link to=""> <Button
+               <Link to="/Unimarc"> <Button
                   variant="#FF3C38"
                   style={{
                     marginTop: "1rem",

@@ -9,13 +9,14 @@ Route,
 import Home from './Components/Home.jsx'
 import JapanQueen from "./Components/JapanQueen"
 import Gav from "./Components/Gav.jsx"
+import Unimarc from "./Components/Unimarc"
 
 
 
 
 
 function App() {
-  return (
+  return ( 
     <Router>
     <div className="App">
       <Switch>
@@ -28,7 +29,9 @@ function App() {
         <Route path="/Gav" exact>
           <Gav/>
         </Route>
-       
+        <Route path="/Unimarc" exact>
+          <Unimarc/>
+        </Route>
       </Switch>
     </div>
    

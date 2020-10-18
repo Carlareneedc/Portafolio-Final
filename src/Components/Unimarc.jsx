@@ -23,10 +23,13 @@ import "../styleCSS/NavBar.css";
 import FooterPage from "../Components/Footer";
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
-
+import japanQueen from "../img/japanqueennores.png";
 import "../styleCSS/JapanQueen.css";
-
-
+import humans from "../img/humas.png";
+import japanCarousel from "../img/pantallainicio.png";
+import mesero from "../img/vistamesero.png";
+import pedidos from "../img/pedidos.png";
+import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import gavvista from "../img/gavvista.png";
 import gamificacion from "../img/gamificacion.png";
@@ -35,7 +38,7 @@ import resultgavdos from "../img/resultgavdos.png";
 import resultgavtres from "../img/resultgavtres.png";
 import japan from "../img/proyectouno.png";
 
-class Gav extends React.Component {
+class Unimarc extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -124,7 +127,7 @@ class Gav extends React.Component {
                         color: "rgba(89, 89, 89, 1)",
                       }}
                     >
-                      Ganémosle al Virus
+                      Recetas Unimarc
                     </mark>
                   </h5>
 
@@ -558,7 +561,7 @@ class Gav extends React.Component {
                     plataforma web Unimarc. Proyecto ganador "Hackaton"
                     Laboratoria
                   </Card.Text>
-                  <Link to="/Unimarc">
+                  <Link to="">
                     {" "}
                     <Button
                       variant="#FF3C38"
@@ -586,4 +589,4 @@ class Gav extends React.Component {
     );
   }
 }
-export default Gav;
+export default Unimarc;
