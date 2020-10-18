@@ -33,6 +33,10 @@ import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import gavvista from "../img/gavvista.png";
 import gamificacion from "../img/gamificacion.png"
+import resultgav from "../img/resultgav.png"
+import resultgavdos from "../img/resultgavdos.png"
+import resultgavtres from "../img/resultgavtres.png"
+import japan from "../img/proyectouno.png"
 
 class JapanQueen extends React.Component {
   constructor(props) {
@@ -401,17 +405,17 @@ class JapanQueen extends React.Component {
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <img
-                className="img-fluid jp "
-                src={japanCarousel}
+            <a target="_blank" href="https://ganemoslealcorona.netlify.app/"> <img
+                className="img-fluid gv "
+                src={resultgav}
                 alt="First slide"
-              />
+              /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid jp" src={mesero} alt="Third slide" />
+            <a target="_blank" href="https://ganemoslealcorona.netlify.app/"><img className="img-fluid gv" src={resultgavdos} alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="img-fluid jp " src={pedidos} alt="Third slide" />
+            <a target="_blank" href="https://ganemoslealcorona.netlify.app/"> <img className="img-fluid gv " src={resultgavtres} alt="Third slide" /></a>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -419,10 +423,7 @@ class JapanQueen extends React.Component {
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
-              Lo que más me gustó de este proyecto, fue poder darle una
-              identidad visual al producto. Fue un desafío poder encontrar una
-              imagen representativa y a la vez legible y eficaz. Finalmente creo
-              que el resultado superó mis propias espectativas.
+             Lo que más me gustó de este proyecto fue lo desafiante que se volvió. Fue un reto poder tomar los elementos de diseño entregados por la empresa y poder incorporarlos dentro de la solución final. Sin embargo la comunicación el feedback que se generó entre Hottie Hoo y el equipo permitió lograr un resultado que nos dejó felices a todos, principalmente a los usuarios.
             </p>
           </div>
         </div>
@@ -440,40 +441,41 @@ class JapanQueen extends React.Component {
           </h5>
           <div className="container  col-md-10 flex-center mt-5">
             <CardDeck className="cardeck">
-              <Card
-                style={{
-                  /*width: "25vw",*/
-                  borderRadius: "20px 20px 0px 0px",
-                  border: "none",
-                }}
-              >
-                <Card.Img variant="top" src={gav} />
-                <Card.Body>
-                  <Card.Title className="cardTittle">GAV</Card.Title>
-                  <Card.Text
-                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                    className="cardText"
-                  >
-                    Sitio gamificado en donde se entrega información sobre el
-                    covid-19. Proyecto ganador empresa "Hootie Hoo".
-                  </Card.Text>
-                  <Button
-                    variant="#FF3C38"
-                    style={{
-                      marginTop: "2rem",
-                      marginLeft: "0rem",
-                      display: "flex",
-                      borderRadius: "8px",
-                      fontFamily: "Montserrat",
-                      color: "rgba(255, 255, 255, 1)",
-                      fontWeight: "700",
-                      background: "#FF3C38",
-                    }}
-                  >
-                    Ver Proyecto
-                  </Button>
-                </Card.Body>
-              </Card>
+            <Card
+              style={{
+               
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={japan} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Japan Queen</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App para restaurantes que se origina como solución a la
+                  gestión de pedidos, eliminando el uso de comandas y toma de
+                  ordenes a mano.
+                </Card.Text>
+               <Link to="/JapanQueen"><Button
+                  variant="#FF3C38"
+                  style={{
+                    marginTop: "1rem",
+                    marginLeft: "0rem",
+                    display: "flex",
+                    borderRadius: "8px",
+                    fontFamily: "Montserrat",
+                    color: "rgba(255, 255, 255, 1)",
+                    fontWeight: "700",
+                    background: "#FF3C38",
+                  }}
+                >
+                  Ver Proyecto
+                </Button></Link> 
+              </Card.Body>
+            </Card>
               <Card
                 style={{
                   /* width: "25vw",*/
