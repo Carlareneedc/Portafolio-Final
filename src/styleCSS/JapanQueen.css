@@ -53,13 +53,17 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-.japanEs, .ux,.fe, .julio, .uxR, .proto, .ui, .comoToda,.cadaseccion, .entreestos, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos,.pormedio, .textopro, .mesero, .chef, .segun, .deque, .textQue, .porotro, .textoProcesosgav, .eldesafio{
+.japanEs, .ux,.fe, .julio, .uxR, .proto, .ui, .comoToda,.cadaseccion, .entreestos, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos,.pormedio, .textopro, .mesero, .chef, .segun, .deque, .textQue, .porotro, .textoProcesosgav,.eldesafio, .procesosUni, .hallazgos{
     font-family: Montserrat;
     font-weight: 400;
   font-size: 1.2em;
     line-height: 34px;
    text-align: justify;
   
+}
+.humansdos{
+    margin-top: 8rem;
+    margin-left: 7rem;
 }
 .deque{
     margin-top: 3rem;

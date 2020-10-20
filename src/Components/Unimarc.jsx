@@ -38,6 +38,7 @@ import resultgavdos from "../img/resultgavdos.png";
 import resultgavtres from "../img/resultgavtres.png";
 import japan from "../img/proyectouno.png";
 import unirecetas from "../img/recetasunimarc.png";
+import humansdos from "../img/humaaansdos.png"
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -134,7 +135,7 @@ class Unimarc extends React.Component {
 
                   <p className=" col-md-10 col-md-6 japanEs">
                     Unimarc Recetas, es un proyecto realizado por encargo de la
-                    empresa SMU para Unimarc. Se propone como re-diseño de la
+                    empresa SMU para Unimarc. Se propone como rediseño de la
                     sección recetas correspondiente a la página web de Unimarc. <br></br><strong>Proyecto Ganador Hackaton Laboratoria.</strong>
                   
                   </p>
@@ -304,35 +305,23 @@ class Unimarc extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesosgav">
-                 En base a las enncuestas, competencias, entrevistas y análisis web que se desarrollaron como métodos de investigación por el equipo tanto por el lado UX como por el lado Front, AQUÍ  QUEDÉ
-                  <strong>
-                    enfocada a padres o tutores de niños entre 4 a 9 años
-                  </strong>
-                  , rango etario que se tomó como hallazgo dentro de la
-                  investigación. Si bien, nuestros usuario directos son los
-                  padres o tutores, el objetivo principal es que ellos puedan
-                  guiar a los niños en el uso de la página.
+                 En base a encuestas, competencias, entrevistas y análisis web que se desarrollaron como métodos de investigación por el equipo, tanto por el lado UX como por el lado Front, obtuvimos datos relevantes desde los usuarios, como por ejemplo: 
+                
                 </p>
+                <p className="procesosUni"><strong>buscan recetas económicas, fáciles y sencillas y que además es necesario que exista un buscador que permita que el usuario tenga la libertad de seleccionar lo que necesita, además de incorporar un sistema de check in para cada ingrediente. </strong></p>
                 <p className="eldesafio">
-                  El desafío en base a a los usuarios, también se relaciona con
-                  la posibilidad de darle solución al problema planteado
-                  anteriormente y poder incorporar la inclusión. Para esto se
-                  definieron usuarios indirectos, los que no acceden por si
-                  mismos a la página, sin embargo pueden conocer su contenido.
+                Nuestra investigación arrojó dos tipos de usuario:
                 </p>
                 <p className="textopro">
-                  <strong>Personas con capacidades diferentes.</strong> En este
-                  caso, se consideran a personas que tengan algún tipo de
-                  discapacidad visual como daltonismo o disminución de la
-                  visión.
+                  <strong>Personas que buscan recetas en la web.</strong> Son aficionados a la cocina y están en constante búsqueda de nuevos platos.
                 </p>
                 <p className="mesero">
-                  <strong>Niños que no saben leer ni escribir.</strong> serán
-                  guiados por sus padres en el acceso al contenido.
+                  <strong>Personas que siguen y conocen Recetas Unimarc.</strong> Acceden seguido a la página y siguen las recetas 4X4.
                 </p>
+              
               </div>
               <div className=" col-md-6 ">
-                <img src={gamificacion} className="gam" alt="gam" />
+                <img src={humansdos} className="humansdos" alt="humansdos" />
               </div>
               <div className="ctngav row ">
                 <div className="container col-sm-12 col-md-12">
@@ -342,27 +331,12 @@ class Unimarc extends React.Component {
                         className="comoToda mt-4
                 "
                       >
-                        Por medio de la investigación y considerando los
-                        usuarios declarados anteriormente, hubieron importantes
-                        hallazgos que permitieron generar una solución efectiva.
-                        Estos hallazgos, por un lado, se relacionan directamente
-                        con los que los padres de este rango etario de niños
-                        declararon. Entre estos,{" "}
-                        <strong>
-                          la necesidad de crear hábitos, poder explicar lo que
-                          significa el virus de manera didáctica.
-                        </strong>
+                      Desde aquí obtuvimos diferentes hallazgos, dos de los más importantes tienen que ver con <strong>facilitar la navegación en la sección de recetas y motivar al cliente a comprar</strong>. 
+                        
                       </p>
                     </div>
 
-                    <div className="col-md-6">
-                      <p className=" entreestos ">
-                        No generar más confusión con más información y también
-                        mostrar que podría existir una salida y una mejora. Por
-                        otro lado, encontrar la manera de poder hacer que el
-                        contenido pudiera llegar a nuestros usuarios indirectos.
-                      </p>
-                    </div>
+                  
                   </div>
                 </div>
               </div>
@@ -378,31 +352,11 @@ class Unimarc extends React.Component {
               </h5>
 
               <p className="porotro">
-                {" "}
-                La solución final fue crear una interfaz desarrollada para{" "}
-                <strong>desktop y mobile</strong>, considerando que nuestros
-                usuarios pueden tener acceso a un computador, sin embargo en el
-                presente el acceso a un teléfono es más generalizado. El diseño
-                de la página hace referencia a un tablero de juego donde el
-                usuario puede elegir a qué sección acceder, en cada una existe
-                material explicativo sobre el virus y su viaje por el mundo,
-                como un cuento que puede ser relatado.{" "}
+              Nuestra propuesta de valor con respecto al rediseño de la página, es proporcionar una interfaz más amigable con contenido claro y jerarquizado, mostrando las recetas unimarc por categoría con la <strong>opción de comprar uno o más ingedientes.</strong>
               </p>
               <p className="cadaseccion">
-                Cada sección también contiene imágenes alusivas al tema,
-                caricaturas, audios y videos que corresponden a la serie de{" "}
-                <strong>"Puma espuma y el escuadrón prevención"</strong>. Este
-                material audiovisual{" "}
-                <strong>
-                  soluciona el problema relacionado con los usuarios que poseen
-                  capacidades diferentes.
-                </strong>{" "}
-                Juegos y actividades para realizar en casa, además de material
-                descargable,{" "}
-                <strong>
-                  solucionando el problema relacionado al acceso limitado a
-                  wifi.
-                </strong>
+               También se añade la opción de comprar los productos como una <strong>"Canasta Familiar"</strong> que incluye todos los ingredientes de cada receta 4X4 para toda la semana con opción de delivery. Esto logra eficiencia y cercanía con los usuarios además de potenciar la marca Unimarc.<br></br>
+               <p>En próximas iteraciones quisieramos incorporar la posibilidad de <strong>acceder a la página de manera offline</strong>, así los usuarios podrán tener acceso sin la necesidad de estar conectados a wifi.</p>
               </p>
               <h5 className="resultado">
                 <mark
