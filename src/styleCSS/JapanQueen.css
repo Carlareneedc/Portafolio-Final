@@ -53,13 +53,16 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-.japanEs, .ux, .julio, .uxR, .proto, .ui, .comoToda,.cadaseccion, .entreestos, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos,.pormedio, .textopro, .mesero, .chef, .segun, .textQue, .porotro, .textoProcesosgav, .eldesafio{
+.japanEs, .ux,.fe, .julio, .uxR, .proto, .ui, .comoToda,.cadaseccion, .entreestos, .desdeAqui, .aAlgunos, .cambian, .quien, .cliente,.gav, .textoProcesos,.pormedio, .textopro, .mesero, .chef, .segun, .deque, .textQue, .porotro, .textoProcesosgav, .eldesafio{
     font-family: Montserrat;
     font-weight: 400;
   font-size: 1.2em;
     line-height: 34px;
    text-align: justify;
   
+}
+.deque{
+    margin-top: 3rem;
 }
 .entreestos{
     margin-top: 1.5rem;
@@ -97,7 +100,7 @@ padding-bottom: 1rem;
     margin-top: 4.8rem;
     overflow: hidden;
 }
-.japanEs{
+.japanEs, .proy{
     margin-top: 1.5rem;
     overflow: hidden;
 }
@@ -229,7 +232,7 @@ padding-bottom: 1rem;
     margin-top: 1rem;
 }
 
-.japanEs, .comoToda,.textoProcesos,.chef,.segun, .desdeAqui, .aAlgunos, .cambian,.gav, .quien, .cliente, .entreestos, .porotro, .cadaseccion, .textQue {
+.japanEs,.proy, .comoToda,.textoProcesos,.chef,.segun, .desdeAqui, .aAlgunos, .cambian,.gav, .quien, .cliente, .entreestos, .porotro, .cadaseccion, .textQue {
 font-size: 1.1em;
 text-align: left;
 }

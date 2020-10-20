@@ -37,6 +37,7 @@ import resultgav from "../img/resultgav.png";
 import resultgavdos from "../img/resultgavdos.png";
 import resultgavtres from "../img/resultgavtres.png";
 import japan from "../img/proyectouno.png";
+import unirecetas from "../img/recetasunimarc.png";
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -114,7 +115,7 @@ class Unimarc extends React.Component {
                 <div className=" col-sm-12 col-md-5">
                   <img
                     className="img-fluid japanQueen"
-                    src={gavvista}
+                    src={unirecetas}
                     alt="imgjapan"
                   />
                 </div>
@@ -123,7 +124,7 @@ class Unimarc extends React.Component {
                   <h5 className="textJapan col-sm-12">
                     <mark
                       style={{
-                        background: "rgb(102 16 242 / 42%)",
+                        background: "rgba(221, 53, 48, 0.38)",
                         color: "rgba(89, 89, 89, 1)",
                       }}
                     >
@@ -132,25 +133,25 @@ class Unimarc extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    GAV es una app web diseñada por encargo de la empresa Hootie
-                    Hoo, con el fin de entregar contenido didáctico con respecto
-                    al covid-19.{" "}
-                    <strong>
-                      Ganador del proyecto empresa en Laboratoria.
-                    </strong>
+                    Unimarc Recetas, es un proyecto realizado por encargo de la
+                    empresa SMU para Unimarc. Se propone como re-diseño de la
+                    sección recetas correspondiente a la página web de Unimarc. <br></br><strong>Proyecto Ganador Hackaton Laboratoria.</strong>
+                  
                   </p>
+                  
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
                       {" "}
                       <h5 className="rolText ">Rol</h5>
-                      <p className="ux">UX/UI Designer</p>{" "}
+                      <p className="ux">UX/UI Designer</p>
+                      <p className="fe">Front End Developer</p>{" "}
                       <h5 className=" rolText">Actividades</h5>
                       <div className="container">
                         <div className="row tagsJapan">
                           <p className="uxR">
                             <mark
                               style={{
-                                background: "rgb(111 66 193 / 71%)",
+                                background: "rgba(221, 53, 48, 0.58)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
                               }}
@@ -161,7 +162,7 @@ class Unimarc extends React.Component {
                           <p className="proto">
                             <mark
                               style={{
-                                background: "rgb(165 73 187 / 51%)",
+                                background: "rgba(255, 88, 51, 0.7)",
                                 borderRadius: "25px",
                                 padding: "0.5rem 1.5rem",
                                 marginLeft: "1rem",
@@ -173,7 +174,7 @@ class Unimarc extends React.Component {
                           <p className="ui">
                             <mark
                               style={{
-                                background: "rgb(111 66 193 / 35%)",
+                                background: "rgba(239, 206, 74, 0.62)",
                                 borderRadius: "25px",
                                 padding: "0.5rem 1rem",
                               }}
@@ -186,7 +187,7 @@ class Unimarc extends React.Component {
                     </div>
                     <div className=" col-sm-12 col-md-6 float-right">
                       <h5 className="rolText ">Fecha del Proyecto</h5>
-                      <p className="julio">Agosto 2020</p>
+                      <p className="julio">Septiembre 2020</p>
                     </div>
                   </div>
                 </div>
@@ -194,42 +195,7 @@ class Unimarc extends React.Component {
             </div>
           </div>
         </header>
-        {/* <div className="container col-md-10 ">
-          
-            <div className="  col-sm-12 col-md-7  mt-5">
-              <h5 className="experienciaJapan  mt-5">
-                <mark
-                  style={{
-                    background: "rgba(220, 21, 21, 0.23)",
-                    color: "rgba(89, 89, 89, 1)",
-                  }}
-                >
-                  Experiencia Japan Queen
-                </mark>
-              </h5>
-              <p
-                className="comoToda mt-5 
-                "
-              >
-                Como toda innovación, la app web Japan Queen se gesta en la
-                búsqueda de{" "}
-                <strong>
-                  mejorar la experiencia de usuario y como solución a un
-                  problema
-                </strong>{" "}
-                que debe ser acorde a las necesidades de nuestra época, esto es
-                haciendo uso de las múltiples opciones que nos ofrece la
-                tecnología.
-              </p>
-              <div className="col-lg-7">
-                
-              <p className="float-right desdeAqui">Desde aquí inicié una investigación enfocada en el cliente y el usuario para saber de qué manera podría modernizar la atención en restaurantes.</p>
-              </div>
-            
-            </div>
-  
-         
-                </div>*/}
+
         <div className="ctnExpJapan container row col-sm-12 ">
           <div className="container col-sm-12 col-md-10">
             <div className="row">
@@ -237,33 +203,37 @@ class Unimarc extends React.Component {
                 <h5 className="experienciaJapan">
                   <mark
                     style={{
-                      background: "rgb(111 66 193 / 71%)",
+                      background: "rgba(221, 53, 48, 0.58)",
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia GAV
+                    Experiencia Recetas Unimarc
                   </mark>
                 </h5>
                 <p
                   className="comoToda mt-4
                 "
                 >
-                  El Proyecto GAV, tiene como objetivo{" "}
-                  <strong>
-                    brindar una solución a los usuarios por medio de la
-                    inclusión y gamificación.
-                  </strong>{" "}
-                  Esto quiere decir que debe ser accesible y legible para todo
-                  tipo de usuarios y explicar claramente las implicancias del
-                  virus Covid-19 de manera que su entendimiento sea didáctico.
+                  <strong>Recetas Unimarc</strong>, se presenta como desafío en
+                  contexto de la <strong>Hackaton en Laboratoria</strong>, pero
+                  además como proyecto de egreso de la generación 13. El
+                  re-diseño de la sección de recetas de la página web Unimarc.
+                  Se propone como solución y mejora en base al contenido de la
+                  página ya existente y se desarrolla tomando en cuenta el
+                  contexto de pandemia.
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Para esto, realicé una investigación enfocada en usuarios
-                  reales con el fin de descubrir hallazgos que permitieran crear
-                  el contenido de la página.
+                  El confinamiento nos ha permitido desarrollar actividades
+                  dentro de nuestro hogar, siendo una de estas cocinar en
+                  familia. Es por esto que SMU nos propone el desafío de crear
+                  una página web que permita la{" "}
+                  <strong>
+                    búsqueda y adquisición de ingredientes y recetas de una
+                    manera amigable y sencilla.
+                  </strong>
                 </p>
               </div>
             </div>
@@ -277,7 +247,7 @@ class Unimarc extends React.Component {
                 <h5 className="elProblema ">
                   <mark
                     style={{
-                      background: "rgba(220, 21, 21, 0.23)",
+                      background: "rgba(255, 88, 51, 0.7)",
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
@@ -289,31 +259,33 @@ class Unimarc extends React.Component {
                 "
                 >
                   <strong>
-                    ¿Cómo gamificar información del covid-19 a niños entre 4 a 9
-                    años?
+                    ¿cómo podemos hacer la experiencia de compra de insumos para
+                    receta de una forma más amigable?
                   </strong>
                 </p>
-                <p className="gav col-md-12">
-                  <strong>¿De qué manera generar contenido inclusivo?</strong>
+                <p className="deque col-md-12">
+                  <strong>
+                    ¿De qué manera se puede potenciar las recetas 4X4 de Unimarc
+                  </strong>
                 </p>
               </div>
 
               <div className=" ctnQuien col-sm-12 col-md-9">
                 <p className=" col-md-12 quien">
-                  El contexto de la pandemia generó cambios en los hábitos de
-                  todas las personas en el mundo, pero aún más en la vida de los
-                  niños. Es difícil para ellos llegar a entender las sus
-                  consecuencias, considerando que son graves y no se deben tomar
-                  a la ligera. El desafío en este caso es explicar por ejemplo,
-                  por qué no pueden abrazar a sus amigos, ir al colegio o ver a
-                  sus familiares.
+                  La página web de Unimarc{" "}
+                  <strong>
+                    no posee una sección de compra o e-commerce que invite al
+                    usuario a comprar on-line.
+                  </strong>{" "}
+                  La sección de recetas, es una parte importante de la
+                  plataforma e invita a cocinar{" "}
+                  <strong>menús para 4 personas por $4000 pesos.</strong> Sin
+                  embargo, el acceso a esos ingredientes sólo es posible de
+                  manera presencial y no existe un llamado que potencie esta
+                  acción, es decir, <strong>la compra.</strong>
                 </p>
                 <p className="col-md-12 cliente">
-                  Por otro lado considerar que en base al rango etario de estos
-                  niños, hay muchos de ellos que no saben leer ni escribir, por
-                  ende no podrán comprender información escrita. Así mismo poder
-                  incluir a personas con capacidades diferentes y también
-                  dificultades para acceder a WiFi.
+                 Las recetas <strong>4X4</strong>, además de invitar al usuario de manera fácil y económica, disponen de más contenido que tiene que ver con la cocina, como tips y material audiovisual que <strong>no se encuentra bien posicionado en la página</strong> por ende es de difícil acceso para los usuarios.
                 </p>
               </div>
             </div>
@@ -324,7 +296,7 @@ class Unimarc extends React.Component {
                 <h5 className="procesos">
                   <mark
                     style={{
-                      background: "rgba(254, 214, 123, 0.9)",
+                      background: "rgba(239, 206, 74, 0.62)",
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
@@ -332,7 +304,7 @@ class Unimarc extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesosgav">
-                  En base al contexto de pandemia, realicé una encuesta{" "}
+                 En base a las enncuestas, competencias, entrevistas y análisis web que se desarrollaron como métodos de investigación por el equipo tanto por el lado UX como por el lado Front, AQUÍ  QUEDÉ
                   <strong>
                     enfocada a padres o tutores de niños entre 4 a 9 años
                   </strong>
