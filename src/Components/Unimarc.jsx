@@ -38,7 +38,10 @@ import resultgavdos from "../img/resultgavdos.png";
 import resultgavtres from "../img/resultgavtres.png";
 import japan from "../img/proyectouno.png";
 import unirecetas from "../img/recetasunimarc.png";
-import humansdos from "../img/humaaansdos.png"
+import humansdos from "../img/humaaansdos.png";
+import resultunimarc from "../img/resultunimarc.png"
+import resultunimarcdos from "../img/resultunimarcdos.png"
+import resultunimarctres from "../img/resultunimarctres.png"
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -136,10 +139,11 @@ class Unimarc extends React.Component {
                   <p className=" col-md-10 col-md-6 japanEs">
                     Unimarc Recetas, es un proyecto realizado por encargo de la
                     empresa SMU para Unimarc. Se propone como rediseño de la
-                    sección recetas correspondiente a la página web de Unimarc. <br></br><strong>Proyecto Ganador Hackaton Laboratoria.</strong>
-                  
+                    sección recetas correspondiente a la página web de Unimarc.{" "}
+                    <br></br>
+                    <strong>Proyecto Ganador Hackaton Laboratoria.</strong>
                   </p>
-                  
+
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
                       {" "}
@@ -218,8 +222,8 @@ class Unimarc extends React.Component {
                   <strong>Recetas Unimarc</strong>, se presenta como desafío en
                   contexto de la <strong>Hackaton en Laboratoria</strong>, pero
                   además como proyecto de egreso de la generación 13. El
-                  re-diseño de la sección de recetas de la página web Unimarc.
-                  Se propone como solución y mejora en base al contenido de la
+                  rediseño de la sección de recetas de la página web Unimarc. Se
+                  propone como solución y mejora en base al contenido de la
                   página ya existente y se desarrolla tomando en cuenta el
                   contexto de pandemia.
                 </p>
@@ -280,13 +284,17 @@ class Unimarc extends React.Component {
                   </strong>{" "}
                   La sección de recetas, es una parte importante de la
                   plataforma e invita a cocinar{" "}
-                  <strong>menús para 4 personas por $4000 pesos.</strong> Sin
-                  embargo, el acceso a esos ingredientes sólo es posible de
-                  manera presencial y no existe un llamado que potencie esta
-                  acción, es decir, <strong>la compra.</strong>
+                  <strong>menús para 4 personas por $4000.</strong> Sin embargo,
+                  el acceso a esos ingredientes sólo es posible de manera
+                  presencial y no existe un llamado que potencie esta acción, es
+                  decir, <strong>la compra.</strong>
                 </p>
                 <p className="col-md-12 cliente">
-                 Las recetas <strong>4X4</strong>, además de invitar al usuario de manera fácil y económica, disponen de más contenido que tiene que ver con la cocina, como tips y material audiovisual que <strong>no se encuentra bien posicionado en la página</strong> por ende es de difícil acceso para los usuarios.
+                  Las recetas <strong>4X4</strong> además de las propias
+                  recetas, disponen de más contenido que tiene que ver con la
+                  cocina, como tips y material audiovisual que{" "}
+                  <strong>no se encuentra bien posicionado en la página</strong>{" "}
+                  por ende es de difícil acceso para los usuarios.
                 </p>
               </div>
             </div>
@@ -305,20 +313,34 @@ class Unimarc extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesosgav">
-                 En base a encuestas, competencias, entrevistas y análisis web que se desarrollaron como métodos de investigación por el equipo, tanto por el lado UX como por el lado Front, obtuvimos datos relevantes desde los usuarios, como por ejemplo: 
-                
+                  En base a encuestas, competencias, entrevistas y análisis web
+                  que se desarrollaron como métodos de investigación por el
+                  equipo, tanto por el lado UX como por el lado Front, obtuvimos
+                  datos relevantes desde los usuarios. Por ejemplo:
                 </p>
-                <p className="procesosUni"><strong>buscan recetas económicas, fáciles y sencillas y que además es necesario que exista un buscador que permita que el usuario tenga la libertad de seleccionar lo que necesita, además de incorporar un sistema de check in para cada ingrediente. </strong></p>
+                <p className="procesosUni">
+                  <strong>
+                    Buscan recetas económicas, fáciles y sencillas. Además
+                    es necesario que exista un buscador que permita que el
+                    usuario tenga la libertad de seleccionar lo que necesita. Junto con esto
+                    incorporar un sistema de check in para cada
+                    ingrediente.{" "}
+                  </strong>
+                </p>
                 <p className="eldesafio">
-                Nuestra investigación arrojó dos tipos de usuario:
+                  Nuestra investigación arrojó dos tipos de usuario:
                 </p>
                 <p className="textopro">
-                  <strong>Personas que buscan recetas en la web.</strong> Son aficionados a la cocina y están en constante búsqueda de nuevos platos.
+                  <strong>Personas que buscan recetas en la web.</strong> Son
+                  aficionados a la cocina y están en constante búsqueda de
+                  nuevas preparaciones.
                 </p>
                 <p className="mesero">
-                  <strong>Personas que siguen y conocen Recetas Unimarc.</strong> Acceden seguido a la página y siguen las recetas 4X4.
+                  <strong>
+                    Personas que siguen y conocen Recetas Unimarc.
+                  </strong>{" "}
+                  Acceden seguido a la página y siguen las recetas 4X4.
                 </p>
-              
               </div>
               <div className=" col-md-6 ">
                 <img src={humansdos} className="humansdos" alt="humansdos" />
@@ -331,12 +353,15 @@ class Unimarc extends React.Component {
                         className="comoToda mt-4
                 "
                       >
-                      Desde aquí obtuvimos diferentes hallazgos, dos de los más importantes tienen que ver con <strong>facilitar la navegación en la sección de recetas y motivar al cliente a comprar</strong>. 
+                        Desde aquí obtuvimos diferentes hallazgos, dos de los
+                        más importantes tienen que ver con{" "}
+                        <strong>
+                          facilitar la navegación en la sección de recetas y
+                          motivar al cliente a comprar.
+                        </strong>
                         
                       </p>
                     </div>
-
-                  
                   </div>
                 </div>
               </div>
@@ -352,11 +377,24 @@ class Unimarc extends React.Component {
               </h5>
 
               <p className="porotro">
-              Nuestra propuesta de valor con respecto al rediseño de la página, es proporcionar una interfaz más amigable con contenido claro y jerarquizado, mostrando las recetas unimarc por categoría con la <strong>opción de comprar uno o más ingedientes.</strong>
+                Nuestra propuesta de valor con respecto al rediseño de la
+                página, es proporcionar una interfaz más amigable con contenido
+                claro y jerarquizado, mostrando las recetas unimarc por
+                categoría con la{" "}
+                <strong>opción de comprar uno o más ingedientes.</strong>
               </p>
               <p className="cadaseccion">
-               También se añade la opción de comprar los productos como una <strong>"Canasta Familiar"</strong> que incluye todos los ingredientes de cada receta 4X4 para toda la semana con opción de delivery. Esto logra eficiencia y cercanía con los usuarios además de potenciar la marca Unimarc.<br></br>
-               <p>En próximas iteraciones quisieramos incorporar la posibilidad de <strong>acceder a la página de manera offline</strong>, así los usuarios podrán tener acceso sin la necesidad de estar conectados a wifi.</p>
+                También se añade la opción de comprar los productos como una{" "}
+                <strong>"Canasta Familiar"</strong> que incluye todos los
+                ingredientes de cada receta 4X4 para toda la semana, con opción
+                de delivery. Esto logra eficiencia y cercanía con los usuarios
+                además de potenciar la marca Unimarc.<br></br>
+                <p>
+                  En próximas iteraciones quisieramos incorporar la posibilidad
+                  de <strong>acceder a la página de manera offline</strong>, así
+                  los usuarios podrán tener acceso sin la necesidad de estar
+                  conectados a wifi.
+                </p>
               </p>
               <h5 className="resultado">
                 <mark
@@ -374,30 +412,30 @@ class Unimarc extends React.Component {
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://unimarc.netlify.app/">
                 {" "}
                 <img
                   className="img-fluid gv "
-                  src={resultgav}
+                  src={resultunimarc}
                   alt="First slide"
                 />
               </a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://unimarc.netlify.app/">
                 <img
                   className="img-fluid gv"
-                  src={resultgavdos}
+                  src={resultunimarcdos}
                   alt="Third slide"
                 />
               </a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://unimarc.netlify.app/">
                 {" "}
                 <img
                   className="img-fluid gv "
-                  src={resultgavtres}
+                  src={resultunimarctres}
                   alt="Third slide"
                 />
               </a>
@@ -408,12 +446,7 @@ class Unimarc extends React.Component {
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
-              Lo que más me gustó de este proyecto fue lo desafiante que se
-              volvió. Fue un reto poder tomar los elementos de diseño entregados
-              por la empresa y poder incorporarlos dentro de la solución final.
-              Sin embargo la comunicación el feedback que se generó entre Hottie
-              Hoo y el equipo permitió lograr un resultado que nos dejó felices
-              a todos, principalmente a los usuarios.
+              Lo que más me gustó de este proyecto fue poder superar las expectativas del clientes con respecto a la propuesta de valor que hicimos. Tomar los elementos de la página y rediseñarlo también fue parte importante de lo que disfruté de este proyecto. Fue un desafío fuerte, sin embargo creo que cumplimos los objetivos.
             </p>
           </div>
         </div>
@@ -467,46 +500,40 @@ class Unimarc extends React.Component {
                   </Link>
                 </Card.Body>
               </Card>
-              <Card
-                style={{
-                  /* width: "25vw",*/
-                  borderRadius: "20px 20px 0px 0px",
-                  border: "none",
-                }}
-              >
-                <Card.Img className="imgUni" variant="top" src={unimarc} />
-                <Card.Body>
-                  <Card.Title className="cardTittle">
-                    Recetas Unimarc
-                  </Card.Title>
-                  <Card.Text
-                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                    className="cardText"
-                  >
-                    Rediseño de la sección de recetas correspondiente a la
-                    plataforma web Unimarc. Proyecto ganador "Hackaton"
-                    Laboratoria
-                  </Card.Text>
-                  <Link to="">
-                    {" "}
-                    <Button
-                      variant="#FF3C38"
-                      style={{
-                        marginTop: "2.5rem",
-                        marginLeft: "0rem",
-                        display: "flex",
-                        borderRadius: "8px",
-                        fontFamily: "Montserrat",
-                        color: "rgba(255, 255, 255, 1)",
-                        fontWeight: "700",
-                        background: "#FF3C38",
-                      }}
-                    >
-                      Ver Proyecto
-                    </Button>
-                  </Link>
-                </Card.Body>
-              </Card>
+              <Card 
+             style={{
+               /*width: "25vw",*/
+               borderRadius: "20px 20px 0px 0px",
+               border: "none",
+             }}
+           >
+             <Card.Img variant="top" src={gav} />
+             <Card.Body>
+               <Card.Title className="cardTittle">GAV</Card.Title>
+               <Card.Text
+                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                 className="cardText"
+               >
+                 Sitio gamificado en donde se entrega información sobre el
+                 covid-19. Proyecto ganador empresa "Hootie Hoo".
+               </Card.Text>
+               <Link to="/Gav"><Button
+                 variant="#FF3C38"
+                 style={{
+                   marginTop: "2rem",
+                   marginLeft: "0rem",
+                   display: "flex",
+                   borderRadius: "8px",
+                   fontFamily: "Montserrat",
+                   color: "rgba(255, 255, 255, 1)",
+                   fontWeight: "700",
+                   background: "#FF3C38",
+                 }}
+               >
+                 Ver Proyecto
+               </Button></Link>
+             </Card.Body>
+           </Card>
             </CardDeck>
           </div>
         </div>

@@ -236,12 +236,19 @@ padding-bottom: 1rem;
     margin-top: 1rem;
 }
 
-.japanEs,.proy, .comoToda,.textoProcesos,.chef,.segun, .desdeAqui, .aAlgunos, .cambian,.gav, .quien, .cliente, .entreestos, .porotro, .cadaseccion, .textQue {
+.japanEs,.proy, .deque,.procesosUni, .comoToda,.textoProcesos,.chef,.segun, .desdeAqui, .aAlgunos, .cambian,.gav, .quien, .cliente, .entreestos, .porotro, .cadaseccion, .textQue {
 font-size: 1.1em;
 text-align: left;
 }
-
-
+.deque{
+    margin-top: 0rem;
+}
+.humansdos {
+        
+        margin-left: 0rem;
+        width: 76vw;
+        margin-top: 1rem;
+}
 .rolText{
     font-size: 1.2em;
 }
