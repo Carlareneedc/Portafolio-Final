@@ -206,16 +206,54 @@ class About extends React.Component {
                 </h5>
                 <br></br>
                 <br></br>
-                <div className="tagHabilidades col-sm-12">
-                <p>Design Thinking</p>
-                <p>Metodología DCU</p>
-                <p>Wireframing</p>
-                <p>User Persona</p>
-                <p>Benchamark</p>
-                <p>Html</p>
-                <p>JavaScript</p>
-                <p>React</p>
-                <p>Css</p>
+                <div className="tagHabilidades container col-sm-12 col-md-11">
+                <p> <mark
+                              style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}
+                            >Design Thinking</mark></p>
+                <p><mark  style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Metodología DCU</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Wireframing</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>User Persona</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Benchmark</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Html</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>JavaScript</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>React</mark></p>
+                <p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Css</mark></p>
                 </div>
               </div>
             

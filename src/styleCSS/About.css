@@ -58,6 +58,7 @@
     font-weight: 600;
     font-size: 1em;
     line-height: 26px;
+    color:rgba(51, 51, 51, 1);
 }
 .miNombre, .disfruto{
     font-family:Montserrat;
