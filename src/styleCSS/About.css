@@ -1,0 +1,81 @@
+.about{
+    background-image: url(../img/puntosabout.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:88vw;
+  
+   
+}
+.textoabout{
+    margin-top: 2rem;
+}
+.ctn{
+    margin-top: 0rem;
+}
+.retratoAbout{
+    width: 15vw;
+  
+}
+
+.UnPoco, .mot{
+    font-size: 1.7em;
+    font-family: Merriweather;
+    color: #595959;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.miNombre, .disfruto{
+    font-family:Montserrat;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 1.1em;
+    margin-top: 2rem;
+}
+
+.medeclaro, .siBien{
+    font-family:Montserrat;
+    font-weight: 400;
+    text-align: left;
+    line-height: 35px;
+    font-size: 1.1em;
+}
+.textMot{
+    
+}
+
+.siBien{
+    
+}
+.ctnAbout{
+    background: #FFFFFF;
+    box-shadow: 3px -7px 26px -1px rgba(43, 43, 43, 0.3);
+border-radius: 10px;
+
+padding-top: 3rem;
+padding-bottom: 1rem;
+width: 88vw;
+}
+@media (min-width: 375px) and (max-width:768px){
+    .UnPoco{
+        font-size: 1.3em;
+        
+    }
+
+    .retratoAbout{
+        width: 57vw;
+        margin-top: 12rem;
+    }   
+    
+    .textoabout{
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+   
+
+    .about{
+        background-image: none;
+    }
+}
