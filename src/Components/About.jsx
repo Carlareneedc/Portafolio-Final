@@ -100,7 +100,7 @@ class About extends React.Component {
           
 
          
-            <div  className="flex-center ctn" >
+            <div  className="flex-center ctnAbouview" >
             
               <div className="">
               
@@ -176,16 +176,82 @@ class About extends React.Component {
               </div>
               
             </div>
-            <div className="ctnEdu container flex-column col-sm-12 col-md-11">
+            <div className="ctnEdu container col-sm-12 col-md-11 ">
+              
+              <h5 className="edu  col-sm-12 ">Educación</h5>
+                
+          
+            <div className="row col-sm-12">
+              <div className=" col-sm-12 col-md-6 ">
+               <br></br>
+             
+            <br></br>
+           
+            <p className="boot  ">Bootcamp Laboratoria</p>
+            <p className="fe ">Front end Developer</p>
+            <p className="fecha "> <img className="calendar " src={calendar} alt="caelndar" /> Marzo - Septiembre 2020</p>
+            <br></br>
+            <p className="uni ">Universidad Uniacc</p>
+            <p className="dip ">Diplomado en Gestión Cultural</p>
+            <p className="fecha "><img className="calendar " src={calendar} alt="caelndar" /> Noviembre 2012</p>
+            <br></br>
+            <p className="uni ">Universidad UNIACC</p>
+            <p className="artes ">Artes Visuales y Fotografía</p>
+            <p className="fecha  "><img className="calendar " src={calendar} alt="caelndar" /> Marzo 2008 - Noviembre 2012</p>
+       
+              </div>
+              <div className=" float-right  ">
+                <h5 className="habilidades col-sm-12 ">
+                Habilidades técnicas
+                </h5>
+                <br></br>
+                <br></br>
+                <div className="tagHabilidades col-sm-12">
+                <p>Design Thinking</p>
+                <p>Metodología DCU</p>
+                <p>Wireframing</p>
+                <p>User Persona</p>
+                <p>Benchamark</p>
+                <p>Html</p>
+                <p>JavaScript</p>
+                <p>React</p>
+                <p>Css</p>
+                </div>
+              </div>
+            
+            </div>
+            
+           
+        
+       
+       
+            
+              
+            </div>
+            
+           {/*} <div className="ctnEdu container col-sm-12 col-md-11">
             <h5 className="edu container col-sm-12  ">Educación</h5>
             <br></br>
+            <br></br>
+            <div className=" col-sm-12 col-md-6"></div>
             <p className="boot col-sm-12 ">Bootcamp Laboratoria</p>
             <p className="fe col-sm-12">Front end Developer</p>
             <p className="fecha col-sm-12"> <img className="calendar " src={calendar} alt="caelndar" /> Marzo - Septiembre 2020</p>
             <br></br>
             <p className="uni col-sm-12">Universidad Uniacc</p>
             <p className="dip col-sm-12">Diplomado en Gestión Cultural</p>
-            </div>
+            <p className="fecha col-sm-12 "><img className="calendar " src={calendar} alt="caelndar" /> Noviembre 2012</p>
+            <br></br>
+            <p className="uni col-sm-12">Universidad UNIACC</p>
+            <p className="artes col-sm-12">Artes Visuales y Fotografía</p>
+            <p className="fecha col-sm-12 "><img className="calendar " src={calendar} alt="caelndar" /> Marzo 2008 - Noviembre 2012</p>
+           
+           <div className="herramientas col-sm-12 col-md-6">
+             <h5>Herramientas</h5>
+           </div>
+      
+                </div>*/}
+            
         <FooterPage />
       </div>
     );
