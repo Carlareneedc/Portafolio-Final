@@ -11,14 +11,31 @@
     margin-top: 2rem;
 }
 .ctn{
-    margin-top: 0rem;
+    margin-top: 10rem;
+
 }
 .retratoAbout{
     width: 15vw;
   
 }
+.boot, .uni{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 19.5px;
+}
 
-.UnPoco, .mot{
+.fe, .dip{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.7em; 
+}
+.ctnEdu{
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.UnPoco, .mot, .edu{
     font-size: 1.7em;
     font-family: Merriweather;
     color: #595959;
@@ -56,6 +73,8 @@ border-radius: 10px;
 padding-top: 3rem;
 padding-bottom: 1rem;
 width: 88vw;
+margin-top: 3rem;
+
 }
 @media (min-width: 375px) and (max-width:768px){
     .UnPoco{
@@ -65,7 +84,7 @@ width: 88vw;
 
     .retratoAbout{
         width: 57vw;
-        margin-top: 12rem;
+        
     }   
     
     .textoabout{
@@ -77,5 +96,13 @@ width: 88vw;
 
     .about{
         background-image: none;
+    }
+
+    .mot{
+        font-size: 1.3em;
+    }
+
+    .medeclaro{
+        margin-top: 1rem;
     }
 }

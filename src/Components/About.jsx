@@ -25,9 +25,10 @@ import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import "../styleCSS/About.css"
 import cv from "../img/cv.pdf"
+import calendar from "../img/calendar.png"
 
 
-class FullPageIntroWithFixedNavbar extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -98,15 +99,18 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </MDBNavbar>
           
 
-          <MDBView className="about ">
-            <div className="flex-center ctn">
+         
+            <div  className="flex-center ctn" >
+            
               <div className="">
+              
                 <div className="flex-center ">
+                
                   <img className="retratoAbout " src={retrato} alt="imgretrato" />
                 </div>
-
+                
                 <div className="textoabout text-center ">
-                   
+               
                   <h5 className="UnPoco">
                       <mark style={{background:"rgba(255, 88, 51, 0.7)", color:"#595959"}}>Un poco más sobre mi</mark>
                    
@@ -138,7 +142,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               </div>
               
             </div>
-          </MDBView>
+          
         </header>
         <div className="ctnAbout container col-sm-12 col-md-12 ">
               <div className=" ">
@@ -150,7 +154,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 <div className="ctnExpJapan col-sm-12  ">
           <div className="">
             <div className="row textMot">
-              <div className=" col-sm-12 col-md-6">
+              <div className=" col-sm-12 col-md-6 ">
                
                 <p
                   className="medeclaro 
@@ -168,7 +172,19 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             </div>
           </div>
         </div>
+       
               </div>
+              
+            </div>
+            <div className="ctnEdu container flex-column col-sm-12 col-md-11">
+            <h5 className="edu container col-sm-12  ">Educación</h5>
+            <br></br>
+            <p className="boot col-sm-12 ">Bootcamp Laboratoria</p>
+            <p className="fe col-sm-12">Front end Developer</p>
+            <p className="fecha col-sm-12"> <img className="calendar " src={calendar} alt="caelndar" /> Marzo - Septiembre 2020</p>
+            <br></br>
+            <p className="uni col-sm-12">Universidad Uniacc</p>
+            <p className="dip col-sm-12">Diplomado en Gestión Cultural</p>
             </div>
         <FooterPage />
       </div>
@@ -176,4 +192,4 @@ class FullPageIntroWithFixedNavbar extends React.Component {
   }
 }
 
-export default FullPageIntroWithFixedNavbar;
+export default About;
