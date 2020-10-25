@@ -26,7 +26,12 @@ import unimarc from "../img/unimarc.png";
 import "../styleCSS/About.css"
 import cv from "../img/cv.pdf"
 import calendar from "../img/calendar.png"
-
+import ph from "../img/photoshop.png"
+import ai from "../img/illustrator.png"
+import fig from "../img/figma.png"
+import boostrap from "../img/boostrap.png"
+import githubb from "../img/github.png"
+import inv from "../img/invission.png"
 
 class About extends React.Component {
   constructor(props) {
@@ -183,9 +188,7 @@ class About extends React.Component {
           
             <div className="row col-sm-12">
               <div className=" col-sm-12 col-md-6 ">
-               <br></br>
              
-            <br></br>
            
             <p className="boot  ">Bootcamp Laboratoria</p>
             <p className="fe ">Front end Developer</p>
@@ -204,60 +207,67 @@ class About extends React.Component {
                 <h5 className="habilidades col-sm-12 ">
                 Habilidades técnicas
                 </h5>
-                <br></br>
-                <br></br>
-                <div className="tagHabilidades container col-sm-12 col-md-11">
-                <p> <mark
-                              style={{
-                                background: "rgba(37, 222, 178, 0.3)",
-                                borderRadius: "25px",
-                                padding: "0.5rem",
-                              }}
-                            >Design Thinking</mark></p>
-                <p><mark  style={{
-                                background: "rgba(37, 222, 178, 0.3)",
-                                borderRadius: "25px",
-                                padding: "0.5rem",
-                              }}>Metodología DCU</mark></p>
+                
+                <div className="tagHabilidades col-sm-12">
                 <p><mark style={{
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>Wireframing</mark></p>
-                <p><mark style={{
+                              }}>Design Thinking</mark> <mark style={{
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>User Persona</mark></p>
-                <p><mark style={{
+                              }}>Metodología DCU</mark> <mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>User Persona</mark> <mark style={{
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
                               }}>Benchmark</mark></p>
-                <p><mark style={{
-                                background: "rgba(37, 222, 178, 0.3)",
+
+                              <h5 className="blandas">Habilidades Blandas</h5>
+                              <p className="hblandas"><mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>Html</mark></p>
-                <p><mark style={{
-                                background: "rgba(37, 222, 178, 0.3)",
+                              }}>Empática</mark> <mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>JavaScript</mark></p>
-                <p><mark style={{
-                                background: "rgba(37, 222, 178, 0.3)",
+                              }}>Reflexiva</mark> <mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>React</mark></p>
-                <p><mark style={{
-                                background: "rgba(37, 222, 178, 0.3)",
+                              }}>Analítica</mark> </p> <p><mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>Css</mark></p>
+                              }}>Adaptable</mark> <mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Sociable </mark>  <mark style={{
+                                background: "rgba(230, 203, 228, 0.62)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Creativa</mark></p>
+              
                 </div>
               </div>
-            
-            </div>
+
+              
+{/*<div className="ctnHerramientasUno container col-sm-12 col-md-12">
+              <h5 className="herr ">Herramientas</h5>
+              <p className="photoshop col-sm-12"><img className="ph " src={ph} alt="ph" /> Photoshop</p>
+              <p className="ai col-sm-12"><img className="ai " src={ai} alt="ai" /> Illustrator</p>
+             
+              <div className="ctnHerramientas container">
+              <p className="figma col-sm-12 col-md-4"><img className="fig " src={fig} alt="fig" /> Figma</p>
+              </div>
+            </div>*/}
+                            </div>
             
            
         
@@ -266,29 +276,84 @@ class About extends React.Component {
             
               
             </div>
-            
-           {/*} <div className="ctnEdu container col-sm-12 col-md-11">
-            <h5 className="edu container col-sm-12  ">Educación</h5>
-            <br></br>
-            <br></br>
-            <div className=" col-sm-12 col-md-6"></div>
-            <p className="boot col-sm-12 ">Bootcamp Laboratoria</p>
-            <p className="fe col-sm-12">Front end Developer</p>
-            <p className="fecha col-sm-12"> <img className="calendar " src={calendar} alt="caelndar" /> Marzo - Septiembre 2020</p>
-            <br></br>
-            <p className="uni col-sm-12">Universidad Uniacc</p>
-            <p className="dip col-sm-12">Diplomado en Gestión Cultural</p>
-            <p className="fecha col-sm-12 "><img className="calendar " src={calendar} alt="caelndar" /> Noviembre 2012</p>
-            <br></br>
-            <p className="uni col-sm-12">Universidad UNIACC</p>
-            <p className="artes col-sm-12">Artes Visuales y Fotografía</p>
-            <p className="fecha col-sm-12 "><img className="calendar " src={calendar} alt="caelndar" /> Marzo 2008 - Noviembre 2012</p>
+
+            <div className="ctnHerramientas container col-sm-12 col-md-12 ">
            
-           <div className="herramientas col-sm-12 col-md-6">
-             <h5>Herramientas</h5>
-           </div>
-      
-                </div>*/}
+              
+            </div>
+            <div className="ctnEdu container col-sm-12 col-md-11 ">
+              
+              <h5 className="herr  col-sm-12 ">Herramientas</h5>
+                
+          
+            <div className="row col-sm-12">
+              <div className=" col-sm-12 col-md-4">
+             
+           
+           <p className="photoshop"><img className="ph " src={ph} alt="ph" /> Photoshop</p>
+           <p className="ai"><img className="ai " src={ai} alt="ai" /> Illustrator</p>
+       
+              </div>
+              <div className=" float-right col-md-5">
+                
+                
+                <div className="tagHabilidades col-sm-12">
+               
+                <p className="figma"><img className="fig " src={fig} alt="fig" /> Figma</p>
+                <p className="Boost"><img className="boostrap" src={boostrap} alt="boostrap" /> Boostrap</p>
+                </div>
+              </div>
+
+              <div className=" float-right">
+                
+                
+                <div className="tagHabilidades col-sm-12">
+                
+                <p className="gitHubb"><img className="githbb" src={githubb} alt="githubb" /> GitHub</p>
+                <p className="inVision"><img className="inv" src={inv} alt="inv" /> inVision</p>
+           
+                </div>
+              </div>
+
+              
+
+
+                            </div>
+                            
+                            {/*<div className=" container col-sm-12 col-md-12">
+                              <div className="container col-sm-12 col-md-11">
+                            <div className="row col-sm-12">
+              <div className=" col-sm-12 col-md-9 ">
+             
+           
+           
+       
+              </div>
+            
+              <div className=" float-right">
+                
+                
+                <div className="tagHabilidades col-sm-12">
+                <p className="figma"><img className="fig " src={fig} alt="fig" /> Figma</p>
+                <p className="Boost"><img className="boostrap" src={boostrap} alt="boostrap" /> Boostrap</p>
+              
+                </div>
+              </div>
+
+              
+
+
+                            </div>
+                            </div>
+          </div>*/}
+        
+       
+       
+            
+              
+            </div>
+            
+           
             
         <FooterPage />
       </div>

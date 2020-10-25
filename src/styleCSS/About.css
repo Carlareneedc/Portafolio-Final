@@ -42,7 +42,7 @@
     text-align: left;
 }
 
-.UnPoco, .mot, .edu, .habilidades{
+.UnPoco, .mot, .edu, .habilidades, .blandas, .herr{
     font-size: 1.7em;
     font-family: Merriweather;
     color: #595959;
@@ -53,12 +53,13 @@
 .habilidades{
     margin-top: -0.7rem;
 }
-.tagHabilidades{
+.tagHabilidades, .hblandas{
     font-family:Montserrat;
     font-weight: 600;
     font-size: 1em;
     line-height: 26px;
     color:rgba(51, 51, 51, 1);
+    margin-top: 3rem;
 }
 .miNombre, .disfruto{
     font-family:Montserrat;
@@ -67,7 +68,21 @@
     font-size: 1.1em;
     margin-top: 2rem;
 }
+.photoshop, .ai, .figma, .Boost, .gitHubb, .inVision{
+    font-family:Montserrat;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 26px;
+}
 
+.herr{
+    margin-top: 5rem;
+}
+
+.photoshop{
+    margin-top: 3rem;
+
+}
 .medeclaro, .siBien{
     font-family:Montserrat;
     font-weight: 400;
@@ -87,6 +102,16 @@ width: 88vw;
 margin-top: 3rem;
 
 }
+.boot{
+    margin-top: 3rem;
+
+}
+
+.blandas{
+    margin-top: 8.5rem;
+}
+
+
 @media (min-width: 375px) and (max-width:768px){
     .UnPoco{
         font-size: 1.3em;
@@ -109,11 +134,42 @@ margin-top: 3rem;
         background-image: none;
     }
 
-    .mot{
+    .mot, .edu, .habilidades, .blandas, .herr{
         font-size: 1.3em;
     }
 
     .medeclaro{
         margin-top: 1rem;
     }
+
+    .habilidades {
+        margin-top: 2rem;
+    }
+
+    .boot, .uni, .fecha{
+        font-size: 0.8em;
+    }
+    .fe, .dip,.artes{
+        font-size: 1.2em;
+    }
+
+    .ctnEdu{
+        margin-top: 4rem;
+    
+    
+    }
+
+    .boot, .tagHabilidades{
+
+        margin-top: 2rem;
+    }
+
+    .tagHabilidades{
+
+    }
+
+    .photoshop, .ai, .figma, .Boost, .gitHubb, .inVision{
+       font-size: 1.1em;
+    }
+
 }
