@@ -137,7 +137,7 @@ class About extends React.Component {
                    color:"white",
                    fontWeight: "700",
                    background: "#FF3C38",
-                   marginTop:"3rem"
+                   marginTop:"2rem"
                  }}
                >
                  Ver Currículum
@@ -203,8 +203,8 @@ class About extends React.Component {
             <p className="fecha  "><img className="calendar " src={calendar} alt="caelndar" /> Marzo 2008 - Noviembre 2012</p>
        
               </div>
-              <div className=" float-right  ">
-                <h5 className="habilidades col-sm-12 ">
+              <div className=" float-right ">
+                <h5 className="habilidades col-sm-12  ">
                 Habilidades técnicas
                 </h5>
                 
@@ -217,7 +217,8 @@ class About extends React.Component {
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>Metodología DCU</mark> <mark style={{
+                              }}>Metodología DCU</mark> </p>
+                              <p><mark style={{
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
@@ -225,7 +226,23 @@ class About extends React.Component {
                                 background: "rgba(37, 222, 178, 0.3)",
                                 borderRadius: "25px",
                                 padding: "0.5rem",
-                              }}>Benchmark</mark></p>
+                              }}>Benchmark</mark> <mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Html</mark></p><p><mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>JavaScript</mark> <mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>Css</mark> <mark style={{
+                                background: "rgba(37, 222, 178, 0.3)",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}>React</mark></p>
 
                               <h5 className="blandas">Habilidades Blandas</h5>
                               <p className="hblandas"><mark style={{
@@ -287,7 +304,7 @@ class About extends React.Component {
                 
           
             <div className="row col-sm-12">
-              <div className=" col-sm-12 col-md-4">
+              <div className=" tagH col-sm-12 col-md-4">
              
            
            <p className="photoshop"><img className="ph " src={ph} alt="ph" /> Photoshop</p>
@@ -297,7 +314,7 @@ class About extends React.Component {
               <div className=" float-right col-md-5">
                 
                 
-                <div className="tagHabilidades col-sm-12">
+                <div className="tagHerramientas col-sm-12">
                
                 <p className="figma"><img className="fig " src={fig} alt="fig" /> Figma</p>
                 <p className="Boost"><img className="boostrap" src={boostrap} alt="boostrap" /> Boostrap</p>
@@ -307,7 +324,7 @@ class About extends React.Component {
               <div className=" float-right">
                 
                 
-                <div className="tagHabilidades col-sm-12">
+                <div className="tagHerramientasDos col-sm-12">
                 
                 <p className="gitHubb"><img className="githbb" src={githubb} alt="githubb" /> GitHub</p>
                 <p className="inVision"><img className="inv" src={inv} alt="inv" /> inVision</p>

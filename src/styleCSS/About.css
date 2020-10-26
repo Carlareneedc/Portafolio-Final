@@ -107,6 +107,10 @@ margin-top: 3rem;
 
 }
 
+.tagHerramientas, .tagHerramientasDos{
+    margin-top: 3rem;
+}
+
 .blandas{
     margin-top: 8.5rem;
 }
@@ -134,7 +138,7 @@ margin-top: 3rem;
         background-image: none;
     }
 
-    .mot, .edu, .habilidades, .blandas, .herr{
+    .mot, .edu, .habilidades,.herr, .habilidades{
         font-size: 1.3em;
     }
 
@@ -165,11 +169,37 @@ margin-top: 3rem;
     }
 
     .tagHabilidades{
-
+font-size: 0.8em;
     }
 
     .photoshop, .ai, .figma, .Boost, .gitHubb, .inVision{
-       font-size: 1.1em;
+       font-size: 1em;
     }
 
+    .blandas{
+        margin-top: 3rem;
+    
+    }
+    .herr{
+        margin-top: 0rem;
+    }
+
+    .tagHerramientas{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .tagH, .tagHerramientasDos {
+        margin-left: 1rem;
+        margin-top: 0rem;
 }
+.miNombre, .disfruto, .medeclaro, .siBien{
+    font-size: 1em;
+}
+    }
+
+    
+
+   
+
+
