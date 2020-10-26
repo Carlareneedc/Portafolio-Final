@@ -10,7 +10,7 @@ import {
 
 } from "mdbreact";
 import { Carousel } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Link, BrowserRouter, Redirect } from "react-router-dom";
+import {Link} from "react-router-dom"
 import { Card, Button, CardDeck } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -27,7 +27,7 @@ import mesero from "../img/vistamesero.png";
 import pedidos from "../img/pedidos.png";
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
-import Home from "../Components/Home"
+
 
 class JapanQueen extends React.Component {
   constructor(props) {
@@ -90,7 +90,7 @@ class JapanQueen extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to="#"
+                      to="/About"
                     >
                       Sobre Mi
                     </MDBNavLink>

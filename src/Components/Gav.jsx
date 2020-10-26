@@ -10,10 +10,10 @@ import {
 } from "mdbreact";
 import { Carousel } from "react-bootstrap";
 import {
-  BrowserRouter as Router,
-  Route,
+  
+ 
   Link,
-  BrowserRouter,
+ 
 } from "react-router-dom";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -82,7 +82,7 @@ class Gav extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="/"
+                    to="/JapanQueen"
                   >
                     Proyectos
                   </MDBNavLink>
@@ -91,7 +91,7 @@ class Gav extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="#"
+                    to="/About"
                   >
                     Sobre Mi
                   </MDBNavLink>
@@ -191,42 +191,7 @@ class Gav extends React.Component {
             </div>
           </div>
         </header>
-        {/* <div className="container col-md-10 ">
-          
-            <div className="  col-sm-12 col-md-7  mt-5">
-              <h5 className="experienciaJapan  mt-5">
-                <mark
-                  style={{
-                    background: "rgba(220, 21, 21, 0.23)",
-                    color: "rgba(89, 89, 89, 1)",
-                  }}
-                >
-                  Experiencia Japan Queen
-                </mark>
-              </h5>
-              <p
-                className="comoToda mt-5 
-                "
-              >
-                Como toda innovación, la app web Japan Queen se gesta en la
-                búsqueda de{" "}
-                <strong>
-                  mejorar la experiencia de usuario y como solución a un
-                  problema
-                </strong>{" "}
-                que debe ser acorde a las necesidades de nuestra época, esto es
-                haciendo uso de las múltiples opciones que nos ofrece la
-                tecnología.
-              </p>
-              <div className="col-lg-7">
-                
-              <p className="float-right desdeAqui">Desde aquí inicié una investigación enfocada en el cliente y el usuario para saber de qué manera podría modernizar la atención en restaurantes.</p>
-              </div>
-            
-            </div>
-  
-         
-                </div>*/}
+        
         <div className="ctnExpJapan container row col-sm-12 ">
           <div className="container col-sm-12 col-md-10">
             <div className="row">

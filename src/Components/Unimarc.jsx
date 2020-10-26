@@ -10,10 +10,10 @@ import {
 } from "mdbreact";
 import { Carousel } from "react-bootstrap";
 import {
-  BrowserRouter as Router,
-  Route,
+ 
+
   Link,
-  BrowserRouter,
+ 
 } from "react-router-dom";
 import { Card, Button, CardDeck } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -23,25 +23,17 @@ import "../styleCSS/NavBar.css";
 import FooterPage from "../Components/Footer";
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
-import japanQueen from "../img/japanqueennores.png";
+
 import "../styleCSS/JapanQueen.css";
-import humans from "../img/humas.png";
-import japanCarousel from "../img/pantallainicio.png";
-import mesero from "../img/vistamesero.png";
-import pedidos from "../img/pedidos.png";
+
 import gav from "../img/gav.png";
-import unimarc from "../img/unimarc.png";
-import gavvista from "../img/gavvista.png";
-import gamificacion from "../img/gamificacion.png";
-import resultgav from "../img/resultgav.png";
-import resultgavdos from "../img/resultgavdos.png";
-import resultgavtres from "../img/resultgavtres.png";
+
 import japan from "../img/proyectouno.png";
 import unirecetas from "../img/recetasunimarc.png";
 import humansdos from "../img/humaaansdos.png";
-import resultunimarc from "../img/resultunimarc.png"
-import resultunimarcdos from "../img/resultunimarcdos.png"
-import resultunimarctres from "../img/resultunimarctres.png"
+import resultunimarc from "../img/resultunimarc.png";
+import resultunimarcdos from "../img/resultunimarcdos.png";
+import resultunimarctres from "../img/resultunimarctres.png";
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -90,7 +82,7 @@ class Unimarc extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="/"
+                    to="/JapanQueen"
                   >
                     Proyectos
                   </MDBNavLink>
@@ -99,7 +91,7 @@ class Unimarc extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="#"
+                    to="/About"
                   >
                     Sobre Mi
                   </MDBNavLink>
@@ -320,10 +312,10 @@ class Unimarc extends React.Component {
                 </p>
                 <p className="procesosUni">
                   <strong>
-                    Buscan recetas económicas, fáciles y sencillas. Además
-                    es necesario que exista un buscador que permita que el
-                    usuario tenga la libertad de seleccionar lo que necesita. Junto con esto
-                    incorporar un sistema de check in para cada
+                    Buscan recetas económicas, fáciles y sencillas. Además es
+                    necesario que exista un buscador que permita que el usuario
+                    tenga la libertad de seleccionar lo que necesita. Junto con
+                    esto incorporar un sistema de check in para cada
                     ingrediente.{" "}
                   </strong>
                 </p>
@@ -359,7 +351,6 @@ class Unimarc extends React.Component {
                           facilitar la navegación en la sección de recetas y
                           motivar al cliente a comprar.
                         </strong>
-                        
                       </p>
                     </div>
                   </div>
@@ -446,7 +437,11 @@ class Unimarc extends React.Component {
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
-              Lo que más me gustó de este proyecto fue poder superar las expectativas del clientes con respecto a la propuesta de valor que hicimos. Tomar los elementos de la página y rediseñarlo también fue parte importante de lo que disfruté de este proyecto. Fue un desafío fuerte, sin embargo creo que cumplimos los objetivos.
+              Lo que más me gustó de este proyecto fue poder superar las
+              expectativas del clientes con respecto a la propuesta de valor que
+              hicimos. Tomar los elementos de la página y rediseñarlo también
+              fue parte importante de lo que disfruté de este proyecto. Fue un
+              desafío fuerte, sin embargo creo que cumplimos los objetivos.
             </p>
           </div>
         </div>
@@ -500,40 +495,42 @@ class Unimarc extends React.Component {
                   </Link>
                 </Card.Body>
               </Card>
-              <Card 
-             style={{
-               /*width: "25vw",*/
-               borderRadius: "20px 20px 0px 0px",
-               border: "none",
-             }}
-           >
-             <Card.Img variant="top" src={gav} />
-             <Card.Body>
-               <Card.Title className="cardTittle">GAV</Card.Title>
-               <Card.Text
-                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                 className="cardText"
-               >
-                 Sitio gamificado en donde se entrega información sobre el
-                 covid-19. Proyecto ganador empresa "Hootie Hoo".
-               </Card.Text>
-               <Link to="/Gav"><Button
-                 variant="#FF3C38"
-                 style={{
-                   marginTop: "2rem",
-                   marginLeft: "0rem",
-                   display: "flex",
-                   borderRadius: "8px",
-                   fontFamily: "Montserrat",
-                   color: "rgba(255, 255, 255, 1)",
-                   fontWeight: "700",
-                   background: "#FF3C38",
-                 }}
-               >
-                 Ver Proyecto
-               </Button></Link>
-             </Card.Body>
-           </Card>
+              <Card
+                style={{
+                 
+                  borderRadius: "20px 20px 0px 0px",
+                  border: "none",
+                }}
+              >
+                <Card.Img variant="top" src={gav} />
+                <Card.Body>
+                  <Card.Title className="cardTittle">GAV</Card.Title>
+                  <Card.Text
+                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                    className="cardText"
+                  >
+                    Sitio gamificado en donde se entrega información sobre el
+                    covid-19. Proyecto ganador empresa "Hootie Hoo".
+                  </Card.Text>
+                  <Link to="/Gav">
+                    <Button
+                      variant="#FF3C38"
+                      style={{
+                        marginTop: "2rem",
+                        marginLeft: "0rem",
+                        display: "flex",
+                        borderRadius: "8px",
+                        fontFamily: "Montserrat",
+                        color: "rgba(255, 255, 255, 1)",
+                        fontWeight: "700",
+                        background: "#FF3C38",
+                      }}
+                    >
+                      Ver Proyecto
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
             </CardDeck>
           </div>
         </div>
