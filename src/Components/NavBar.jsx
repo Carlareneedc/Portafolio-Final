@@ -146,10 +146,10 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </mark>
                   </h5>
                   <p className="vivoen">
-                    Vivo en Santiago, Chile.UX/UI Designer autodidacta.
+                    Vivo en Santiago, Chile. Front End Developer y UX/UI Designer autodidacta.
                   </p>
                   <p className="soyUna">
-                    Soy una entusiasta investigadora, solucionadora de problemas
+                  Entusiasta investigadora, solucionadora de problemas
                     y amante de la vida social
                   </p>
                 </div>
@@ -176,7 +176,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
               }}
             >
               <Card.Img variant="top" src={japan} />
-              <Card.Body>
+              <Card.Body clasName="pro">
                 <Card.Title className="cardTittle">Japan Queen</Card.Title>
                 <Card.Text
                   style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
@@ -301,7 +301,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   padding: "0.5rem 2rem",
                 }}
               >
-                Reseacrh
+                Research
               </mark>
             </p>
             <p className="tagDos">

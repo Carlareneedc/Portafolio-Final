@@ -78,7 +78,7 @@ justify-content: space-evenly;
 }
 .textoPresentacion {
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .soyUna{
@@ -87,7 +87,7 @@ justify-content: space-evenly;
 
 
 .retrato{
-    
+    margin-top: 0rem;
     margin-left: 5rem;
 }
 .contTags{
@@ -95,20 +95,24 @@ justify-content: space-evenly;
     margin-bottom: 4rem;
 }
 
-
-@media (min-width: 375px) and (max-width:768px) {
-    .view{
-        background-image: url(../img/puntosresponsive.png);
-            margin-top: 6rem;
-            margin-left: 1rem;
-            background-size: 88vw;
+@media (min-width: 320px) and (max-width:374px){
+    .retrato{
+        margin-top: 1rem;
+    width: 57vw;
+   
+    margin-right: 8rem;
     }
 
-    .retrato{
-     
-    margin-top: 1rem;
-    width: 57vw;
-    margin-right: 7rem;
+    .logo{
+        width: 14vw;
+        margin-left: 1rem;
+    }
+
+    .navbar-toggler-icon {
+        cursor: pointer;
+        width: 9vw;
+        height: 4vh;
+        background-image: url(../img/burger.png)!important;
     }
 
     .textoPresentacion {
@@ -119,11 +123,69 @@ justify-content: space-evenly;
     }
 
     .hola{
+        font-size: 1.3em;
+        margin-left: 4.1rem;
+        margin-top: 1rem;
+    }
+
+    .vivoen, .soyUna{
+        font-size: 1em;
+        margin-left: 3rem ! important;
+    }
+
+    
+
+    .tags{
+        margin-left: 0rem;
+    }
+   
+
+    .proyectos, .tePuedo{
+       
+        font-size: 1.4em;
+    margin-top: 2rem;
+    }
+    .contTags {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .view{
+        background-image: url(../img/puntosresponsive.png);
+            margin-top: 6rem;
+
+            background-size: 88vw;
+    }
+}
+@media (min-width: 375px) and (max-width:768px) {
+    .view{
+        background-image: url(../img/puntosresponsive.png);
+            margin-top: 6rem;
+       
+            background-size: 88vw;
+    }
+
+    .retrato{
+     
+    margin-top: 1.5rem;
+    width: 57vw;
+    margin-right: 7rem;
+    }
+
+    .textoPresentacion {
+        text-align: center;
+   
+        width: 97vw;
+        margin-left: 3.3rem;
+    }
+
+    .hola{
         font-size: 1.5em;
     }
 
     .vivoen, .soyUna{
         font-size: 1.1em;
+        
     }
 
     .tags{
@@ -133,6 +195,7 @@ justify-content: space-evenly;
 
     .proyectos, .tePuedo{
         font-size: 1.5em;
+        margin-top: 2rem;
         
     }
     .contTags {
@@ -153,8 +216,43 @@ justify-content: space-evenly;
     
 }
 
-/*@media (min-width:1800px){
-    .view{
-        width: 1800px;
+@media (min-width:768px) and (max-width:1023px) {
+    .logo, .cont {
+       display: none;
     }
-}*/
+    .view{
+        background-image: url(../img/puntosipad.png);
+            margin-top: 6rem;
+       
+            background-size: 88vw;
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-left: 4rem;
+    }
+   
+
+    .retrato{
+        width: 30vw;
+        margin-top: 7rem;
+    }
+    .soyUna{
+   display: none;
+        
+    }
+    
+    .ctn{
+        margin-left: 24rem;
+    }
+
+    .textoPresentacion{
+        margin-left: 1rem;
+    
+    }
+
+  .pro{
+
+  }
+
+}
