@@ -107,7 +107,7 @@ class JapanQueen extends React.Component {
 
           <div className="ctnJapan container row col-sm-12 ">
             <div className="container col-sm-12 col-md-12">
-              <div className="row">
+              <div className="row contJA">
                 <div className=" col-sm-12 col-md-5">
                   <img
                     className="img-fluid japanQueen"

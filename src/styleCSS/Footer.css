@@ -1,4 +1,9 @@
-@media (min-width: 375px) and (max-width:768px) {
+@media (min-width: 320px) and (max-width:374px){
+    .editado{
+        font-size: 0.8em;
+    }
+}
+    @media (min-width: 375px) and (max-width:768px) {
  
     .editado{
         font-size: 1em;

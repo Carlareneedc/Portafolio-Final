@@ -146,7 +146,131 @@ padding-bottom: 1rem;
     overflow: hidden;
 }
 
+@media (min-width: 320px) and (max-width:374px){
+    .humans{
+        width: 66vw;
+    margin-left: 0rem;
+    margin-top: 1rem;
 
+    }
+    .desdeAqui{
+        margin-top: 0rem;
+    }
+   
+    .japanQueen{
+        margin-left: 1rem;
+        margin-top: 0rem;
+    }
+   .ctnJapan{
+    margin-top: 9rem;
+   }
+
+   .ctnExpJapan, .ctnElProblema{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+   .textJapan, .experienciaJapan, .elProblema, .textSolucion, .textSoluciongav{
+           text-align: center;
+           font-size: 1.2em;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+.gv{
+    width: 92vw;
+    overflow: hidden;
+}
+.textSoluciongav{
+    margin-left: 3rem;
+}
+.que, .puedes{
+    font-size: 1.3em;
+}
+.cardeck{
+    margin-bottom: 0rem;
+}
+.procesos, .resultado{
+    text-align: center;
+    font-size: 1.3em;
+    margin-left: 6.5rem;
+    margin-top: 0rem;
+}
+.resultado{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.textSolucion{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.jp{
+    width: 78vw;
+    margin-left: 0.8rem;
+}
+.elProblema{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+.quien{
+    margin-top: 0rem;
+}
+.textoProcesos, .segun, .textoProcesosgav, .eldesafio {
+    text-align: left;
+    margin-top: 1rem;
+
+}
+.textoProcesosgav, .eldesafio, .textopro, .mesero{
+    font-size: 1.1em;
+}
+
+.textopro, .mesero, .chef{
+    text-align: left;
+}
+.experienciaJapan{
+  
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+.textContJapan{
+    
+    margin-top: 1rem;
+}
+.procesos{
+    margin-left: 5.5rem;
+}
+
+.japanEs,.proy, .deque,.procesosUni, .comoToda,.textoProcesos,.chef,.segun, .desdeAqui, .aAlgunos, .cambian,.gav, .quien, .cliente, .entreestos, .porotro, .cadaseccion, .textQue {
+font-size: 1.1em;
+text-align: left;
+}
+.deque{
+    margin-top: 0rem;
+}
+.humansdos {
+        
+        margin-left: 0rem;
+        width: 76vw;
+        margin-top: 1rem;
+}
+.rolText{
+   display: none;
+}
+
+.ux, .julio, .uxR, .proto, .ui{
+    display: none;
+}
+
+.gav{
+    margin-top: 0rem;
+}
+.gam {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 67vw;
+    overflow: hidden;
+}
+}
 @media (min-width: 375px) and (max-width:768px) {
     .humans{
         width: 66vw;
@@ -268,5 +392,69 @@ text-align: left;
     margin-top: 0rem;
     width: 67vw;
     overflow: hidden;
+}
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+ .textJapan{
+        margin-left: 0rem;
+    
+    text-align: left;
+    }
+
+   .rolText, .uxR, .ux, .tagsJapan, .julio{
+       display: none;
+   }
+
+   .desdeAqui{
+    margin-top: 4rem;
+   }
+
+   .contJA{
+    margin-left: 3rem;
+   }
+
+   .japanQueen{
+    margin-top: 2rem;
+   }
+
+   .experienciaJapan{
+    margin-left: -1rem;
+   }
+
+   .ctnElP{
+    margin-top: 2rem;
+   }
+
+   .elProblema{
+    font-size: 1.2em;
+   }
+
+   .quien{
+    margin-top: 3rem;
+   }
+   .procesos{
+    text-align: left;
+    margin-left: 0rem;
+}
+
+.humans{
+    width: 42vw;
+    margin-top: 5rem;
+}
+
+.textSolucion{
+    text-align: left;
+    margin-left: 0rem;
+
+}
+
+.resultado{
+    text-align: left;
+    margin-left: 0rem;
+}
+
+.jp{
+    width: 50vw;
 }
 }
