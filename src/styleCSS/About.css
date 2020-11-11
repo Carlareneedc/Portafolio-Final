@@ -115,6 +115,61 @@ margin-top: 3rem;
     margin-top: 6.5rem;
 }
 
+@media (min-width: 320px) and (max-width:374px){
+    .retratoAbout {
+        width: 63vw;
+    
+        width: 57vw;
+    
+    }
+
+    .ctnAbouview {
+        margin-top: 7rem;
+    }
+
+    .UnPoco{
+        font-size: 1.3em;
+    }
+
+    .mot{
+        font-size: 1.1em;
+    }
+
+    .medeclaro{
+        margin-top: 1rem;
+    }
+
+    .fe{
+        text-align: left;
+    }
+
+    .habilidades {
+        margin-top: 2.3rem;
+        font-size: 1.4em;
+    }
+
+    .edu, .blandas, .herr{
+        font-size: 1.4em;
+    }
+
+   .figma, .Boost{
+    margin-left: -1rem;
+   }
+
+   .figma, .gitHubb{
+    margin-top: -3rem;
+   }
+
+    .fe, .dip, .artes{
+        font-size: 1.2em;
+    }
+.blandas{
+    margin-top: 4rem;
+}
+    .tagHabilidades{
+
+    }
+}
 
 @media (min-width: 375px) and (max-width:768px){
     .UnPoco{
@@ -129,11 +184,10 @@ margin-top: 3rem;
     
     .textoabout{
         margin-top: 2rem;
-        margin-right: 1rem;
+    
     }
 
    
-
     .about{
         background-image: none;
     }
@@ -198,7 +252,31 @@ font-size: 0.8em;
 }
     }
 
-    
+    @media (min-width:768px) and (max-width:1023px) {
+        .retratoAbout{
+            width: 30vw;
+           
+        }
+
+        .siBien,.medeclaro{
+            margin-top: 2rem;
+        }
+.figma{
+    margin-top: 3.1rem;
+
+}
+
+.fig{
+    margin-top: -0.5rem;
+}
+        
+    }
+
+    @media (min-width:1024px) and (max-width:1439px) {
+        .retratoAbout{
+            width: 23vw;
+        }
+    }
 
    
 

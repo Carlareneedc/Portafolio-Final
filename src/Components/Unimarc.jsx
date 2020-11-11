@@ -141,7 +141,7 @@ class Unimarc extends React.Component {
                       {" "}
                       <h5 className="rolText ">Rol</h5>
                       <p className="ux">UX/UI Designer</p>
-                      <p className="fe">Front End Developer</p>{" "}
+                      <p className="fed">Front End Developer</p>{" "}
                       <h5 className=" rolText">Actividades</h5>
                       <div className="container">
                         <div className="row tagsJapan">
