@@ -161,11 +161,7 @@ class About extends React.Component {
                 "
                     >
                       Me declaro como una ferviente <strong>autodidacta</strong>
-                      , siempre con la necesidad y motivación de crear. Estoy
-                      constantemente en reinvención, cumpliendo cada objetivo
-                      que me he propuesto en la vida. En el presente, mi interés
-                      por el diseño UX/UI ha crecido a medida que estoy más
-                      cerca de la tecnología y así también, la necesidad de
+                      , siempre con la necesidad y motivación de crear. Comencé mi camino como Front End Developer, pero mi motivación por el Diseño UX/UI ha crecido en el tiempo, junto con la necesidad de
                       convertirme en diseñadora, poder{" "}
                       <strong>
                         crear interfaces legibles, amigables y accesibles a las
@@ -176,7 +172,7 @@ class About extends React.Component {
 
                   <div className="col-sm-12 col-md-6">
                     <p className="siBien ">
-                      Si bien no poseo una basta experiencia, tengo voluntad y
+                      Si bien no poseo una vasta experiencia, tengo voluntad y
                       disciplina, que creo es lo más importante ante cualquier
                       desafío que se venga en el futuro, además de poder
                       demostrar que soy una profesional que soluciona problemas

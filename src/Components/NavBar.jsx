@@ -22,6 +22,7 @@ import retrato from "../img/retrato.png";
 import japan from "../img/proyectouno.png";
 import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
+import portal from "../img/portal.png"
 
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
@@ -146,11 +147,11 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </mark>
                   </h5>
                   <p className="vivoen">
-                    Vivo en Santiago, Chile. Front End Developer y UX/UI Designer autodidacta.
+                    Front End Developer y UX/UI Designer autodidacta.
                   </p>
                   <p className="soyUna">
                   Entusiasta investigadora, solucionadora de problemas
-                    y amante de la vida social
+                    y amante de la vida social.
                   </p>
                 </div>
               </div>
@@ -167,8 +168,80 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             Proyectos
           </mark>
         </h5>
+
         <div className=" container  col-md-10 flex-center">
           <CardDeck>
+          <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={portal} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "4rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img className="imgUni" variant="top" src={unimarc} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Rediseño de la sección de recetas correspondiente a la
+                  plataforma web Unimarc. Proyecto ganador "Hackaton"
+                  Laboratoria
+                </Card.Text>
+                <Link to="/Unimarc">
+                  {" "}
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "2.5rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
             <Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
@@ -225,7 +298,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "2rem",
+                      marginTop: "3.5rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",
@@ -240,43 +313,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </Link>
               </Card.Body>
             </Card>
-            <Card
-              style={{
-                borderRadius: "20px 20px 0px 0px",
-                border: "none",
-              }}
-            >
-              <Card.Img className="imgUni" variant="top" src={unimarc} />
-              <Card.Body>
-                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
-                <Card.Text
-                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                  className="cardText"
-                >
-                  Rediseño de la sección de recetas correspondiente a la
-                  plataforma web Unimarc. Proyecto ganador "Hackaton"
-                  Laboratoria
-                </Card.Text>
-                <Link to="/Unimarc">
-                  {" "}
-                  <Button
-                    variant="#FF3C38"
-                    style={{
-                      marginTop: "1rem",
-                      marginLeft: "0rem",
-                      display: "flex",
-                      borderRadius: "8px",
-                      fontFamily: "Montserrat",
-                      color: "rgba(255, 255, 255, 1)",
-                      fontWeight: "700",
-                      background: "#FF3C38",
-                    }}
-                  >
-                    Ver Proyecto
-                  </Button>
-                </Link>
-              </Card.Body>
-            </Card>
+            
           </CardDeck>
         </div>
 

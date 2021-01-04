@@ -11,6 +11,7 @@ import JapanQueen from "./Components/JapanQueen"
 import Gav from "./Components/Gav.jsx"
 import Unimarc from "./Components/Unimarc"
 import About from "./Components/About"
+import Portal from "./Components/Portal"
 
 
 
@@ -23,6 +24,9 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Home/>
+        </Route>
+        <Route path="/Portal" exact>
+          <Portal/>
         </Route>
         <Route path="/JapanQueen" exact>
           <JapanQueen/>

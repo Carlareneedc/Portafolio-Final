@@ -1,0 +1,336 @@
+import React from "react";
+import {
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarNav,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBNavItem,
+  MDBNavLink,
+
+} from "mdbreact";
+import { Carousel } from "react-bootstrap";
+import {Link} from "react-router-dom"
+import { Card, Button, CardDeck } from "react-bootstrap";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import "../styleCSS/NavBar.css";
+import FooterPage from "../Components/Footer";
+import logo from "../img/logo.png";
+import contacto from "../img/contacto.png";
+import Portalin from "../img/portalin.png";
+import "../styleCSS/JapanQueen.css";
+import humans from "../img/humas.png";
+import japanCarousel from "../img/pantallainicio.png";
+import mesero from "../img/vistamesero.png";
+import pedidos from "../img/pedidos.png";
+import gav from "../img/gav.png"
+import unimarc from "../img/unimarc.png";
+
+
+class Portal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      collapse: false,
+      isWideEnough: false,
+    };
+    this.onClick = this.onClick.bind(this);
+  }
+  onClick() {
+    this.setState({
+      collapse: !this.state.collapse,
+    });
+  }
+  render() {
+    return (
+      <div>
+        <header>
+         
+            <MDBNavbar color="white" dark expand="md" fixed="top">
+              <MDBNavbarBrand  >
+                <img className="logo" src={logo} alt="imglogo" />
+              </MDBNavbarBrand>
+              {!this.state.isWideEnough && (
+                <MDBNavbarToggler className="burger" onClick={this.onClick} />
+              )}
+              <MDBCollapse isOpen={this.state.collapse} navbar>
+                <MDBNavbarNav
+                  className="mt-4 "
+                  style={{
+                    fontFamily: "Merriweather",
+                    fontSize: "1.3em",
+                    fontWeight: "400",
+                  }}
+                >
+                  <MDBNavItem active>
+                    
+                  <MDBNavLink
+                      className=""
+                      style={{ color: "rgba(89, 89, 89, 1)" }}
+                   to="./" 
+                    >
+                      Inicio
+                  
+                 
+                    </MDBNavLink>
+                    
+                  </MDBNavItem>
+                  <MDBNavItem>
+                   <Link to=""> <MDBNavLink
+                      className=""
+                      style={{ color: "rgba(89, 89, 89, 1)" }}
+                      to=""
+                    >
+                      Proyectos
+                    </MDBNavLink></Link>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink
+                      className=""
+                      style={{ color: "rgba(89, 89, 89, 1)" }}
+                      to="/About"
+                    >
+                      Sobre Mi
+                    </MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavbarBrand>
+                    <a href="mailto:carla.renee.diazc@gmail.com">
+                      <img className="cont" src={contacto} alt="imgcontacto" />
+                    </a>
+                  </MDBNavbarBrand>
+                </MDBNavbarNav>
+              </MDBCollapse>
+            </MDBNavbar>
+          
+
+          <div className="ctnJapan container row col-sm-12 ">
+            <div className="container col-sm-12 col-md-12">
+              <div className="row contJA">
+                <div className=" col-sm-12 col-md-5">
+                  <img
+                    className="img-fluid japanQueen"
+                    src={Portalin}
+                    alt="imgjapan"
+                  />
+                </div>
+
+                <div className="textContJapan col-sm-12 col-md-7">
+                  <h5 className="textJapan col-sm-12">
+                    <mark
+                      style={{
+                        background: "rgb(33 149 202 / 27%)",
+                        color: "rgba(89, 89, 89, 1)",
+                      }}
+                    >
+                      Cyber Day 
+                    </mark>
+                  </h5>
+
+                  <p className=" col-md-10 col-md-6 japanEs">
+                  Landing de Portal Inmobiliario y Mercado Libre, se construye en base a la campaña para Cyber Day a cargo de la empresa Villa Alegre Producciones
+                  </p>
+                  <div className="">
+                    <div className=" col-sm-12 col-md-6  float-left">
+                      {" "}
+                      <h5 className="rolText ">Rol</h5>
+                      <p className="ux">Fron End Developer/UI Designer</p>{" "}
+                      <h5 className=" rolText">Actividades</h5>
+                      <div className="container">
+                        <div className="row tagsJapan">
+                   
+                         
+                          <p className="ui">
+                            <mark
+                              style={{
+                                background: "rgb(0 123 255 / 45%)",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Diseño UI
+                            </mark>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=" col-sm-12 col-md-6 float-right">
+                      <h5 className="rolText ">Fecha del Proyecto</h5>
+                      <p className="julio">Octubre 2020</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        
+        <div className="ctnExpJapan container row col-sm-12 ">
+          <div className="container col-sm-12 col-md-10">
+            <div className="row">
+              <div className=" col-sm-10 col-md-6">
+                <h5 className="experienciaJapan">
+                  <mark
+                    style={{
+                      background: "rgb(38 172 187 / 28%)",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}
+                  >
+                    Experiencia Cyber Day
+                  </mark>
+                </h5>
+                <p
+                  className="comoToda mt-4
+                "
+                >
+             Para la campaña de Cyber Day, mi rol como diseñadora me permitió participar en la construcción y desarrollo de la landing, corrigiendo, mejorando y trabajando directamente con el diseño de la página, con el fin de entregar una información clara y precisa a los usuarios.
+                </p>
+              </div>
+
+              <div className="col-sm-12 col-md-6">
+                <p className=" desdeAqui ">
+                  Editando imágenes, generando logos y mejorando el desarrollo del proyecto. Esto permitió que la página de Portal Inmobiliario que ya existía, se adaptara para esta campaña, mejorando la visualidad y haciendola atractiva para los quienes accedieron.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ctnElProblema  col-sm-12">
+         
+          <div className="contprocesos container col-sm-12 col-md-10">
+            <div className="container row col-sm-12 col-md-12">
+              <div style={{textAlign:"left"}}className="row col-md-6">
+               
+                
+                
+                
+              </div>
+            
+              
+     
+              <h5 className="resultado">
+                <mark
+                  style={{
+                    background: "rgba(37, 222, 178, 0.3)",
+                    color: "rgba(89, 89, 89, 1)",
+                  }}
+                >
+                  Resultado
+                </mark>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
+          <Carousel>
+            <Carousel.Item>
+            <a target="_blank" href="https://burger-queen2020.web.app/"> <img
+                className="img-fluid jp "
+                src={japanCarousel}
+                alt="First slide"
+              /></a>
+            </Carousel.Item>
+            <Carousel.Item>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" src={mesero} alt="Third slide" /></a>
+            </Carousel.Item>
+            <Carousel.Item>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={pedidos} alt="Third slide" /></a>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+        <div className="col-sm-12">
+        <div className="ctnresult container col-sm-12 col-md-10">
+          <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
+          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue poder darle una identidad visual al producto.  Fue un desafío poder encontrar una imagen representativa y a la vez legible y eficaz. Finalmente creo que el resultado superó mis propias espectativas.</p>
+        </div>
+        </div>
+        <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
+                    style={{
+                      background: "rgba(254, 214, 123, 0.9)",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}
+                  >
+                   Puedes ver otro proyectos
+                  </mark></h5>     
+                  <div className="container  col-md-10 flex-center mt-5">  
+                  <CardDeck className="cardeck">
+           
+           <Card 
+             style={{
+               /*width: "25vw",*/
+               borderRadius: "20px 20px 0px 0px",
+               border: "none",
+             }}
+           >
+             <Card.Img variant="top" src={gav} />
+             <Card.Body>
+               <Card.Title className="cardTittle">GAV</Card.Title>
+               <Card.Text
+                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                 className="cardText"
+               >
+                 Sitio gamificado en donde se entrega información sobre el
+                 covid-19. Proyecto ganador empresa "Hootie Hoo".
+               </Card.Text>
+               <Link to="/Gav"><Button
+                 variant="#FF3C38"
+                 style={{
+                   marginTop: "2rem",
+                   marginLeft: "0rem",
+                   display: "flex",
+                   borderRadius: "8px",
+                   fontFamily: "Montserrat",
+                   color: "rgba(255, 255, 255, 1)",
+                   fontWeight: "700",
+                   background: "#FF3C38",
+                 }}
+               >
+                 Ver Proyecto
+               </Button></Link>
+             </Card.Body>
+           </Card>
+           <Card
+             style={{
+              /* width: "25vw",*/
+               borderRadius: "20px 20px 0px 0px",
+               border: "none",
+             }}
+           >
+            <Card.Img className="imgUni" variant="top" src={unimarc} />
+             <Card.Body>
+               <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
+               <Card.Text
+                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                 className="cardText"
+               >
+                 Rediseño de la sección de recetas correspondiente a la
+                 plataforma web Unimarc. Proyecto ganador "Hackaton"
+                 Laboratoria
+               </Card.Text>
+              <Link to="/Unimarc"> <Button
+                 variant="#FF3C38"
+                 style={{
+                   marginTop: "2.5rem",
+                   marginLeft: "0rem",
+                   display: "flex",
+                   borderRadius: "8px",
+                   fontFamily: "Montserrat",
+                   color: "rgba(255, 255, 255, 1)",
+                   fontWeight: "700",
+                   background: "#FF3C38",
+                 }}
+               >
+                 Ver Proyecto
+               </Button></Link>
+             </Card.Body>
+           </Card>
+         </CardDeck>
+         </div>   
+         </div>
+        <FooterPage />
+      </div>
+    );
+  }
+}
+export default Portal;
