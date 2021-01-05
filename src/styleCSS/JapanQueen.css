@@ -16,6 +16,15 @@
     margin-top: 5rem;
     overflow: hidden;
 }
+.resultadoPortal{
+    font-size: 2em;
+    font-family: Merriweather;
+    font-weight: 400;
+    color:rgba(89, 89, 89, 1);
+    text-align: justify;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
 .segun{
     margin-top: 1rem;
 }
@@ -147,6 +156,9 @@ padding-bottom: 1rem;
 }
 
 @media (min-width: 320px) and (max-width:374px){
+    .resultadoPortal{
+        
+    }
     .humans{
         width: 66vw;
     margin-left: 0rem;

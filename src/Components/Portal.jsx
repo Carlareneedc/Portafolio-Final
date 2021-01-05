@@ -21,10 +21,10 @@ import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
 import Portalin from "../img/portalin.png";
 import "../styleCSS/JapanQueen.css";
-import humans from "../img/humas.png";
-import japanCarousel from "../img/pantallainicio.png";
-import mesero from "../img/vistamesero.png";
-import pedidos from "../img/pedidos.png";
+
+import portalUno from "../../src/img/portalresult.png";
+import portalresultdos from "../../src/img/portalresul2.png";
+import portalresulttres from "../../src/img/portalresulttres.png";
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
 
@@ -195,21 +195,16 @@ class Portal extends React.Component {
               </div>
             </div>
           </div>
+          
         </div>
+        
         <div className="ctnElProblema  col-sm-12">
-         
+        
           <div className="contprocesos container col-sm-12 col-md-10">
             <div className="container row col-sm-12 col-md-12">
               <div style={{textAlign:"left"}}className="row col-md-6">
                
-                
-                
-                
-              </div>
-            
-              
-     
-              <h5 className="resultado">
+               <h5 className="resultado row">
                 <mark
                   style={{
                     background: "rgba(37, 222, 178, 0.3)",
@@ -218,24 +213,31 @@ class Portal extends React.Component {
                 >
                   Resultado
                 </mark>
-              </h5>
+              </h5> 
+             
+                
+              </div>
+            
+              
+     
+              
             </div>
           </div>
         </div>
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-            <a target="_blank" href="https://burger-queen2020.web.app/"> <img
+            <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"> <img
                 className="img-fluid jp "
-                src={japanCarousel}
+                src={portalUno}
                 alt="First slide"
               /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" src={mesero} alt="Third slide" /></a>
+              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jp" src={portalresultdos} alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={pedidos} alt="Third slide" /></a>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={portalresulttres} alt="Third slide" /></a>
             </Carousel.Item>
           </Carousel>
         </div>
