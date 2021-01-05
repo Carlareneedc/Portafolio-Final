@@ -25,6 +25,7 @@ import "../styleCSS/JapanQueen.css";
 import portalUno from "../../src/img/portalresult.png";
 import portalresultdos from "../../src/img/portalresul2.png";
 import portalresulttres from "../../src/img/portalresulttres.png";
+import japan from "../img/proyectouno.png"
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
 
@@ -228,23 +229,23 @@ class Portal extends React.Component {
           <Carousel>
             <Carousel.Item>
             <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"> <img
-                className="img-fluid jp "
+                className="img-fluid jpPortal "
                 src={portalUno}
                 alt="First slide"
               /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jp" src={portalresultdos} alt="Third slide" /></a>
+              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jpPortal" src={portalresultdos} alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={portalresulttres} alt="Third slide" /></a>
+              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jpPortal " src={portalresulttres} alt="Third slide" /></a>
             </Carousel.Item>
           </Carousel>
         </div>
         <div className="col-sm-12">
         <div className="ctnresult container col-sm-12 col-md-10">
           <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
-          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue poder darle una identidad visual al producto.  Fue un desafío poder encontrar una imagen representativa y a la vez legible y eficaz. Finalmente creo que el resultado superó mis propias espectativas.</p>
+          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue trabajar en una landing real, poder conocer metodologías de trabajo diferentes y conocer personas nuevas con quienes pude compartir conocimientos. Aprender cosas nuevas es lo más importante que me llevo de este proyecto, sin duda adquirí nuevos conocimientos que he podido aplicar efectivamente. </p>
         </div>
         </div>
         <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
@@ -260,7 +261,7 @@ class Portal extends React.Component {
            
            <Card 
              style={{
-               /*width: "25vw",*/
+             
                borderRadius: "20px 20px 0px 0px",
                border: "none",
              }}
@@ -313,7 +314,7 @@ class Portal extends React.Component {
               <Link to="/Unimarc"> <Button
                  variant="#FF3C38"
                  style={{
-                   marginTop: "2.5rem",
+                   marginTop: "1.5rem",
                    marginLeft: "0rem",
                    display: "flex",
                    borderRadius: "8px",
@@ -327,6 +328,42 @@ class Portal extends React.Component {
                </Button></Link>
              </Card.Body>
            </Card>
+           <Card
+                style={{
+                  borderRadius: "20px 20px 0px 0px",
+                  border: "none",
+                }}
+              >
+                <Card.Img variant="top" src={japan} />
+                <Card.Body>
+                  <Card.Title className="cardTittle">Japan Queen</Card.Title>
+                  <Card.Text
+                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                    className="cardText"
+                  >
+                    App para restaurantes que se origina como solución a la
+                    gestión de pedidos, eliminando el uso de comandas y toma de
+                    ordenes a mano.
+                  </Card.Text>
+                  <Link to="/JapanQueen">
+                    <Button
+                      variant="#FF3C38"
+                      style={{
+                        marginTop: "1.5rem",
+                        marginLeft: "0rem",
+                        display: "flex",
+                        borderRadius: "8px",
+                        fontFamily: "Montserrat",
+                        color: "rgba(255, 255, 255, 1)",
+                        fontWeight: "700",
+                        background: "#FF3C38",
+                      }}
+                    >
+                      Ver Proyecto
+                    </Button>
+                  </Link>
+                </Card.Body>
+              </Card>
          </CardDeck>
          </div>   
          </div>

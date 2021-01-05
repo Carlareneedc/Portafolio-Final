@@ -34,6 +34,7 @@ import humansdos from "../img/humaaansdos.png";
 import resultunimarc from "../img/resultunimarc.png";
 import resultunimarcdos from "../img/resultunimarcdos.png";
 import resultunimarctres from "../img/resultunimarctres.png";
+import portal from "../img/portal.png";
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -531,6 +532,40 @@ class Unimarc extends React.Component {
                   </Link>
                 </Card.Body>
               </Card>
+              <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={portal} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "2.5rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
             </CardDeck>
           </div>
         </div>

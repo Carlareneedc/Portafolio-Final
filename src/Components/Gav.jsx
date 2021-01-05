@@ -34,6 +34,7 @@ import resultgav from "../img/resultgav.png";
 import resultgavdos from "../img/resultgavdos.png";
 import resultgavtres from "../img/resultgavtres.png";
 import japan from "../img/proyectouno.png";
+import portal from "../img/portal.png"
 
 class Gav extends React.Component {
   constructor(props) {
@@ -467,6 +468,40 @@ class Gav extends React.Component {
           </h5>
           <div className="container  col-md-10 flex-center mt-5">
             <CardDeck className="cardeck">
+            <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={portal} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3.5rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
               <Card
                 style={{
                   borderRadius: "20px 20px 0px 0px",
@@ -488,7 +523,7 @@ class Gav extends React.Component {
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "1rem",
+                        marginTop: "1.5rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",
@@ -528,7 +563,7 @@ class Gav extends React.Component {
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "2.5rem",
+                        marginTop: "1.5rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",
