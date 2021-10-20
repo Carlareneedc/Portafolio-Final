@@ -20,6 +20,12 @@ import FooterPage from "./Footer";
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
 import Edfin from "../img/edfinanciera.png";
+import humans from "../img/humas.png";
+import japanCarousel from "../img/pantallainicio.png";
+import mesero from "../img/vistamesero.png";
+import pedidos from "../img/pedidos.png";
+import portal from "../img/portal.png"
+
 import "../styleCSS/JapanQueen.css";
 
 import portalUno from "../../src/img/portalresult.png";
@@ -28,6 +34,7 @@ import portalresulttres from "../../src/img/portalresulttres.png";
 import japan from "../img/proyectouno.png"
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
+
 
 
 class Portal extends React.Component {
@@ -141,11 +148,34 @@ class Portal extends React.Component {
                       <div className="container">
                         <div className="row tagsJapan">
                    
-                         
+                        <p className="uxR">
+                            <mark
+                              style={{
+                                background: "#61C6B4",
+                                borderRadius: "25px",
+                                padding: "0.5rem",
+                              }}
+                            >
+                              UX Research
+                            </mark>
+                          </p>
+                          <p className="proto">
+                            <mark
+                              style={{
+                                background: "#A5EBDE",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1.5rem",
+                                marginLeft: "1rem",
+                              }}
+                            >
+                              Testeos
+                            </mark>
+                          </p>
+                          <br></br>
                           <p className="ui">
                             <mark
                               style={{
-                                background: "rgb(0 123 255 / 45%)",
+                                background: "#DCF5F1",
                                 borderRadius: "25px",
                                 padding: "0.5rem 1rem",
                               }}
@@ -153,12 +183,62 @@ class Portal extends React.Component {
                               Diseño UI
                             </mark>
                           </p>
+                          <p className="ui">
+                            <mark
+                              style={{
+                                background: "#E0F1EE",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Prototipo
+                            </mark>
+                          </p>
+                        
+                           
+                           
+                            {/*<p  className="ui">
+                            <mark
+                              style={{
+                                background: "rgb(0 123 255 / 45%)",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              UX Research
+                            </mark>
+                            </p>
+                            <p className="ui">
+                            <mark
+                              style={{
+                                background: "rgb(0 123 255 / 48%)",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Diseño UI
+                            </mark>
+                            </p>
+                            <p  className="ui">
+                            <mark
+                              style={{
+                                background: "rgb(150 181 215 / 35%)",
+                                borderRadius: "25px",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Testeos
+                            </mark>
+                            </p>*/}
+                           
+                            
+                         
                         </div>
                       </div>
                     </div>
                     <div className=" col-sm-12 col-md-6 float-right">
                       <h5 className="rolText ">Fecha del Proyecto</h5>
-                      <p className="julio">Marzo 2021 - Actualidad</p>
+                      <p className="julio">2021</p>
                     </div>
                   </div>
                 </div>
@@ -178,20 +258,20 @@ class Portal extends React.Component {
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia Cyber Day
+                    Experiencia Educación Financiera
                   </mark>
                 </h5>
                 <p
                   className="comoToda mt-4
                 "
                 >
-             Para la campaña de Cyber Day, mi rol como diseñadora me permitió participar en la construcción y desarrollo de la landing, corrigiendo, mejorando y trabajando directamente con el diseño de la página, con el fin de entregar una información clara y precisa a los usuarios.
+              El mayo desafío en este proyecto, tiene que ver con el re diseño y tranformación digital. Este programa solía darse en actividades presenciales en distintas ciudades de Chile, con usarias y usuarios que participaban de los cursos y talleres en general del FOSIS. La importancia que tenía la presencialidad de este taller, era lo que más valoraban los usuarios, el poder compartir con otras personas, poder llevar a sus hijos y todo lo que significa una experiencia de aprendizaje presencial.
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Editando imágenes, generando logos y mejorando el desarrollo del proyecto. Esto permitió que la página de Portal Inmobiliario que ya existía, se adaptara para esta campaña, mejorando la visualidad y haciendola atractiva para los quienes accedieron.
+                 Desde la premisa de lo presencial y considerando además que nos encontramos en el segundo año de pandemia, se planteo la importancia de una transformación digital para poder llegar a más usuarios y elevar la alfabetización digital.
                 </p>
               </div>
             </div>
@@ -200,12 +280,95 @@ class Portal extends React.Component {
         </div>
         
         <div className="ctnElProblema  col-sm-12">
-        
+          <div className=" container col-sm-12 col-md-10">
+            <div className="ctnElP row">
+              <div className=" col-sm-10 col-md-3">
+                <h5 className="elProblema ">
+                  <mark
+                    style={{
+                      background: "#E7D394",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}
+                  >
+                    El Problema
+                  </mark>
+                </h5>
+                <p
+                  className="aAlgunos col-md-12 mt-4
+                "
+                >
+                  <strong>
+                    Crear una app de educación financiera para mujeres de escasos recursos.
+                  </strong>
+                </p>
+                <p className="cambian col-md-12">
+                  <strong>
+                    Tienen un bajo nivel alfabetización digital y tecnológico.
+                  </strong>
+                </p>
+              </div>
+
+              <div className=" ctnQuien col-sm-12 col-md-9">
+                <p className=" col-md-12 quien">
+                 La importancia realizar una transformación digital que no solo pueda llegar a más usuarias, si no que la usabilidad sea lo suficientemente amigable para que dichos usuarias puedan encontrarle valor a este programa que cambiaría de una experiencia presencial a digital, con todo lo que esto implica.
+                </p>
+                <p className="col-md-12 cliente">
+                  Lograr conectar con la empatía con estas usuarias y comprender de qué manera sería posible llegar a ellas y entregar un producto que fuera limpio y centrado en el usuario en cuanto a usabilidad, además de ir a la par con la tecnología en estos tiempos, logrando ser un caso de éxito.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="contprocesos container col-sm-12 col-md-10">
             <div className="container row col-sm-12 col-md-12">
               <div style={{textAlign:"left"}}className="row col-md-6">
-               
-               <h5 className="resultado row">
+                <h5 className="procesos">
+                  <mark
+                    style={{
+                      background: "rgba(254, 214, 123, 0.9)",
+                      color: "rgba(89, 89, 89, 1)",
+                    }}
+                  >
+                    Procesos
+                  </mark>
+                </h5>
+                <p className="textoProcesos">
+                  Por medio de diversas entrevistas e indagaciones, definimos
+                  tres tipos de usuarios, los que precisamos de la siguiente
+                  forma:
+                </p>
+                <p className="textopro">
+                  <strong>Cliente (Usuario indirecto)</strong> Accederá a esta
+                  plataforma por medio de otro usuario que es el mesero.
+                </p>
+                <p className="mesero">
+                  <strong>Mesero</strong> Accederá a la plataforma para generar
+                  el pedido del cliente
+                </p>
+                <p className="chef">
+                  <strong>Chef </strong> Recibirá el pedido
+                </p>
+              </div>
+              <div className=" col-md-6 ">
+                <img src={humans} className="humans" alt="humans" />
+              </div>
+              <h5 className="textSolucion">
+                <mark
+                  style={{
+                    background: "rgba(39, 146, 138, 0.49)",
+                    color: "rgba(89, 89, 89, 1)",
+                  }}
+                >
+                  Solución al problema
+                </mark>
+              </h5>
+              <p className="segun">
+                Según nuestra investigación, diferentes iteraciones y
+                entrevistas de usuario, decidimos que la mejor solución sería
+                diseñar una interfaz que funcione por medio de Tablet y
+                computador, en la que como principal objetivo, se podrá tomar
+                pedidos, eliminar y cambiar según la decisión del cliente.
+              </p>
+              <h5 className="resultado">
                 <mark
                   style={{
                     background: "rgba(37, 222, 178, 0.3)",
@@ -214,38 +377,31 @@ class Portal extends React.Component {
                 >
                   Resultado
                 </mark>
-              </h5> 
-             
-                
-              </div>
-            
-              
-     
-              
+              </h5>
             </div>
           </div>
         </div>
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-            <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"> <img
-                className="img-fluid jpPortal "
-                src={portalUno}
+            <a target="_blank" href="https://burger-queen2020.web.app/"> <img
+                className="img-fluid jp "
+                src={japanCarousel}
                 alt="First slide"
               /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jpPortal" src={portalresultdos} alt="Third slide" /></a>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" src={mesero} alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://www.portalinmobiliario.com/venta/departamento/la-florida-metropolitana/8830-vista-la-florida-nva"><img className="img-fluid jpPortal " src={portalresulttres} alt="Third slide" /></a>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={pedidos} alt="Third slide" /></a>
             </Carousel.Item>
           </Carousel>
         </div>
         <div className="col-sm-12">
         <div className="ctnresult container col-sm-12 col-md-10">
           <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
-          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue trabajar en una landing real, poder conocer metodologías de trabajo diferentes y conocer personas nuevas con quienes pude compartir conocimientos. Aprender cosas nuevas es lo más importante que me llevo de este proyecto, sin duda adquirí nuevos conocimientos que he podido aplicar efectivamente. </p>
+          <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue poder darle una identidad visual al producto.  Fue un desafío poder encontrar una imagen representativa y a la vez legible y eficaz. Finalmente creo que el resultado superó mis propias espectativas.</p>
         </div>
         </div>
         <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
@@ -258,10 +414,43 @@ class Portal extends React.Component {
                   </mark></h5>     
                   <div className="container  col-md-10 flex-center mt-5">  
                   <CardDeck className="cardeck">
-           
+                  <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={portal} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
            <Card 
              style={{
-             
+               /*width: "25vw",*/
                borderRadius: "20px 20px 0px 0px",
                border: "none",
              }}
@@ -279,7 +468,7 @@ class Portal extends React.Component {
                <Link to="/Gav"><Button
                  variant="#FF3C38"
                  style={{
-                   marginTop: "2rem",
+                   marginTop: "2.5rem",
                    marginLeft: "0rem",
                    display: "flex",
                    borderRadius: "8px",
@@ -314,7 +503,7 @@ class Portal extends React.Component {
               <Link to="/Unimarc"> <Button
                  variant="#FF3C38"
                  style={{
-                   marginTop: "1.5rem",
+                   marginTop: "1rem",
                    marginLeft: "0rem",
                    display: "flex",
                    borderRadius: "8px",
@@ -328,42 +517,6 @@ class Portal extends React.Component {
                </Button></Link>
              </Card.Body>
            </Card>
-           <Card
-                style={{
-                  borderRadius: "20px 20px 0px 0px",
-                  border: "none",
-                }}
-              >
-                <Card.Img variant="top" src={japan} />
-                <Card.Body>
-                  <Card.Title className="cardTittle">Japan Queen</Card.Title>
-                  <Card.Text
-                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                    className="cardText"
-                  >
-                    App para restaurantes que se origina como solución a la
-                    gestión de pedidos, eliminando el uso de comandas y toma de
-                    ordenes a mano.
-                  </Card.Text>
-                  <Link to="/JapanQueen">
-                    <Button
-                      variant="#FF3C38"
-                      style={{
-                        marginTop: "1.5rem",
-                        marginLeft: "0rem",
-                        display: "flex",
-                        borderRadius: "8px",
-                        fontFamily: "Montserrat",
-                        color: "rgba(255, 255, 255, 1)",
-                        fontWeight: "700",
-                        background: "#FF3C38",
-                      }}
-                    >
-                      Ver Proyecto
-                    </Button>
-                  </Link>
-                </Card.Body>
-              </Card>
          </CardDeck>
          </div>   
          </div>
