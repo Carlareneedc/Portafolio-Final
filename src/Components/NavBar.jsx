@@ -19,7 +19,7 @@ import FooterPage from "../Components/Footer";
 import logo from "../img/logo.png";
 import contacto from "../img/contacto.png";
 import retrato from "../img/retrato.png";
-import japan from "../img/proyectouno.png";
+import edu from "../img/login.png";
 import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import portal from "../img/portal.png"
@@ -177,6 +177,40 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 border: "none",
               }}
             >
+              <Card.Img variant="top" src={edu} />
+              <Card.Body clasName="pro">
+                <Card.Title className="cardTittle">Educación Financiera</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App de educación financiera enfocada en mujeres pertenecientes al Programa Familia del FOSIS.
+                </Card.Text>
+                <Link to="/EdFinanciera">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+          <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
               <Card.Img variant="top" src={portal} />
               <Card.Body>
                 <Card.Title className="cardTittle">Cyber Monday</Card.Title>
@@ -242,7 +276,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </Link>
               </Card.Body>
             </Card>
-            <Card
+            {/*<Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
                 border: "none",
@@ -277,7 +311,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   </Button>
                 </Link>
               </Card.Body>
-            </Card>
+            </Card>*/}
             <Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
@@ -313,6 +347,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </Link>
               </Card.Body>
             </Card>
+     
             
           </CardDeck>
         </div>

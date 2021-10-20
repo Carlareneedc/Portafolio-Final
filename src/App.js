@@ -12,6 +12,7 @@ import Gav from "./Components/Gav.jsx"
 import Unimarc from "./Components/Unimarc"
 import About from "./Components/About"
 import Portal from "./Components/Portal"
+import EdFinanciera from "./Components/EdFinanciera"
 
 
 
@@ -38,6 +39,11 @@ function App() {
           <Unimarc/>
         </Route>
         <Route path="/About" exact>
+          <About/>
+        </Route>
+        
+        <Route path="/EdFinanciera" exact>
+          <EdFinanciera/>
           <About/>
         </Route>
       </Switch>
