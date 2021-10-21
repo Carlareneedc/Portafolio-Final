@@ -13,6 +13,7 @@ import Unimarc from "./Components/Unimarc"
 import About from "./Components/About"
 import Portal from "./Components/Portal"
 import EdFinanciera from "./Components/EdFinanciera"
+import Proyectos from './Components/Proyectos';
 
 
 
@@ -44,7 +45,10 @@ function App() {
         
         <Route path="/EdFinanciera" exact>
           <EdFinanciera/>
-          <About/>
+        
+        </Route>
+        <Route path="/Proyectos" exact>
+          <Proyectos/>
         </Route>
       </Switch>
     </div>

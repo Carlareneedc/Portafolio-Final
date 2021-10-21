@@ -28,6 +28,7 @@ import portalresulttres from "../../src/img/portalresulttres.png";
 import japan from "../img/proyectouno.png"
 import gav from "../img/gav.png"
 import unimarc from "../img/unimarc.png";
+import edu from "../img/login.png";
 
 
 class Portal extends React.Component {
@@ -329,41 +330,40 @@ class Portal extends React.Component {
              </Card.Body>
            </Card>
            <Card
-                style={{
-                  borderRadius: "20px 20px 0px 0px",
-                  border: "none",
-                }}
-              >
-                <Card.Img variant="top" src={japan} />
-                <Card.Body>
-                  <Card.Title className="cardTittle">Japan Queen</Card.Title>
-                  <Card.Text
-                    style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                    className="cardText"
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={edu} />
+              <Card.Body clasName="pro">
+                <Card.Title className="cardTittle">Educación Financiera</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App de educación financiera enfocada en mujeres pertenecientes al Programa Familia del FOSIS.
+                </Card.Text>
+                <Link to="/EdFinanciera">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
                   >
-                    App para restaurantes que se origina como solución a la
-                    gestión de pedidos, eliminando el uso de comandas y toma de
-                    ordenes a mano.
-                  </Card.Text>
-                  <Link to="/JapanQueen">
-                    <Button
-                      variant="#FF3C38"
-                      style={{
-                        marginTop: "1.5rem",
-                        marginLeft: "0rem",
-                        display: "flex",
-                        borderRadius: "8px",
-                        fontFamily: "Montserrat",
-                        color: "rgba(255, 255, 255, 1)",
-                        fontWeight: "700",
-                        background: "#FF3C38",
-                      }}
-                    >
-                      Ver Proyecto
-                    </Button>
-                  </Link>
-                </Card.Body>
-              </Card>
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+ 
          </CardDeck>
          </div>   
          </div>

@@ -191,13 +191,21 @@ class About extends React.Component {
 
           <div className="row col-sm-12">
             <div className=" col-sm-12 col-md-6 ">
-              <p className="boot  ">Bootcamp Laboratoria</p>
+              <p className="boot  ">Escalab Academy</p>
+              <p className="fe ">UX Design</p>
+              <p className="fecha ">
+                {" "}
+                <img className="calendar " src={calendar} alt="caelndar" />{" "}
+                Julio - Octubre 2021
+                </p>
+                <p className="boot  ">Bootcamp Laboratoria</p>
               <p className="fe ">Front end Developer</p>
               <p className="fecha ">
                 {" "}
                 <img className="calendar " src={calendar} alt="caelndar" />{" "}
                 Marzo - Septiembre 2020
-              </p>
+                </p>
+             
               <br></br>
               <p className="uni ">Universidad Uniacc</p>
               <p className="dip ">Diplomado en Gestión Cultural</p>

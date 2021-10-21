@@ -23,6 +23,7 @@ import edu from "../img/login.png";
 import gav from "../img/gav.png";
 import unimarc from "../img/unimarc.png";
 import portal from "../img/portal.png"
+import Proyectos from "../Components/Proyectos"
 
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
@@ -71,7 +72,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="/Portal"
+                    to="/Proyectos"
                   >
                     Proyectos
                   </MDBNavLink>

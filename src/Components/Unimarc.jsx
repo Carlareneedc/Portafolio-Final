@@ -35,6 +35,7 @@ import resultunimarc from "../img/resultunimarc.png";
 import resultunimarcdos from "../img/resultunimarcdos.png";
 import resultunimarctres from "../img/resultunimarctres.png";
 import portal from "../img/portal.png";
+import edu from "../img/login.png";
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -460,7 +461,7 @@ class Unimarc extends React.Component {
           </h5>
           <div className="container  col-md-10 flex-center mt-5">
             <CardDeck className="cardeck">
-              <Card
+              {/*<Card
                 style={{
                   borderRadius: "20px 20px 0px 0px",
                   border: "none",
@@ -495,7 +496,41 @@ class Unimarc extends React.Component {
                     </Button>
                   </Link>
                 </Card.Body>
-              </Card>
+                    </Card>*/}
+                    <Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={edu} />
+              <Card.Body clasName="pro">
+                <Card.Title className="cardTittle">Educación Financiera</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App de educación financiera enfocada en mujeres pertenecientes al Programa Familia del FOSIS.
+                </Card.Text>
+                <Link to="/EdFinanciera">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
               <Card
                 style={{
                  
