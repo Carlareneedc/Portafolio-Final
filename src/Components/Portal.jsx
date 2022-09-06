@@ -27,7 +27,7 @@ import portalresultdos from "../../src/img/portalresul2.png";
 import portalresulttres from "../../src/img/portalresulttres.png";
 import japan from "../img/proyectouno.png"
 import gav from "../img/gav.png"
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 import edu from "../img/login.png";
 
 
@@ -301,7 +301,7 @@ class Portal extends React.Component {
                border: "none",
              }}
            >
-            <Card.Img className="imgUni" variant="top" src={unimarc} />
+            <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
              <Card.Body>
                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
                <Card.Text

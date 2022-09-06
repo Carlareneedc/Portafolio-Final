@@ -21,7 +21,7 @@ import contacto from "../img/contacto.png";
 import retrato from "../img/retrato.png";
 import edu from "../img/login.png";
 import gav from "../img/gav.png";
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 import portal from "../img/portal.png"
 import Proyectos from "../Components/Proyectos"
 
@@ -148,11 +148,11 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </mark>
                   </h5>
                   <p className="vivoen">
-                    Front End Developer y UX/UI Designer autodidacta.
+                  Soy diseñadora UX/UI con dos años de experiencia diseñando interfaces web y mobile. Me gusta diseñar y colaborar, mi motivación principal al diseñar productos es poder alinear el objetivo de negocio con las necesidades de las personas
+                .
                   </p>
                   <p className="soyUna">
-                  Entusiasta investigadora, solucionadora de problemas
-                    y amante de la vida social.
+                  
                   </p>
                 </div>
               </div>
@@ -185,7 +185,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                   style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                   className="cardText"
                 >
-                  App de educación financiera enfocada en mujeres pertenecientes al Programa Familia del FOSIS.
+                  Transformación digital del programa de Educación financiera de Fosis por medio de la consultora Satori.
                 </Card.Text>
                 <Link to="/EdFinanciera">
                   <Button
@@ -246,7 +246,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 border: "none",
               }}
             >
-              <Card.Img className="imgUni" variant="top" src={unimarc} />
+              <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
               <Card.Body>
                 <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
                 <Card.Text

@@ -23,10 +23,10 @@ import japanQueen from "../img/japanqueennores.png";
 import "../styleCSS/JapanQueen.css";
 import humans from "../img/humas.png";
 import japanCarousel from "../img/pantallainicio.png";
-import mesero from "../img/vistamesero.png";
+/* import mesero from "../img/vistamesero.png"; */
 import pedidos from "../img/pedidos.png";
 import gav from "../img/gav.png"
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 import portal from "../img/portal.png"
 
 
@@ -386,7 +386,7 @@ class JapanQueen extends React.Component {
               /></a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" src={mesero} alt="Third slide" /></a>
+              <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp" /* src={mesero} */ alt="Third slide" /></a>
             </Carousel.Item>
             <Carousel.Item>
               <a target="_blank" href="https://burger-queen2020.web.app/"><img className="img-fluid jp " src={pedidos} alt="Third slide" /></a>
@@ -484,7 +484,7 @@ class JapanQueen extends React.Component {
                border: "none",
              }}
            >
-            <Card.Img className="imgUni" variant="top" src={unimarc} />
+            <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
              <Card.Body>
                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
                <Card.Text

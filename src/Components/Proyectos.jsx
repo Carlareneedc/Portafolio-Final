@@ -36,7 +36,7 @@ import resultunimarcdos from "../img/resultunimarcdos.png";
 import resultunimarctres from "../img/resultunimarctres.png";
 import portal from "../img/portal.png";
 import edu from "../img/login.png";
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 
 class Proyectos extends React.Component {
   constructor(props) {
@@ -171,7 +171,7 @@ class Proyectos extends React.Component {
                   border: "none",
                 }}
               >
-                <Card.Img className="imgUni" variant="top" src={unimarc} />
+                <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
                 <Card.Body>
                   <Card.Title className="cardTittle">
                     Recetas Unimarc

@@ -26,8 +26,7 @@ import contacto from "../img/contacto.png";
 
 import "../styleCSS/JapanQueen.css";
 
-
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 import gavvista from "../img/gavvista.png";
 import gamificacion from "../img/gamificacion.png";
 import resultgav from "../img/resultgav.png";
@@ -580,7 +579,7 @@ class Gav extends React.Component {
                   border: "none",
                 }}
               >
-                <Card.Img className="imgUni" variant="top" src={unimarc} />
+                <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
                 <Card.Body>
                   <Card.Title className="cardTittle">
                     Recetas Unimarc

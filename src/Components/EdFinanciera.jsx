@@ -21,9 +21,9 @@ import contacto from "../img/contacto.png";
 import Edfin from "../img/edfinanciera.png";
 import figmap from "../img/figmapan.png";
 import figmados from "../img/fg.png";
-import japanCarousel from "../img/pantallainicio.png";
+/* import japanCarousel from "../img/pantallainicio.png";
 import mesero from "../img/vistamesero.png";
-import pedidos from "../img/pedidos.png";
+import pedidos from "../img/pedidos.png"; */
 import portal from "../img/portal.png";
 
 import "../styleCSS/JapanQueen.css";
@@ -34,7 +34,7 @@ import edresultres from "../../src/img/edresult3.png";
 import edresultcuatro from "../../src/img/edresult4.png";
 import japan from "../img/proyectouno.png";
 import gav from "../img/gav.png";
-import unimarc from "../img/unimarc.png";
+/* import unimarc from "../img/unimarc.png"; */
 
 class EdFinanciera extends React.Component {
   constructor(props) {
@@ -598,7 +598,7 @@ Clave: UP123456</strong>
                   border: "none",
                 }}
               >
-                <Card.Img className="imgUni" variant="top" src={unimarc} />
+                <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
                 <Card.Body>
                   <Card.Title className="cardTittle">
                     Recetas Unimarc

@@ -172,7 +172,7 @@ class About extends React.Component {
 
                   <div className="col-sm-12 col-md-6">
                     <p className="siBien ">
-                      Si bien no poseo una vasta experiencia, tengo voluntad y
+                     Tengo casi 3 años de experiencia creando interfaces e investigando para diferenretes proyectos,tengo voluntad y
                       disciplina, que creo es lo más importante ante cualquier
                       desafío que se venga en el futuro, además de poder
                       demostrar que soy una profesional que soluciona problemas
@@ -191,6 +191,12 @@ class About extends React.Component {
 
           <div className="row col-sm-12">
             <div className=" col-sm-12 col-md-6 ">
+            <p className="uni ">CoderHouse</p>
+              <p className="dip ">Atomic Design y Design System</p>
+              <p className="fecha ">
+                <img className="calendar " src={calendar} alt="caelndar" />{" "}
+                Enero - Marzo 2022
+              </p>
               <p className="boot  ">Escalab Academy</p>
               <p className="fe ">UX Design</p>
               <p className="fecha ">
