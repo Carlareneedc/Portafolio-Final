@@ -27,8 +27,10 @@ import portalresultdos from "../../src/img/portalresul2.png";
 import portalresulttres from "../../src/img/portalresulttres.png";
 import japan from "../img/proyectouno.png"
 import gav from "../img/gav.png"
+import tango from "../img/tango.png"
 /* import unimarc from "../img/unimarc.png"; */
 import edu from "../img/login.png";
+import migrante from "../img/migrante.png";
 
 
 class Portal extends React.Component {
@@ -131,13 +133,13 @@ class Portal extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                  Landing de Portal Inmobiliario y Mercado Libre, se construye en base a la campaña para Cyber Day a cargo de la empresa Villa Alegre Producciones
+                  Landing de Portal Inmobiliario y Mercado Libre, diseñada para la campaña Cyber Day a cargo de la empresa Villa Alegre Producciones
                   </p>
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
                       {" "}
                       <h5 className="rolText ">Rol</h5>
-                      <p className="ux">Fron End Developer/UI Designer</p>{" "}
+                      <p className="ux">UI Designer</p>{" "}
                       <h5 className=" rolText">Actividades</h5>
                       <div className="container">
                         <div className="row tagsJapan">
@@ -186,7 +188,7 @@ class Portal extends React.Component {
                   className="comoToda mt-4
                 "
                 >
-             Para la campaña de Cyber Day, mi rol como diseñadora me permitió participar en la construcción y desarrollo de la landing, corrigiendo, mejorando y trabajando directamente con el diseño de la página, con el fin de entregar una información clara y precisa a los usuarios.
+             Para la campaña de Cyber Day, mi rol como diseñadora me permitió participar en la construcción, desarrollo y QA de la landing, corrigiendo, mejorando y trabajando directamente con el diseño de la página, con el fin de entregar una información clara y precisa a los usuarios.
                 </p>
               </div>
 
@@ -259,77 +261,7 @@ class Portal extends React.Component {
                   </mark></h5>     
                   <div className="container  col-md-10 flex-center mt-5">  
                   <CardDeck className="cardeck">
-           
-           <Card 
-             style={{
-             
-               borderRadius: "20px 20px 0px 0px",
-               border: "none",
-             }}
-           >
-             <Card.Img variant="top" src={gav} />
-             <Card.Body>
-               <Card.Title className="cardTittle">GAV</Card.Title>
-               <Card.Text
-                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                 className="cardText"
-               >
-                 Sitio gamificado en donde se entrega información sobre el
-                 covid-19. Proyecto ganador empresa "Hootie Hoo".
-               </Card.Text>
-               <Link to="/Gav"><Button
-                 variant="#FF3C38"
-                 style={{
-                   marginTop: "2rem",
-                   marginLeft: "0rem",
-                   display: "flex",
-                   borderRadius: "8px",
-                   fontFamily: "Montserrat",
-                   color: "rgba(255, 255, 255, 1)",
-                   fontWeight: "700",
-                   background: "#FF3C38",
-                 }}
-               >
-                 Ver Proyecto
-               </Button></Link>
-             </Card.Body>
-           </Card>
-           <Card
-             style={{
-              /* width: "25vw",*/
-               borderRadius: "20px 20px 0px 0px",
-               border: "none",
-             }}
-           >
-            <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
-             <Card.Body>
-               <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
-               <Card.Text
-                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                 className="cardText"
-               >
-                 Rediseño de la sección de recetas correspondiente a la
-                 plataforma web Unimarc. Proyecto ganador "Hackaton"
-                 Laboratoria
-               </Card.Text>
-              <Link to="/Unimarc"> <Button
-                 variant="#FF3C38"
-                 style={{
-                   marginTop: "1.5rem",
-                   marginLeft: "0rem",
-                   display: "flex",
-                   borderRadius: "8px",
-                   fontFamily: "Montserrat",
-                   color: "rgba(255, 255, 255, 1)",
-                   fontWeight: "700",
-                   background: "#FF3C38",
-                 }}
-               >
-                 Ver Proyecto
-               </Button></Link>
-             </Card.Body>
-           </Card>
-           <Card
+            <Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
                 border: "none",
@@ -348,7 +280,7 @@ class Portal extends React.Component {
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "3rem",
+                      marginTop: "2rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",
@@ -363,6 +295,74 @@ class Portal extends React.Component {
                 </Link>
               </Card.Body>
             </Card>
+           <Card 
+             style={{
+             
+               borderRadius: "20px 20px 0px 0px",
+               border: "none",
+             }}
+           >
+             <Card.Img variant="top" src={tango} />
+             <Card.Body>
+               <Card.Title className="cardTittle">Tango Rent</Card.Title>
+               <Card.Text
+                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                 className="cardText"
+               >
+                Sitio de venta y arriendo de propiedades 100% on line.
+               </Card.Text>
+               <Link to="/Gav"><Button
+                 variant="#FF3C38"
+                 style={{
+                   marginTop: "3.3rem",
+                   marginLeft: "0rem",
+                   display: "flex",
+                   borderRadius: "8px",
+                   fontFamily: "Montserrat",
+                   color: "rgba(255, 255, 255, 1)",
+                   fontWeight: "700",
+                   background: "#FF3C38",
+                   
+                 }}
+               >
+                 Ver Proyecto
+               </Button></Link>
+             </Card.Body>
+           </Card>
+           <Card
+             style={{
+              /* width: "25vw",*/
+               borderRadius: "20px 20px 0px 0px",
+               border: "none",
+             }}
+           >
+            <Card.Img className="imgUni" variant="top"  src={migrante}  />
+             <Card.Body>
+               <Card.Title className="cardTittle">Migrante</Card.Title>
+               <Card.Text
+                 style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                 className="cardText"
+               >
+                 Diseño de plataforma nacional e internacional de simulación de créditos para migrantes.
+               </Card.Text>
+              <Link to="/Unimarc"> <Button
+                 variant="#FF3C38"
+                 style={{
+                   marginTop: "1.5rem",
+                   marginLeft: "0rem",
+                   display: "flex",
+                   borderRadius: "8px",
+                   fontFamily: "Montserrat",
+                   color: "rgba(255, 255, 255, 1)",
+                   fontWeight: "700",
+                   background: "#FF3C38",
+                 }}
+               >
+                 Ver Proyecto
+               </Button></Link>
+             </Card.Body>
+           </Card>
+          
  
          </CardDeck>
          </div>   

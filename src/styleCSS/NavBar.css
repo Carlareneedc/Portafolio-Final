@@ -50,7 +50,7 @@ justify-content: space-evenly;
 }
 .tags{
     font-family: Montserrat;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1em;
     color:rgba(51, 51, 51, 1);
     text-align: center;
@@ -71,7 +71,7 @@ justify-content: space-evenly;
 }
 .vivoen, .soyUna{
     font-family: Montserrat;
-    font-size:1.3em;
+    font-size:1.5em;
     color:rgba(0, 0, 0, 1);
     font-weight: 400;
     line-height: 43px;
@@ -79,6 +79,7 @@ justify-content: space-evenly;
 .textoPresentacion {
     text-align: left;
     margin-top: 0rem;
+    
 }
 
 .soyUna{

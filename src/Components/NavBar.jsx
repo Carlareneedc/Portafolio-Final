@@ -24,6 +24,8 @@ import gav from "../img/gav.png";
 /* import unimarc from "../img/unimarc.png"; */
 import portal from "../img/portal.png"
 import Proyectos from "../Components/Proyectos"
+import migrante from "../img/migrante.png";
+import tango from "../img/tango.png"
 
 class FullPageIntroWithFixedNavbar extends React.Component {
   constructor(props) {
@@ -148,7 +150,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                     </mark>
                   </h5>
                   <p className="vivoen">
-                  Soy diseñadora UX/UI con dos años de experiencia diseñando interfaces web y mobile. Me gusta diseñar y colaborar, mi motivación principal al diseñar productos es poder alinear el objetivo de negocio con las necesidades de las personas
+                 Diseñadora UX/UI con experiencia diseñando interfaces web y mobile. Mi motivación principal al crear productos es poder alinear el objetivo de negocio con las necesidades de las personas
                 .
                   </p>
                   <p className="soyUna">
@@ -169,63 +171,28 @@ class FullPageIntroWithFixedNavbar extends React.Component {
             Proyectos
           </mark>
         </h5>
-
-        <div className=" container  col-md-10 flex-center">
+<div className=" container  col-md-10 flex-center">
           <CardDeck>
-          <Card
+            <Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
                 border: "none",
               }}
             >
-              <Card.Img variant="top" src={edu} />
-              <Card.Body clasName="pro">
-                <Card.Title className="cardTittle">Educación Financiera</Card.Title>
-                <Card.Text
-                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
-                  className="cardText"
-                >
-                  Transformación digital del programa de Educación financiera de Fosis por medio de la consultora Satori.
-                </Card.Text>
-                <Link to="/EdFinanciera">
-                  <Button
-                    variant="#FF3C38"
-                    style={{
-                      marginTop: "3rem",
-                      marginLeft: "0rem",
-                      display: "flex",
-                      borderRadius: "8px",
-                      fontFamily: "Montserrat",
-                      color: "rgba(255, 255, 255, 1)",
-                      fontWeight: "700",
-                      background: "#FF3C38",
-                    }}
-                  >
-                    Ver Proyecto
-                  </Button>
-                </Link>
-              </Card.Body>
-            </Card>
-          <Card
-              style={{
-                borderRadius: "20px 20px 0px 0px",
-                border: "none",
-              }}
-            >
-              <Card.Img variant="top" src={portal} />
+              <Card.Img variant="top" src={migrante} />
               <Card.Body>
-                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Title className="cardTittle">Migrante</Card.Title>
                 <Card.Text
                   style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                   className="cardText"
                 >
-                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                 Diseño de plataforma nacional e internacional de simulación de créditos para migrantes.
                 </Card.Text>
-                <Link to="/Portal">
+                <Link to="/Gav">
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "4rem",
+                      marginTop: "2.5rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",
@@ -246,7 +213,44 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 border: "none",
               }}
             >
-              <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
+              <Card.Img variant="top" src={tango} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Tango Rent</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Sitio de venta y arriendo de propiedades 100% on line.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3.6rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+          
+            
+          
+            {/*<Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img className="imgUni" variant="top" /* src={unimarc}  />
               <Card.Body>
                 <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
                 <Card.Text
@@ -313,23 +317,22 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </Link>
               </Card.Body>
             </Card>*/}
-            <Card
+          <Card
               style={{
                 borderRadius: "20px 20px 0px 0px",
                 border: "none",
               }}
             >
-              <Card.Img variant="top" src={gav} />
-              <Card.Body>
-                <Card.Title className="cardTittle">GAV</Card.Title>
+              <Card.Img variant="top" src={edu} />
+              <Card.Body clasName="pro">
+                <Card.Title className="cardTittle">Educación Financiera</Card.Title>
                 <Card.Text
                   style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                   className="cardText"
                 >
-                  Sitio gamificado en donde se entrega información sobre el
-                  covid-19. Proyecto ganador empresa "Hootie Hoo".
+                  Transformación digital del programa de Educación financiera de Fosis por medio de la consultora Satori.
                 </Card.Text>
-                <Link to="/Gav">
+                <Link to="/EdFinanciera">
                   <Button
                     variant="#FF3C38"
                     style={{
@@ -348,6 +351,124 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                 </Link>
               </Card.Body>
             </Card>
+     
+            
+          </CardDeck>
+        </div>
+        
+        <div className=" container  col-md-10 flex-center">
+          <CardDeck>
+            
+          
+            
+          {/*<Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={portal} />
+              <Card.Body>
+                <Card.Title className="cardTittle">Cyber Monday</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Construcción y corrección de Landing para la campaña Cyber Monday en Mercado Libre y Portal Inmobiliario.
+                </Card.Text>
+                <Link to="/Portal">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "3rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+            {/*<Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img className="imgUni" variant="top" /* src={unimarc}  />
+              <Card.Body>
+                <Card.Title className="cardTittle">Recetas Unimarc</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  Rediseño de la sección de recetas correspondiente a la
+                  plataforma web Unimarc. Proyecto ganador "Hackaton"
+                  Laboratoria
+                </Card.Text>
+                <Link to="/Unimarc">
+                  {" "}
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "2.5rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>
+            {/*<Card
+              style={{
+                borderRadius: "20px 20px 0px 0px",
+                border: "none",
+              }}
+            >
+              <Card.Img variant="top" src={japan} />
+              <Card.Body clasName="pro">
+                <Card.Title className="cardTittle">Japan Queen</Card.Title>
+                <Card.Text
+                  style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
+                  className="cardText"
+                >
+                  App para restaurantes que se origina como solución a la
+                  gestión de pedidos, eliminando el uso de comandas y toma de
+                  ordenes a mano.
+                </Card.Text>
+                <Link to="/JapanQueen">
+                  <Button
+                    variant="#FF3C38"
+                    style={{
+                      marginTop: "1rem",
+                      marginLeft: "0rem",
+                      display: "flex",
+                      borderRadius: "8px",
+                      fontFamily: "Montserrat",
+                      color: "rgba(255, 255, 255, 1)",
+                      fontWeight: "700",
+                      background: "#FF3C38",
+                    }}
+                  >
+                    Ver Proyecto
+                  </Button>
+                </Link>
+              </Card.Body>
+            </Card>*/}
+          
      
             
           </CardDeck>
