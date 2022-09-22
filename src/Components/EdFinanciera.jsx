@@ -32,8 +32,8 @@ import edresultuno from "../../src/img/edresult1.png";
 import edresultdos from "../../src/img/edresult2.png";
 import edresultres from "../../src/img/edresult3.png";
 import edresultcuatro from "../../src/img/edresult4.png";
-import japan from "../img/proyectouno.png";
-import gav from "../img/gav.png";
+import tango from "../img/tango.png"
+import migrante from "../img/migrante.png";
 /* import unimarc from "../img/unimarc.png"; */
 
 class EdFinanciera extends React.Component {
@@ -133,10 +133,10 @@ class EdFinanciera extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    Re diseño y transformación digital hacía una App de
-                    educación financiera diseñada para las mujeres
-                    pertenecientes al Programa Familia del FOSIS, a cargo de
-                    SATORI en conjunto con el Instituto de Estudios Peruanos.
+                    Re diseño y transformación digital del programa de educación financiera
+                    diseñada para las mujeres
+                    pertenecientes al Programa Familia de <strong>FOSIS</strong>, a cargo de
+                    <strong> SATORI</strong> en conjunto con el <strong>Instituto de Estudios Peruanos.</strong>
                   </p>
                   <div className="">
                     <div className=" col-sm-12 col-md-6  float-left">
@@ -260,13 +260,10 @@ class EdFinanciera extends React.Component {
                 >
                   El mayo desafío en este proyecto, tiene que ver con el{" "}
                   <strong>re diseño y transformación digital.</strong> Este
-                  programa solía darse en actividades presenciales en distintas
-                  ciudades de Chile, con usuarias y usuarios que participaban de
-                  los cursos y talleres en general del FOSIS. La importancia que
-                  tenía la presencialidad de este taller, era lo que más
-                  valoraban los usuarios, el poder compartir con otras personas,
-                  poder llevar a sus hijos y todo lo que significa una
-                  experiencia de aprendizaje presencial.
+                  programa se realizaba de forma presencial en distintas
+                  ciudades de Chile con usuarias y usuarios que participaban de
+                  los cursos y talleres en general del FOSIS. La presencialidad era lo que más se valoraba de este taller, poniendo así un gran nivel de complejidad en su transformación.
+                
                 </p>
               </div>
 
@@ -274,7 +271,7 @@ class EdFinanciera extends React.Component {
                 <p className=" desdeAqui ">
                   Desde la premisa de lo presencial y considerando además que
                   nos encontramos en el segundo año de pandemia, se planteo la
-                     relevancia de una transformación digital para poder llegar a
+                     relevancia de una de desarrollar y diseñar una plataforma para poder llegar a
                     más usuarios y <strong>elevar la alfabetización digital.</strong>
              
                 </p>
@@ -302,13 +299,12 @@ class EdFinanciera extends React.Component {
                 "
                 >
                   <strong>
-                    Crear una app de educación financiera para mujeres de
-                    escasos recursos.
+                    Transformación digital de un programa presencial.
                   </strong>
                 </p>
                 <p className="cambian col-md-12">
                   <strong>
-                    Tienen un bajo nivel de alfabetización digital y
+                    Nuestras usuarias tienen un bajo nivel de alfabetización digital y
                     tecnológico.
                   </strong>
                 </p>
@@ -433,14 +429,13 @@ class EdFinanciera extends React.Component {
             
               <p className="segun">
                 El programa fue testeado con las usuarias, las que tuvieron muy
-                bien acogida y entendimiento, recalcando que el programa
+                buena acogida y entendimiento, recalcando que el programa
                 efectivamente les ha ayudado con los temas financieros, pero que
-                además, han podido acercarse mucha más a la tecnología. Lo más
+                además, han podido acercarse mucho más a la tecnología. Lo más
                 valorado fue el diseño y la sensación de cercanía que generó.
               </p>
               <p className="segun">
-              Para acceder a la plataforma, debes hacer clic en las pantallas que se muestran en "resultado" y acceder con este usuario <strong>Usuario: usuari@
-Clave: UP123456</strong>
+              
               </p>
               <h5 className="resultado">
                 <mark
@@ -458,7 +453,7 @@ Clave: UP123456</strong>
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <a target="_blank" href="https://edufinancierafosis.com/invitation ">
+              <a target="_blank" href="https://www.figma.com/proto/cln81QGH4oe4QpxqrIyNQA/MVP-EF?node-id=986%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=986%3A3&show-proto-sidebar=1">
                 {" "}
                 <img
                   className="img-fluid jp "
@@ -562,15 +557,14 @@ Clave: UP123456</strong>
                   border: "none",
                 }}
               >
-                <Card.Img variant="top" src={gav} />
+                <Card.Img variant="top" src={tango} />
                 <Card.Body>
-                  <Card.Title className="cardTittle">GAV</Card.Title>
+                  <Card.Title className="cardTittle">Tango Rent</Card.Title>
                   <Card.Text
                     style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                     className="cardText"
                   >
-                    Sitio gamificado en donde se entrega información sobre el
-                    covid-19. Proyecto ganador empresa "Hootie Hoo".
+                    Sitio de venta y arriendo de propiedades 100% on line.
                   </Card.Text>
                   <Link to="/Gav">
                     <Button
@@ -598,7 +592,7 @@ Clave: UP123456</strong>
                   border: "none",
                 }}
               >
-                <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
+                <Card.Img className="imgUni" variant="top" src={migrante}/>
                 <Card.Body>
                   <Card.Title className="cardTittle">
                     Recetas Unimarc
