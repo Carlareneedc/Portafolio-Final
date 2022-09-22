@@ -131,7 +131,7 @@ class Gav extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    Desarrollo de app y landing de solicitud y simulación de créditos para adquirir motos en Perú y Chile.
+                    Desarrollo de app y landing de solicitud y simulación de créditos en Perú y Chile.
                     
                   </p>
                   <div className="">
@@ -201,24 +201,29 @@ class Gav extends React.Component {
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia Migrante
+                    Experiencia GAV
                   </mark>
                 </h5>
                 <p
                   className="comoToda mt-4
                 "
                 >
-                  El diseño de las plataformas de solicitud de crédito, viene a resolver el problema de la bancarización de migrantes Venezolanos en Chile y Perú. Se propone este proyecto como una oportunidad de que cualquier persona, sin necesidad de tener un historial crediticio, 
+                  El Proyecto GAV, tiene como objetivo{" "}
                   <strong>
-                     pueda optar a un financiamiento de motos para uso personal o laboral.
+                    brindar una solución a los usuarios por medio de la
+                    inclusión y gamificación.
                   </strong>{" "}
-                 
+                  Esto quiere decir que debe ser accesible y legible para todo
+                  tipo de usuarios y explicar claramente las implicancias del
+                  virus Covid-19 de manera que su entendimiento sea didáctico.
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Cada plataforma tiene un enfoque y una función, desde el producto de Perú, se propone una landing simple donde el usuario deja sus datos  es contactado, en el caso de <strong> Kayak </strong>, se desarrolla una app de simulación de créditos y análisis de datos del usuario.
+                  Para esto, realicé una investigación enfocada en usuarios
+                  reales con el fin de descubrir hallazgos que permitieran crear
+                  el contenido de la página.
                 </p>
               </div>
             </div>
