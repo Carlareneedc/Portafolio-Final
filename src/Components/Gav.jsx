@@ -37,6 +37,9 @@ import portal from "../img/portal.png"
 import edu from "../img/login.png";
 import migrant from "../img/migrant.png";
 import journey from "../img/journey.png";
+import kayak from "../img/kayak.png";
+import kayakdos from "../img/kayakdos.png";
+import kayaktres from "../img/kayaktres.png";
 class Gav extends React.Component {
   constructor(props) {
     super(props);
@@ -347,30 +350,30 @@ class Gav extends React.Component {
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://www.figma.com/proto/cln81QGH4oe4QpxqrIyNQA/MVP-EF?node-id=3002%3A1158&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3002%3A1158&show-proto-sidebar=1">
                 {" "}
                 <img
                   className="img-fluid gv "
-                  src={resultgav}
+                  src={kayak}
                   alt="First slide"
                 />
               </a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://www.figma.com/proto/cln81QGH4oe4QpxqrIyNQA/MVP-EF?node-id=3002%3A1158&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3002%3A1158&show-proto-sidebar=1">
                 <img
                   className="img-fluid gv"
-                  src={resultgavdos}
+                  src={kayakdos}
                   alt="Third slide"
                 />
               </a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://ganemoslealcorona.netlify.app/">
+              <a target="_blank" href="https://www.figma.com/proto/cln81QGH4oe4QpxqrIyNQA/MVP-EF?node-id=3002%3A1158&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3002%3A1158&show-proto-sidebar=1">
                 {" "}
                 <img
                   className="img-fluid gv "
-                  src={resultgavtres}
+                  src={kayaktres}
                   alt="Third slide"
                 />
               </a>
