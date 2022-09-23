@@ -36,7 +36,7 @@ import japan from "../img/proyectouno.png";
 import portal from "../img/portal.png"
 import edu from "../img/login.png";
 import migrant from "../img/migrant.png";
-
+import journey from "../img/journey.png";
 class Gav extends React.Component {
   constructor(props) {
     super(props);
@@ -131,7 +131,7 @@ class Gav extends React.Component {
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    Desarrollo de app y landing de solicitud y simulación de créditos para adquirir motos en Perú y Chile.
+                    Desarrollo de app<strong> Kayak </strong>simulación de créditos para adquirir motos en Perú y Chile.
                     
                   </p>
                   <div className="">
@@ -201,7 +201,7 @@ class Gav extends React.Component {
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia Migrante
+                    Experiencia Migrante - Kayak
                   </mark>
                 </h5>
                 <p
@@ -209,16 +209,16 @@ class Gav extends React.Component {
                 "
                 >
                   El diseño de las plataformas de solicitud de crédito, viene a resolver el problema de la bancarización de migrantes Venezolanos en Chile y Perú. Se propone este proyecto como una oportunidad de que cualquier persona, sin necesidad de tener un historial crediticio, 
-                  <strong>
+                  
                      pueda optar a un financiamiento de motos para uso personal o laboral.
-                  </strong>{" "}
+                  
                  
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Cada plataforma tiene un enfoque y una función, desde el producto de Perú, se propone una landing simple donde el usuario deja sus datos  es contactado, en el caso de <strong> Kayak </strong>, se desarrolla una app de simulación de créditos y análisis de datos del usuario.
+                  La plataforma tiene un enfoque y una función centrada en el usuario. <strong> Kayak </strong>, se desarrolla como una app de simulación de créditos y análisis de datos del usuario.
                 </p>
               </div>
             </div>
@@ -244,31 +244,22 @@ class Gav extends React.Component {
                 "
                 >
                   <strong>
-                    ¿Cómo gamificar información del covid-19 a niños entre 4 a 9
-                    años?
+                    ¿Cómo evaluar a nuestros usuarios para otorgar créditos?
+                    y ¿De qué manera generar simulaciones rápidas de crédito?
                   </strong>
                 </p>
                 <p className="gav col-md-12">
-                  <strong>¿De qué manera generar contenido inclusivo?</strong>
+                  <strong></strong>
                 </p>
               </div>
 
               <div className=" ctnQuien col-sm-12 col-md-9">
                 <p className=" col-md-12 quien">
-                  El contexto de la pandemia generó cambios en los hábitos de
-                  todas las personas en el mundo, pero aún más en la vida de los
-                  niños. Es difícil para ellos llegar a entender las sus
-                  consecuencias, considerando que son graves y no se deben tomar
-                  a la ligera. El desafío en este caso es explicar por ejemplo,
-                  por qué no pueden abrazar a sus amigos, ir al colegio o ver a
-                  sus familiares.
+                  En el caso de <strong>Kayak</strong> el mayor desafío es conocer cuál es nuestro usuario y cuáles son sus necesidades, y cómo podemos resolver sus dolores en la entrega exitosa de un crédito sin el requisito de estar bancarizados.
                 </p>
+               
                 <p className="col-md-12 cliente">
-                  Por otro lado considerar que en base al rango etario de estos
-                  niños, hay muchos de ellos que no saben leer ni escribir, por
-                  ende no podrán comprender información escrita. Así mismo poder
-                  incluir a personas con capacidades diferentes y también
-                  dificultades para acceder a WiFi.
+                 Por otro lado, generar una simulación clara y correcta desde la adquisición rápida y simple de datos del cliente sin necesidad de un mayor papeleo y de manera 100% on line.
                 </p>
               </div>
             </div>
@@ -287,63 +278,35 @@ class Gav extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesosgav">
-                  En base al contexto de pandemia, realicé una encuesta{" "}
-                  <strong>
-                    enfocada a padres o tutores de niños entre 4 a 9 años
+                  Se realiza una investigación de usuario para poder generar un enfoque claro del producto, generando protopersonas que ayudarían comprender mejor hacia quién nos dirigimos. Una vez profundizada la información del usuario fue necesario realizar un analisis de competencias para conocer qué plataformas entregan créditos, cuáles son su requerimientos y cómo llegan a los clientes. 
+                  
+                     Nuestro usuario objetivo son <strong> migrantes Venezolanos
                   </strong>
-                  , rango etario que se tomó como hallazgo dentro de la
-                  investigación. Si bien, nuestros usuario directos son los
-                  padres o tutores, el objetivo principal es que ellos puedan
-                  guiar a los niños en el uso de la página.
+                  , esto no excluye a cualquier otro usuario que necesite adquirir un crédito.
                 </p>
                 <p className="eldesafio">
-                  El desafío en base a a los usuarios, también se relaciona con
-                  la posibilidad de darle solución al problema planteado
-                  anteriormente y poder incorporar la inclusión. Para esto se
-                  definieron usuarios indirectos, los que no acceden por si
-                  mismos a la página, sin embargo pueden conocer su contenido.
+                 El mayor dolor que se detectó en el discovery, es que nuestro usuario tiene bajo nivel de bancarización y conocimientos financieros, por otro lado la necesidad de trabajo y de adquirir una herramienta para generar ingresos. Es por esto que además de considerar a nuestro usuario no bancarizado, tambén el foco importante es el <strong> usuario repartidor de app. </strong>
                 </p>
                 <p className="textopro">
-                  <strong>Personas con capacidades diferentes.</strong> En este
-                  caso, se consideran a personas que tengan algún tipo de
-                  discapacidad visual como daltonismo o disminución de la
-                  visión.
+                  <strong>¿Cómo optar a una moto sin historial crediticio?</strong> En este punto se propone que nuestro usuario pueda validar rapidamente algunos documentos que acrediten ingresos, identidad y capacidad financiera.
                 </p>
                 <p className="mesero">
-                  <strong>Niños que no saben leer ni escribir.</strong> serán
-                  guiados por sus padres en el acceso al contenido.
+                  <strong>¿De qué modo podemos obtener la información necesaria de nuestro usuario?</strong> 
                 </p>
               </div>
               <div className=" col-md-6 ">
-                <img src={gamificacion} className="gam" alt="gam" />
+                <img src={journey} className="gam" alt="gam" />
               </div>
               <div className="ctngav row ">
                 <div className="container col-sm-12 col-md-12">
                   <div className="row ">
                     <div className=" col-sm-12 col-md-6">
-                      <p
-                        className="comoToda mt-4
-                "
-                      >
-                        Por medio de la investigación y considerando los
-                        usuarios declarados anteriormente, hubieron importantes
-                        hallazgos que permitieron generar una solución efectiva.
-                        Estos hallazgos, por un lado, se relacionan directamente
-                        con los que los padres de este rango etario de niños
-                        declararon. Entre estos,{" "}
-                        <strong>
-                          la necesidad de crear hábitos, poder explicar lo que
-                          significa el virus de manera didáctica.
-                        </strong>
-                      </p>
+                     
                     </div>
 
                     <div className="col-md-6">
                       <p className=" entreestos ">
-                        No generar más confusión con más información y también
-                        mostrar que podría existir una salida y una mejora. Por
-                        otro lado, encontrar la manera de poder hacer que el
-                        contenido pudiera llegar a nuestros usuarios indirectos.
+                       
                       </p>
                     </div>
                   </div>
@@ -363,29 +326,10 @@ class Gav extends React.Component {
               <p className="porotro">
                 {" "}
                 La solución final fue crear una interfaz desarrollada para{" "}
-                <strong>desktop y mobile</strong>, considerando que nuestros
-                usuarios pueden tener acceso a un computador, sin embargo en el
-                presente el acceso a un teléfono es más generalizado. El diseño
-                de la página hace referencia a un tablero de juego donde el
-                usuario puede elegir a qué sección acceder, en cada una existe
-                material explicativo sobre el virus y su viaje por el mundo,
-                como un cuento que puede ser relatado.{" "}
+                <strong> mobile</strong>, en base a que nuestros usuarios tienen mayor acceso a smartphone, apelando también a la inmediatez que se genera por medio del uso de un teléfono celular. Por otro lado se propone una calculadora que pueda entregarle al usuario la simulación rápida de su crédito sgún las cuotas y montos que ha elegido. Para poder obtener los datos fidedignos del cliente y además agilizar el proceso, se debe acceder a la plataforma por medio de Clave única.
               </p>
               <p className="cadaseccion">
-                Cada sección también contiene imágenes alusivas al tema,
-                caricaturas, audios y videos que corresponden a la serie de{" "}
-                <strong>"Puma espuma y el escuadrón prevención"</strong>. Este
-                material audiovisual{" "}
-                <strong>
-                  soluciona el problema relacionado con los usuarios que poseen
-                  capacidades diferentes.
-                </strong>{" "}
-                Juegos y actividades para realizar en casa, además de material
-                descargable,{" "}
-                <strong>
-                  solucionando el problema relacionado al acceso limitado a
-                  wifi.
-                </strong>
+                Se propone una interfaz clara y limpia que no interfiera con la información solicitada, se utilizan mayormente la gama de colores de la empresa y su branding.
               </p>
               <h5 className="resultado">
                 <mark
