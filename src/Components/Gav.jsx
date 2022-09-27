@@ -427,7 +427,7 @@ class Gav extends React.Component {
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "3.5rem",
+                      marginTop: "3.4rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",
@@ -497,7 +497,7 @@ class Gav extends React.Component {
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "3rem",
+                      marginTop: "2.5rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",

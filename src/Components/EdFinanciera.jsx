@@ -258,7 +258,7 @@ class EdFinanciera extends React.Component {
                   className="comoToda mt-4
                 "
                 >
-                  El mayo desafío en este proyecto, tiene que ver con el{" "}
+                  El mayor desafío en este proyecto, tiene que ver con el{" "}
                   <strong>re diseño y transformación digital.</strong> Este
                   programa se realizaba de forma presencial en distintas
                   ciudades de Chile con usuarias y usuarios que participaban de
@@ -271,7 +271,7 @@ class EdFinanciera extends React.Component {
                 <p className=" desdeAqui ">
                   Desde la premisa de lo presencial y considerando además que
                   nos encontramos en el segundo año de pandemia, se planteo la
-                     relevancia de una de desarrollar y diseñar una plataforma para poder llegar a
+                     relevancia de desarrollar y diseñar una plataforma para poder llegar a
                     más usuarios y <strong>elevar la alfabetización digital.</strong>
              
                 </p>
@@ -570,7 +570,7 @@ class EdFinanciera extends React.Component {
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "2.5rem",
+                        marginTop: "3.6rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",
@@ -595,22 +595,20 @@ class EdFinanciera extends React.Component {
                 <Card.Img className="imgUni" variant="top" src={migrante}/>
                 <Card.Body>
                   <Card.Title className="cardTittle">
-                    Recetas Unimarc
+                    Migrante
                   </Card.Title>
                   <Card.Text
                     style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                     className="cardText"
                   >
-                    Rediseño de la sección de recetas correspondiente a la
-                    plataforma web Unimarc. Proyecto ganador "Hackaton"
-                    Laboratoria
+                    Diseño de plataforma nacional e internacional de simulación de créditos para migrantes.
                   </Card.Text>
-                  <Link to="/Unimarc">
+                  <Link to="/Gav">
                     {" "}
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "1rem",
+                        marginTop: "2rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",

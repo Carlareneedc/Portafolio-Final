@@ -29,7 +29,7 @@ import "../styleCSS/JapanQueen.css";
 import gav from "../img/gav.png";
 
 import japan from "../img/proyectouno.png";
-import unirecetas from "../img/recetasunimarc.png";
+import tangopage from "../img/tangopage.png";
 import humansdos from "../img/humaaansdos.png";
 import resultunimarc from "../img/resultunimarc.png";
 import resultunimarcdos from "../img/resultunimarcdos.png";
@@ -113,7 +113,7 @@ class Unimarc extends React.Component {
                 <div className=" col-sm-12 col-md-5">
                   <img
                     className="img-fluid japanQueen"
-                    src={unirecetas}
+                    src={tangopage}
                     alt="imgjapan"
                   />
                 </div>
@@ -126,16 +126,14 @@ class Unimarc extends React.Component {
                         color: "rgba(89, 89, 89, 1)",
                       }}
                     >
-                      Recetas Unimarc
+                      Tango Rent
                     </mark>
                   </h5>
 
                   <p className=" col-md-10 col-md-6 japanEs">
-                    Unimarc Recetas, es un proyecto realizado por encargo de la
-                    empresa SMU para Unimarc. Se propone como rediseño de la
-                    sección recetas correspondiente a la página web de Unimarc.{" "}
-                    <br></br>
-                    <strong>Proyecto Ganador Hackaton Laboratoria.</strong>
+                    Tango es una plataforma inmobiliaria que se encarga de todos los trámites de arrendamiento de propiedades de forma automatizada.
+                  
+            
                   </p>
 
                   <div className="">
@@ -143,7 +141,7 @@ class Unimarc extends React.Component {
                       {" "}
                       <h5 className="rolText ">Rol</h5>
                       <p className="ux">UX/UI Designer</p>
-                      <p className="fed">Front End Developer</p>{" "}
+                    
                       <h5 className=" rolText">Actividades</h5>
                       <div className="container">
                         <div className="row tagsJapan">
@@ -155,7 +153,7 @@ class Unimarc extends React.Component {
                                 padding: "0.5rem",
                               }}
                             >
-                              UX Research
+                              UX/UI Design
                             </mark>
                           </p>
                           <p className="proto">
@@ -186,7 +184,7 @@ class Unimarc extends React.Component {
                     </div>
                     <div className=" col-sm-12 col-md-6 float-right">
                       <h5 className="rolText ">Fecha del Proyecto</h5>
-                      <p className="julio">Septiembre 2020</p>
+                      <p className="julio">Febrero 2022</p>
                     </div>
                   </div>
                 </div>
@@ -206,33 +204,20 @@ class Unimarc extends React.Component {
                       color: "rgba(89, 89, 89, 1)",
                     }}
                   >
-                    Experiencia Recetas Unimarc
+                    Experiencia Tango Rent
                   </mark>
                 </h5>
                 <p
                   className="comoToda mt-4
                 "
                 >
-                  <strong>Recetas Unimarc</strong>, se presenta como desafío en
-                  contexto de la <strong>Hackaton en Laboratoria</strong>, pero
-                  además como proyecto de egreso de la generación 13. El
-                  rediseño de la sección de recetas de la página web Unimarc. Se
-                  propone como solución y mejora en base al contenido de la
-                  página ya existente y se desarrolla tomando en cuenta el
-                  contexto de pandemia.
+                  El re diseño de la plataforma <strong>Tango</strong>, se propone desde la necesidad de generar mayores conversiones, proporcionando una plataforma más amigable y atractiva. Desde un análisis exhaustivo, detecté diferentes detalles que debían ser mejorados o eliminados de la plataforma ya que no aportaban desde la experiencia de usuario.
                 </p>
               </div>
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  El confinamiento nos ha permitido desarrollar actividades
-                  dentro de nuestro hogar, siendo una de estas cocinar en
-                  familia. Es por esto que SMU nos propone el desafío de crear
-                  una página web que permita la{" "}
-                  <strong>
-                    búsqueda y adquisición de ingredientes y recetas de una
-                    manera amigable y sencilla.
-                  </strong>
+                 Era necesario complementar la experiencia de usuario y el diseño en conjunto con la propuesta de valor de una <strong> plataforma 100% y automatizada </strong> de modo de solucionar la mayor cantidad de dolores del usuario considerando todo lo que implica arrendar y poner en arriendo una propiedad.
                 </p>
               </div>
             </div>
@@ -258,37 +243,22 @@ class Unimarc extends React.Component {
                 "
                 >
                   <strong>
-                    ¿cómo podemos hacer la experiencia de compra de insumos para
-                    receta de una forma más amigable?
+                    ¿cómo generar confianza desde la plataforma hacia el usuario?
                   </strong>
                 </p>
                 <p className="deque col-md-12">
                   <strong>
-                    ¿De qué manera se puede potenciar las recetas 4X4 de Unimarc
+                    ¿De qué manera mejorar la interfaz de Tango?
                   </strong>
                 </p>
               </div>
 
               <div className=" ctnQuien col-sm-12 col-md-9">
                 <p className=" col-md-12 quien">
-                  La página web de Unimarc{" "}
-                  <strong>
-                    no posee una sección de compra o e-commerce que invite al
-                    usuario a comprar on-line.
-                  </strong>{" "}
-                  La sección de recetas, es una parte importante de la
-                  plataforma e invita a cocinar{" "}
-                  <strong>menús para 4 personas por $4000.</strong> Sin embargo,
-                  el acceso a esos ingredientes sólo es posible de manera
-                  presencial y no existe un llamado que potencie esta acción, es
-                  decir, <strong>la compra.</strong>
+                Si bien la plataforma posee una gran cantidad de usuarios que valoran su funcionalidad, tiende a haber poco crecimiento desde el punto de vista de las conversiones, por razones que son desconocidas.
                 </p>
                 <p className="col-md-12 cliente">
-                  Las recetas <strong>4X4</strong> además de las propias
-                  recetas, disponen de más contenido que tiene que ver con la
-                  cocina, como tips y material audiovisual que{" "}
-                  <strong>no se encuentra bien posicionado en la página</strong>{" "}
-                  por ende es de difícil acceso para los usuarios.
+                  La interfaz que se propone es clara y simple, sin embargo tiende a estar sobre cargada de información otorgandole relevancia a secciones que enrealidad no son las que se quieren destacar.
                 </p>
               </div>
             </div>
