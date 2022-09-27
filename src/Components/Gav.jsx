@@ -40,6 +40,7 @@ import journey from "../img/journey.png";
 import kayak from "../img/kayak.png";
 import kayakdos from "../img/kayakdos.png";
 import kayaktres from "../img/kayaktres.png";
+import tango from "../img/tango.png";
 class Gav extends React.Component {
   constructor(props) {
     super(props);
@@ -248,7 +249,7 @@ class Gav extends React.Component {
                 >
                   <strong>
                     ¿Cómo evaluar a nuestros usuarios para otorgar créditos?
-                    y ¿De qué manera generar simulaciones rápidas de crédito?
+                    y ¿De qué manera generar simulaciones rápidas?
                   </strong>
                 </p>
                 <p className="gav col-md-12">
@@ -281,14 +282,14 @@ class Gav extends React.Component {
                   </mark>
                 </h5>
                 <p className="textoProcesosgav">
-                  Se realiza una investigación de usuario para poder generar un enfoque claro del producto, generando protopersonas que ayudarían comprender mejor hacia quién nos dirigimos. Una vez profundizada la información del usuario fue necesario realizar un analisis de competencias para conocer qué plataformas entregan créditos, cuáles son su requerimientos y cómo llegan a los clientes. 
+                  Se realiza una investigación de usuario para poder generar un enfoque claro del producto, generando protopersonas que ayudarían comprender mejor hacia quién nos dirigimos. Una vez profundizada la información del usuario fue necesario realizar un análisis de competencias para conocer qué plataformas entregan créditos, cuáles son su requerimientos y cómo llegan a los clientes. 
                   
                      Nuestro usuario objetivo son <strong> migrantes Venezolanos
                   </strong>
                   , esto no excluye a cualquier otro usuario que necesite adquirir un crédito.
                 </p>
                 <p className="eldesafio">
-                 El mayor dolor que se detectó en el discovery, es que nuestro usuario tiene bajo nivel de bancarización y conocimientos financieros, por otro lado la necesidad de trabajo y de adquirir una herramienta para generar ingresos. Es por esto que además de considerar a nuestro usuario no bancarizado, tambén el foco importante es el <strong> usuario repartidor de app. </strong>
+                 El mayor dolor que se detectó en el discovery, es que nuestro usuario tiene bajo nivel de bancarización y conocimientos financieros, por otro lado la necesidad de trabajo y de adquirir una herramienta para generar ingresos. Es por esto que además de considerar a nuestro usuario no bancarizado, también el foco importante es el <strong> usuario repartidor de app. </strong>
                 </p>
                 <p className="textopro">
                   <strong>¿Cómo optar a una moto sin historial crediticio?</strong> En este punto se propone que nuestro usuario pueda validar rapidamente algunos documentos que acrediten ingresos, identidad y capacidad financiera.
@@ -329,7 +330,7 @@ class Gav extends React.Component {
               <p className="porotro">
                 {" "}
                 La solución final fue crear una interfaz desarrollada para{" "}
-                <strong> mobile</strong>, en base a que nuestros usuarios tienen mayor acceso a smartphone, apelando también a la inmediatez que se genera por medio del uso de un teléfono celular. Por otro lado se propone una calculadora que pueda entregarle al usuario la simulación rápida de su crédito sgún las cuotas y montos que ha elegido. Para poder obtener los datos fidedignos del cliente y además agilizar el proceso, se debe acceder a la plataforma por medio de Clave única.
+                <strong> mobile</strong>, en base a que nuestros usuarios tienen mayor acceso a smartphone, apelando también a la inmediatez que se genera por medio del uso de un teléfono celular. Por otro lado se propone una calculadora que pueda entregarle al usuario la simulación rápida de su crédito según las cuotas y montos que ha elegido. Para poder obtener los datos fidedignos del cliente y además agilizar el proceso, se debe acceder a la plataforma por medio de Clave única.
               </p>
               <p className="cadaseccion">
                 Se propone una interfaz clara y limpia que no interfiera con la información solicitada, se utilizan mayormente la gama de colores de la empresa y su branding.
@@ -380,7 +381,7 @@ class Gav extends React.Component {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="col-sm-12">
+        {/*<div className="col-sm-12">
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
@@ -392,7 +393,7 @@ class Gav extends React.Component {
               a todos, principalmente a los usuarios.
             </p>
           </div>
-        </div>
+                </div>*/}
         <div>
           <h5 className="container col-sm-12  col-md-10 puedes">
             {" "}
@@ -518,25 +519,23 @@ class Gav extends React.Component {
                   border: "none",
                 }}
               >
-                <Card.Img className="imgUni" variant="top" /* src={unimarc} */ />
+                <Card.Img className="imgUni" variant="top" src={tango} />
                 <Card.Body>
                   <Card.Title className="cardTittle">
-                    Recetas Unimarc
+                    Tango Rent
                   </Card.Title>
                   <Card.Text
                     style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                     className="cardText"
                   >
-                    Rediseño de la sección de recetas correspondiente a la
-                    plataforma web Unimarc. Proyecto ganador "Hackaton"
-                    Laboratoria
+                   Sitio de venta y arriendo de propiedades 100% on line.
                   </Card.Text>
                   <Link to="/Unimarc">
                     {" "}
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "1.5rem",
+                        marginTop: "4rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",

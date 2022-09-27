@@ -493,14 +493,14 @@ class EdFinanciera extends React.Component {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="col-sm-12">
+        {/*<div className="col-sm-12">
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
               Lo que más me gustó de este proyecto, fue el desafío de la transformación digital. Además creo que la importancia de los dolores de las usuarias era el foco de este proyecto, lograr que efectivamente ellas pudieran acceder a la educación financiera y darles mayor valor por el hecho de estar 100% enfocado en mujeres de escasos recursos y la manera en que de a poco se fueron acercando a la tecnología. Si bien no es una app que por el momento tenga un enfoque de negocios, creo firmemente que en próximas iteraciones, podría ser un muy importante proyecto para privados.
             </p>
           </div>
-        </div>
+                </div>*/}
         <div>
           <h5 className="container col-sm-12  col-md-10 puedes">
             {" "}

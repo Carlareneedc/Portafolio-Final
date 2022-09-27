@@ -194,7 +194,7 @@ class Portal extends React.Component {
 
               <div className="col-sm-12 col-md-6">
                 <p className=" desdeAqui ">
-                  Editando imágenes, generando logos y mejorando el desarrollo del proyecto. Esto permitió que la página de Portal Inmobiliario que ya existía, se adaptara para esta campaña, mejorando la visualidad y haciendola atractiva para los quienes accedieron.
+                  Editando imágenes, generando logos y mejorando el desarrollo del proyecto. Esto permitió que la página de Portal Inmobiliario que ya existía, se adaptara para esta campaña, mejorando la visualidad y haciendola atractiva para quienes accedan.
                 </p>
               </div>
             </div>
@@ -245,12 +245,12 @@ class Portal extends React.Component {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="col-sm-12">
-        <div className="ctnresult container col-sm-12 col-md-10">
+        {/*<div className="col-sm-12">
+       <div className="ctnresult container col-sm-12 col-md-10">
           <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
           <p className="col-sm-12 textQue">Lo que más me gustó de este proyecto, fue trabajar en una landing real, poder conocer metodologías de trabajo diferentes y conocer personas nuevas con quienes pude compartir conocimientos. Aprender cosas nuevas es lo más importante que me llevo de este proyecto, sin duda adquirí nuevos conocimientos que he podido aplicar efectivamente. </p>
         </div>
-        </div>
+                </div>*/}
         <div><h5 className="container col-sm-12  col-md-10 puedes" > <mark
                     style={{
                       background: "rgba(254, 214, 123, 0.9)",
