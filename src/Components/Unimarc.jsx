@@ -337,13 +337,13 @@ class Unimarc extends React.Component {
               </h5>
 
               <p className="porotro">
-             La propuesta de valor, surge desde una solución rápida desde el login de la plataforma en su versión Desktop y mobile, agregando la opción de iniciar sesión con google para ahorrarle pasos al usuario, pero manteniendo las opciones anteriores de manera que el usuario pueda optar por distintas opciones.
+             La propuesta de valor, surge desde una solución rápida desde el login de la plataforma en su versión Desktop y mobile, agregando la opción de iniciar sesión con google para ahorrarle pasos al usuario, pero manteniendo las opciones anteriores de manera que el usuario pueda tener libertad de decisión.
               </p>
               <p className="cadaseccion">
-                A grandes rasgos, se mejoran los componentes, si ubican de manera correcta en la plataforma manteniendo la identidad de la marca.<br></br>
-                <p>
+                A grandes rasgos, se mejoran los componentes, si ubican de manera correcta en la plataforma manteniendo la identidad de la marca.
+                
                   Si bien la propuesta no genera una transformación completa del producto, las mejoras generaron incrementos en las conversiones.
-                </p>
+                
               </p>
               <h5 className="resultado">
                 <mark
@@ -507,7 +507,7 @@ class Unimarc extends React.Component {
                     <Button
                       variant="#FF3C38"
                       style={{
-                        marginTop: "2rem",
+                        marginTop: "2.9rem",
                         marginLeft: "0rem",
                         display: "flex",
                         borderRadius: "8px",
@@ -541,7 +541,7 @@ class Unimarc extends React.Component {
                   <Button
                     variant="#FF3C38"
                     style={{
-                      marginTop: "2.5rem",
+                      marginTop: "3.2rem",
                       marginLeft: "0rem",
                       display: "flex",
                       borderRadius: "8px",
