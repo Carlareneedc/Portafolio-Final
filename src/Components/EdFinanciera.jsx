@@ -566,7 +566,7 @@ class EdFinanciera extends React.Component {
                   >
                     Sitio de venta y arriendo de propiedades 100% on line.
                   </Card.Text>
-                  <Link to="/Gav">
+                  <Link to="/Unimarc">
                     <Button
                       variant="#FF3C38"
                       style={{

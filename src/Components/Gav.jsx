@@ -41,6 +41,7 @@ import kayak from "../img/kayak.png";
 import kayakdos from "../img/kayakdos.png";
 import kayaktres from "../img/kayaktres.png";
 import tango from "../img/tango.png";
+import migrante from "../img/migrante.png";
 class Gav extends React.Component {
   constructor(props) {
     super(props);

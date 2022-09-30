@@ -36,10 +36,6 @@ import resultunimarcdos from "../img/resultunimarcdos.png";
 import resultunimarctres from "../img/resultunimarctres.png";
 import portal from "../img/portal.png";
 import edu from "../img/login.png";
-import tangoapp from "../img/tangoapp.png";
-import tangouno from "../img/tangouno.png";
-import tangodos from "../img/tangodos.png";
-import migrante from "../img/migrante.png";
 
 class Unimarc extends React.Component {
   constructor(props) {
@@ -285,13 +281,13 @@ class Unimarc extends React.Component {
                 </p>
                 <p className="procesosUni">
                   <strong>
-                    Entre diferentes hallazgos, se decidió que era necesario mejorar la visualidad de la interfaz para poder enfocar mejor las conversiones hacia nuestro usuario promedio, que son personas entre 30 y 45 años con un alto nivel de ingreso económico y con alto conocimiento digital.
+                    Entre diferentes hallazgos, se decidió que era necesario mejrar la visualidad de la interfaz para poder enfocar mejor las conversiones hacia nuestro usuario promedio, que son personas entre 30 y 45 años con un alto nivel de ingreso económico y con alto conocimiento digital.
                   </strong>
                 </p>
                 <p className="eldesafio">
                   Desde lo anterior se toma como premisa realizar una plataforma atractiva para nuestro usuario, acorde a las tendencias, clara y simple.
                 </p>
-                {/*<p className="textopro">
+                <p className="textopro">
                  Personas que buscan recetas en la web. Son
                   aficionados a la cocina y están en constante búsqueda de
                   nuevas preparaciones.
@@ -301,12 +297,12 @@ class Unimarc extends React.Component {
                     Personas que siguen y conocen Recetas Unimarc.
                  {" "}
                   Acceden seguido a la página y siguen las recetas 4X4.
-                </p>*/}
+                </p>
               </div>
               <div className=" col-md-6 ">
-                <img src={tangoapp} className="humansdos" alt="humansdos" />
+                <img src={humansdos} className="humansdos" alt="humansdos" />
               </div>
-              {/*<div className="ctngav row ">
+              <div className="ctngav row ">
                 <div className="container col-sm-12 col-md-12">
                   <div className="row ">
                     <div className=" col-sm-12 col-md-6">
@@ -324,7 +320,7 @@ class Unimarc extends React.Component {
                     </div>
                   </div>
                 </div>
-              </div>*/}
+              </div>
               <h5 className="textSoluciongav">
                 <mark
                   style={{
@@ -337,12 +333,23 @@ class Unimarc extends React.Component {
               </h5>
 
               <p className="porotro">
-             La propuesta de valor, surge desde una solución rápida desde el login de la plataforma en su versión Desktop y mobile, agregando la opción de iniciar sesión con google para ahorrarle pasos al usuario, pero manteniendo las opciones anteriores de manera que el usuario pueda optar por distintas opciones.
+                Nuestra propuesta de valor con respecto al rediseño de la
+                página, es proporcionar una interfaz más amigable con contenido
+                claro y jerarquizado, mostrando las recetas unimarc por
+                categoría con la{" "}
+                <strong>opción de comprar uno o más ingedientes.</strong>
               </p>
               <p className="cadaseccion">
-                A grandes rasgos, se mejoran los componentes, si ubican de manera correcta en la plataforma manteniendo la identidad de la marca.<br></br>
+                También se añade la opción de comprar los productos como una{" "}
+                <strong>"Canasta Familiar"</strong> que incluye todos los
+                ingredientes de cada receta 4X4 para toda la semana, con opción
+                de delivery. Esto logra eficiencia y cercanía con los usuarios
+                además de potenciar la marca Unimarc.<br></br>
                 <p>
-                  Si bien la propuesta no genera una transformación completa del producto, las mejoras generaron incrementos en las conversiones.
+                  En próximas iteraciones quisieramos incorporar la posibilidad
+                  de <strong>acceder a la página de manera offline</strong>, así
+                  los usuarios podrán tener acceso sin la necesidad de estar
+                  conectados a wifi.
                 </p>
               </p>
               <h5 className="resultado">
@@ -365,7 +372,7 @@ class Unimarc extends React.Component {
                 {" "}
                 <img
                   className="img-fluid gv "
-                  src={tangouno}
+                  src={resultunimarc}
                   alt="First slide"
                 />
               </a>
@@ -374,12 +381,12 @@ class Unimarc extends React.Component {
               <a target="_blank" href="https://unimarc.netlify.app/">
                 <img
                   className="img-fluid gv"
-                  src={tangodos}
+                  src={resultunimarcdos}
                   alt="Third slide"
                 />
               </a>
             </Carousel.Item>
-            {/*<Carousel.Item>
+            <Carousel.Item>
               <a target="_blank" href="https://unimarc.netlify.app/">
                 {" "}
                 <img
@@ -388,10 +395,10 @@ class Unimarc extends React.Component {
                   alt="Third slide"
                 />
               </a>
-            </Carousel.Item>*/}
+            </Carousel.Item>
           </Carousel>
         </div>
-        {/*<div className="col-sm-12">
+        <div className="col-sm-12">
           <div className="ctnresult container col-sm-12 col-md-10">
             <h5 className=" que">¿Qué te gustó de este proyecto?</h5>
             <p className="col-sm-12 textQue">
@@ -401,8 +408,8 @@ class Unimarc extends React.Component {
               fue parte importante de lo que disfruté de este proyecto. Fue un
               desafío fuerte, sin embargo creo que cumplimos los objetivos.
             </p>
-                </div>
-        </div>*/}
+          </div>
+        </div>
         <div>
           <h5 className="container col-sm-12  col-md-10 puedes">
             {" "}
@@ -494,14 +501,15 @@ class Unimarc extends React.Component {
                   border: "none",
                 }}
               >
-                <Card.Img variant="top" src={migrante} />
+                <Card.Img variant="top" src={gav} />
                 <Card.Body>
-                  <Card.Title className="cardTittle">Migrante</Card.Title>
+                  <Card.Title className="cardTittle">GAV</Card.Title>
                   <Card.Text
                     style={{ color: "rgba(0, 0, 0, 1)", fontSize: "1.1em" }}
                     className="cardText"
                   >
-                   Diseño de plataforma nacional e internacional de simulación de créditos para migrantes.
+                    Sitio gamificado en donde se entrega información sobre el
+                    covid-19. Proyecto ganador empresa "Hootie Hoo".
                   </Card.Text>
                   <Link to="/Gav">
                     <Button
