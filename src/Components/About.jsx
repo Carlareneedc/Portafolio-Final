@@ -76,7 +76,7 @@ class About extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="/JapanQueen"
+                    to="/Proyectos"
                   >
                     Proyectos
                   </MDBNavLink>
@@ -120,8 +120,8 @@ class About extends React.Component {
                 <p className="miNombre container text-center">
                   <strong>Mi nombre es Carla Díaz.</strong> Vivo en la constante
                   búsqueda de conocimiento y capacitación. Me caracterizo por
-                  ser una persona reflexiva y empática, que busca siempre
-                  cuestionar problemas y así mismo buscar soluciones.
+                  ser una persona reflexiva, empática y autónoma, que busca siempre
+                  cuestionar problemas y diseñar soluciones.
                 </p>
                 <br></br>
                 <p className="disfruto container text-center">
@@ -161,10 +161,9 @@ class About extends React.Component {
                 "
                     >
                       Me declaro como una ferviente <strong>autodidacta</strong>
-                      , siempre con la necesidad y motivación de crear. Comencé mi camino como Front End Developer, pero mi motivación por el Diseño UX/UI ha crecido en el tiempo, junto con la necesidad de
-                      convertirme en diseñadora, poder{" "}
+                      , siempre con la necesidad y motivación de crear. Comencé mi camino en la tecnología como Front End Developer, pero mi motivación por el Diseño UX/UI ya lleva dos años de camino recorrido{" "}
                       <strong>
-                        crear interfaces legibles, amigables y accesibles a las
+                        creando interfaces legibles, amigables y accesibles a las
                         personas.
                       </strong>
                     </p>
@@ -172,13 +171,12 @@ class About extends React.Component {
 
                   <div className="col-sm-12 col-md-6">
                     <p className="siBien ">
-                     Tengo casi 3 años de experiencia creando interfaces e investigando para diferenretes proyectos,tengo voluntad y
-                      disciplina, que creo es lo más importante ante cualquier
+                     Durante estos años de experiencia reando interfaces e investigando para diferentes proyectos, he desarrollado fortalezas como voluntad y
+                      disciplina, que creo son lo más importante ante cualquier
                       desafío que se venga en el futuro, además de poder
                       demostrar que soy una profesional que soluciona problemas
-                      con un enfoque creativo y siempre pensando en los
-                      usuarios. Creo firmemente que seré un aporte en cualquier
-                      equipo de trabajo.
+                      con un enfoque creativo y siempre pensando en el producto y los
+                      usuarios.
                     </p>
                   </div>
                 </div>

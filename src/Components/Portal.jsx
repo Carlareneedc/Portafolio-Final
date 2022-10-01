@@ -311,7 +311,7 @@ class Portal extends React.Component {
                >
                 Sitio de venta y arriendo de propiedades 100% on line.
                </Card.Text>
-               <Link to="/Gav"><Button
+               <Link to="/Unimarc"><Button
                  variant="#FF3C38"
                  style={{
                    marginTop: "3.3rem",
@@ -345,7 +345,7 @@ class Portal extends React.Component {
                >
                  Diseño de plataforma nacional e internacional de simulación de créditos para migrantes.
                </Card.Text>
-              <Link to="/Unimarc"> <Button
+              <Link to="/Gav"> <Button
                  variant="#FF3C38"
                  style={{
                    marginTop: "1.5rem",

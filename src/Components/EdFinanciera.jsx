@@ -85,7 +85,7 @@ class EdFinanciera extends React.Component {
                     <MDBNavLink
                       className=""
                       style={{ color: "rgba(89, 89, 89, 1)" }}
-                      to=""
+                      to="/Proyectos"
                     >
                       Proyectos
                     </MDBNavLink>

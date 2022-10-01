@@ -89,7 +89,7 @@ class Gav extends React.Component {
                   <MDBNavLink
                     className=""
                     style={{ color: "rgba(89, 89, 89, 1)" }}
-                    to="/JapanQueen"
+                    to="/Proyectos"
                   >
                     Proyectos
                   </MDBNavLink>

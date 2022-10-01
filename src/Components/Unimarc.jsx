@@ -215,7 +215,7 @@ class Unimarc extends React.Component {
                   className="comoToda mt-4
                 "
                 >
-                  El re diseño de la plataforma <strong>Tango</strong>, se propone desde la necesidad de generar mayores conversiones, proporcionando una plataforma más amigable y atractiva. Desde un análisis exhaustivo, detecté diferentes detalles que debían ser mejorados o eliminados de la plataforma ya que no aportaban desde la experiencia de usuario.
+                  El rediseño de la plataforma <strong>Tango</strong>, se propone desde la necesidad de generar mayores conversiones, proporcionando una interfaz más amigable y atractiva. Desde un análisis corto pero exhaustivo, detecté diferentes detalles que debían ser mejorados o eliminados de la plataforma ya que no aportaban desde la experiencia de usuario.
                 </p>
               </div>
 
@@ -337,12 +337,12 @@ class Unimarc extends React.Component {
               </h5>
 
               <p className="porotro">
-             La propuesta de valor, surge desde una solución rápida desde el login de la plataforma en su versión Desktop y mobile, agregando la opción de iniciar sesión con google para ahorrarle pasos al usuario, pero manteniendo las opciones anteriores de manera que el usuario pueda tener libertad de decisión.
+             La propuesta de valor, surge desde una solución rápida desde el login de la plataforma en su versión Desktop y mobile, agregando la opción de iniciar sesión con google para ahorrarle pasos al usuario, pero manteniendo las opciones anteriores de manera que el usuario pueda tener libertad de decisión. Se elimina el exceso de uso dek color rojo, limitándolo a un color de acento.
               </p>
               <p className="cadaseccion">
                 A grandes rasgos, se mejoran los componentes, si ubican de manera correcta en la plataforma manteniendo la identidad de la marca.
                 
-                  Si bien la propuesta no genera una transformación completa del producto, las mejoras generaron incrementos en las conversiones.
+                  También se proponen imágenes de fondo con textura y movimiento, para gegar un poco más de frescura a la visualidad. Si bien la propuesta no genera una transformación completa del producto, las mejoras generaron incrementos en las conversiones.
                 
               </p>
               <h5 className="resultado">
@@ -361,7 +361,7 @@ class Unimarc extends React.Component {
         <div style={{ background: "rgba(44, 148, 141, 0.6)" }}>
           <Carousel>
             <Carousel.Item>
-              <a target="_blank" href="https://unimarc.netlify.app/">
+              <a target="_blank" href="https://www.figma.com/file/51NgKE9dP5BGRmnknDye4N/Tango-Rent?node-id=121%3A2320">
                 {" "}
                 <img
                   className="img-fluid gv "
@@ -371,7 +371,7 @@ class Unimarc extends React.Component {
               </a>
             </Carousel.Item>
             <Carousel.Item>
-              <a target="_blank" href="https://unimarc.netlify.app/">
+              <a target="_blank" href="https://www.figma.com/file/51NgKE9dP5BGRmnknDye4N/Tango-Rent?node-id=121%3A2320">
                 <img
                   className="img-fluid gv"
                   src={tangodos}
