@@ -13,7 +13,7 @@
 }
 
 .hola{
-    font-family: Avenirnext, sans-serif;
+    font-family: Merriweather;
     color: #595959;
     font-weight: 600;
     font-size: 3em;
@@ -70,7 +70,7 @@ justify-content: space-evenly;
     border-radius: 20px 20px 0px 0px;
 }
 .vivoen, .soyUna{
-    font-family:Avenirnext, sans-serif;
+    font-family:Montserrat;
     font-size:1.5em;
     color:#1a1b1e;
     font-weight: 400;
